@@ -41,6 +41,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 	- 約略的進行時間：5 天
 - LUN 合約地址：
 - 社群金庫：
+- [Discord 討論群組][21]
 
 ## Token Generation Event (TGE)
 Token Generation Event 是一個協助代幣首次產生與分發的活動，在此活動中將會收取願意支持本專案的人的 ETH，並且在截止日期後統計所搜集到的 ETH 數量，接著分發相對應比例的社群代幣 LUN 給參與 TGE 的帳戶，而 TGE 所收取的 ETH 會作為日常營運使用。
@@ -128,3 +129,4 @@ Hydai TBD
 [18]: https://www.moedict.tw/%E8%AB%96%E9%81%93
 [19]: https://yurenju.eth.xyz/
 [20]: https://hydai.eth.xyz/
+[21]: https://discord.gg/z5GDrSSHZH
