@@ -129,5 +129,5 @@ Hydai TBD
 [18]: https://www.moedict.tw/%E8%AB%96%E9%81%93
 [19]: https://yurenju.eth.xyz/
 [20]: https://hydai.eth.xyz/
-[21]: https://discord.gg/z5GDrSSHZH
+[21]: https://discord.gg/9s3RQmajBu
 [22]: https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/
