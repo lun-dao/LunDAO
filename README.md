@@ -40,7 +40,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 	- 約略的結束時間：
 	- 約略的進行時間：5 天
 - LUN 合約地址：
-- 社群金庫：
+- 社群金庫：[0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
 - [Discord 討論群組][21]
 
 ## Token Generation Event (TGE)
@@ -130,3 +130,4 @@ Hydai TBD
 [19]: https://yurenju.eth.xyz/
 [20]: https://hydai.eth.xyz/
 [21]: https://discord.gg/z5GDrSSHZH
+[22]: https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/
