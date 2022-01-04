@@ -29,7 +29,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 - 40% 獎勵文章貢獻者，獎勵產生文章相關的參與者如作者、翻譯、編輯、建立出版流程等
 - 30% 分發給 TGE 參與者
 - 20% 日常運作包含設計、開發、日常營運、流動性提供等開銷
-- 10% 發起團隊，獎勵發想 DAO 的初期設計以及初期仍會分擔較多組織社群的貢獻
+- 10% 發起團隊與初期貢獻者，獎勵發想 DAO 的初期設計以及初期仍會分擔較多組織社群的貢獻
 
 
 ## 重要資訊
@@ -39,7 +39,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 	- 約略的開始時間：
 	- 約略的結束時間：
 	- 約略的進行時間：5 天
-- LUN 合約地址：
+- LUN 合約地址：[0xd6b5f077c56e94de018e34d4908f36848b2c9d3f][23]
 - 社群金庫：[0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
 - [Discord 討論群組][21]
 
@@ -101,14 +101,18 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 ### 授權
 文章與所有媒體預計將採用 Creative Common 的 [CC BY-SA][10] 釋出，亦即符合授權的狀況下，文章可以轉載至其他地方。若有產出源碼，所有源碼採用 GPLv3 釋出。
 
-## 發起團隊
+## 發起團隊與初期貢獻者
 [Yuren Ju][11]，長期參與台灣開放源碼社群包含 [KaLUG 大高雄 Linux 使用者社群][12]、[COSCUP 籌備][13] (2013 以前)、[首兩屆 PyConTW][14] 籌備、[g0v 零時政府][15]、[Taipei Ethereum Meetup][3] 等，近年來專注在 DeFi 領域發展。
 
 Hydai TBD
 
-以下為發起團隊的 Ethereum 帳號：
-- Yuren Ju ([yurenju.eth][19])
-- Hydai ([hydai.eth][20])
+以下為發起團隊的 Ethereum 帳號與分配比例：
+- Yuren Ju ([yurenju.eth][19]) - 4.5%
+- Hydai ([hydai.eth][20]) - 4.5%
+
+以下為初期貢獻者與分配比例：
+- iisaint - 1%
+- 感謝另外三位也有提供意見，但婉拒具名與領取社群代幣的朋友！
 
 [1]: https://ethfans.org/
 [2]: https://twitter.com/chainnewscom
@@ -131,3 +135,4 @@ Hydai TBD
 [20]: https://hydai.eth.xyz/
 [21]: https://discord.gg/9s3RQmajBu
 [22]: https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/
+[23]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
