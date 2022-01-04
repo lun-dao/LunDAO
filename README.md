@@ -39,7 +39,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 	- 約略的開始時間：
 	- 約略的結束時間：
 	- 約略的進行時間：5 天
-- LUN 合約地址：[0xd6b5f077c56e94de018e34d4908f36848b2c9d3f][23]
+- LUN 合約地址：[0xd6b5f077c56e94de018e34d4908f36848b2c9d3f][29]
 - 社群金庫：[0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
 - [Discord 討論群組][21]
 
@@ -104,7 +104,7 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 ## 發起團隊與初期貢獻者
 [Yuren Ju][11]，長期參與台灣開放源碼社群包含 [KaLUG 大高雄 Linux 使用者社群][12]、[COSCUP 籌備][13] (2013 以前)、[首兩屆 PyConTW][14] 籌備、[g0v 零時政府][15]、[Taipei Ethereum Meetup][3] 等，近年來專注在 DeFi 領域發展。
 
-Hydai TBD
+[Hydai][23]，開放源碼社群的貢獻者、講師、與籌辦者，曾貢獻過 [go-ethereum][24]、[solidity][25] 等專案；擔任[COSCUP 2016 Keynote, 2018, 2019 講者][26]、[crosslink 2019 講者][27]；籌備 [COSCUP 2020 Open Source Education Track][28]，一路專注在編譯器與虛擬機領域。
 
 以下為發起團隊的 Ethereum 帳號與分配比例：
 - Yuren Ju ([yurenju.eth][19]) - 4.5%
@@ -135,4 +135,10 @@ Hydai TBD
 [20]: https://hydai.eth.xyz/
 [21]: https://discord.gg/9s3RQmajBu
 [22]: https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/
-[23]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
+[23]: https://hyd.ai/
+[24]: https://github.com/ethereum/go-ethereum
+[25]: https://github.com/ethereum/solidity
+[26]: https://coscup.org/2016/schedules.html
+[27]: https://crosslink.taipei/
+[28]: https://coscup.org/2020/zh-TW/agenda
+[29]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
