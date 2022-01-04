@@ -34,10 +34,8 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 
 ## 重要資訊
 - Token Generation Event
-	- 開始區塊高度：
-	- 結束區塊高度：
-	- 約略的開始時間：
-	- 約略的結束時間：
+	- 開始區塊高度：[13942500 (粗略預估 2022/1/5 早上九點)][30]
+	- 結束區塊高度：[13975700 (粗略估計 2022/1/10 早上九點)][31]
 	- 約略的進行時間：5 天
 - LUN 合約地址：[0xd6b5f077c56e94de018e34d4908f36848b2c9d3f][29]
 - 社群金庫：[0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
@@ -142,3 +140,5 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 [27]: https://crosslink.taipei/
 [28]: https://coscup.org/2020/zh-TW/agenda
 [29]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
+[30]: https://etherscan.io/block/countdown/13942500
+[31]: https://etherscan.io/block/countdown/13975700
