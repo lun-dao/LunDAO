@@ -9,7 +9,7 @@ const config = {
   title: 'LunDAO',
   tagline: '鼓勵撰寫與 Ethereum 社群相關的中深度的中文文章',
   url: 'https://lun-dao.github.io/LunDAO',
-  baseUrl: '/',
+  baseUrl: '/LunDAO/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
