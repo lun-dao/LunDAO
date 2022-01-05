@@ -61,6 +61,8 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 4. 等待 TGE 結束統計之後，獲得你的 LUN 代幣
 5. 如果你對該計畫有任何疑慮，請不要參與 TGE
 
+### 查詢目前狀況
+你可以在 [Etherscan][32] 或是 [Gnosis Safe][22] 上面看到目前所搜集的 ETH 數量。Etherscan 會顯示在 "Contract Overview" 裡面的 Balance，當你剛傳送 ETH 時，可以在下方的 "Transactions" 檢查是否由你的帳號所傳送的交易。Gnosis Safe 則是在首頁的 "Assets/Coins" 裡面可以看到目前 ETH 的數量，但要注意 Gnosis Safe 在交易完成後需要數分鐘才能看到更新資訊。
 ## 執行草案
 詳細的執行計畫例如要如何獎勵文章作者、是否獎勵需要鎖倉其作為挑戰期來避免盜抄、各種不同貢獻要如何獎勵等細節，希望在代幣產生並且設定基礎治理框架後由代幣持有者共同決定。
 
@@ -142,3 +144,4 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 [29]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
 [30]: https://etherscan.io/block/countdown/13942500
 [31]: https://etherscan.io/block/countdown/13975700
+[32]: https://etherscan.io/address/0x5Ab62C4Eefb34E8E162e651Ea371410426454275
