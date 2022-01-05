@@ -14,10 +14,18 @@
   --ifm-color-primary-lighter: #718f9d;
   --ifm-color-primary-lightest: #869fab;
   --ifm-code-font-size: 95%;
+  --ifm-font-color-base: #212121;
 }
 
-body {
-  color: #212121;
+html[data-theme='dark'] {
+  --ifm-color-primary: #cfd8dc;
+  --ifm-color-primary-dark: #b6c4ca;
+  --ifm-color-primary-darker: #aabac1;
+  --ifm-color-primary-darkest: #859ca6;
+  --ifm-color-primary-light: #e8ecee;
+  --ifm-color-primary-lighter: #f4f6f7;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-font-color-base: #CFD8DC;
 }
 
 .docusaurus-highlight-code-line {
