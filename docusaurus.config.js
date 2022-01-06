@@ -76,6 +76,19 @@ const config = {
              ],
           },
           {
+            title: 'DAO治理',
+            items: [
+              {
+                label: '投票 (Snapshot)',
+                href: 'https://snapshot.org/#/lundao.eth',
+              },
+              {
+                label: '金庫 (Gnosis Safe)',
+                href: 'https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/balances',
+              },
+            ],
+          },
+          {
             title: '社群',
             items: [
               //{
