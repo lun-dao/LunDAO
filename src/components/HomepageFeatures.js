@@ -10,6 +10,13 @@ const FeatureList = [
     description: (
       <>
         有想要投稿的文章嗎？你可以在 LunDAO 投稿文章，社群將會協助審閱文稿，並且透過社群代幣 LUN 作為獎勵，一同豐富 Ethereum 的中文資源！
+        <div className={styles.callForAction}>
+          <Link
+              className="button button--secondary button--lg"
+              to="/publish-guideline">
+              投稿文章
+          </Link>
+        </div>
       </>
     ),
   },
