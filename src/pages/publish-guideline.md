@@ -55,7 +55,7 @@ $ git checkout -b article/dao-introduction
 關於文章發布的獎勵，請見 [文章獎勵][1] 一文了解更多。
 
 
-[1]: publish-reward.md
+[1]: publish-reward
 [2]: https://github.com/lun-dao/LunDAO/discussions
 [3]: https://discord.gg/9s3RQmajBu
 [4]: https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW
