@@ -38,7 +38,9 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
 	- 結束區塊高度：[13975700][31]
 	- 約略的進行時間：5 天
 - LUN 合約地址：[0xd6b5f077c56e94de018e34d4908f36848b2c9d3f][29]
-- 社群金庫：[0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
+- 社群金庫：
+  - Ethereum mainnet: [0x5Ab62C4Eefb34E8E162e651Ea371410426454275][22]
+  - Arbitrum: [0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295][33]
 - [Discord 討論群組][21]
 
 ## Token Generation Event (TGE)
@@ -145,3 +147,4 @@ Token Generation Event 是一個協助代幣首次產生與分發的活動，在
 [30]: https://etherscan.io/block/countdown/13942500
 [31]: https://etherscan.io/block/countdown/13975700
 [32]: https://etherscan.io/address/0x5Ab62C4Eefb34E8E162e651Ea371410426454275
+[33]: https://gnosis-safe.io/app/arb1:0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295/
