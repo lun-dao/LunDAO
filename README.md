@@ -43,7 +43,7 @@ LunDAO 所發行的代幣 LUN 將會發行 1,000,000 顆，發行比例如下：
   - Arbitrum: [0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295][33]
 - [Discord 討論群組][21]
 
-## Token Generation Event (TGE)
+## [已結束] Token Generation Event (TGE)
 Token Generation Event 是一個協助代幣首次產生與分發的活動，在此活動中將會收取願意支持本專案的人的 ETH，並且在截止日期後統計所搜集到的 ETH 數量，接著分發相對應比例的社群代幣 LUN 給參與 TGE 的帳戶，而 TGE 所收取的 ETH 會作為日常營運使用。
 
 比如說若 Alice 傳送了 1 ETH 到社群金庫中，而在期限結束並統計後總共募集到 100 ETH，代表 Alice 之後會收到分配給 TGE 參與者總額的 1/100 的社群代幣。當分配總額為 300,000 LUN 時，Alice 可以得到 3,000 LUN。
