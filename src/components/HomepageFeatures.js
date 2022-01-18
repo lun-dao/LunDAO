@@ -27,7 +27,7 @@ const FeatureList = [
       <>
         閱讀已在 LunDAO 投稿的文章，看看社群成員發表了什麼文章。
         <div className={styles.callForAction}>
-        <Link
+          <Link
             className="button button--secondary button--lg"
             to="/blog">
             閱讀文章
@@ -42,6 +42,13 @@ const FeatureList = [
     description: (
       <>
         你感興趣的文章卻沒有任何中文資訊嗎？你可以在 LunDAO 進行文章提案，透過 LUN 代幣提供懸賞，吸引作者研究該主題並且撰寫相關文章。
+        <div className={styles.callForAction}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://github.com/lun-dao/LunDAO/issues">
+            文章提案
+          </Link>
+        </div>
       </>
     ),
   },

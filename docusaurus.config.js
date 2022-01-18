@@ -73,14 +73,38 @@ const config = {
                  label: '關於 LunDAO',
                  href: 'https://github.com/lun-dao/LunDAO',
                },
+               {
+                 label: '投稿文章',
+                 href: 'https://lundao.tech/publish-guideline',
+               },
+               {
+                 label: '閱讀文章',
+                 to: '/blog',
+               },
+               {
+                 label: '文章提案',
+                 href: 'https://github.com/lun-dao/LunDAO/issues',
+               },
+               {
+                 label: '社群貢獻指南',
+                  href: 'https://github.com/lun-dao/LunDAO/blob/main/CONTRIBUTING.md',
+               },
              ],
           },
           {
             title: 'DAO治理',
             items: [
               {
-                label: '投票 (Snapshot)',
+                label: '貢獻投票 (Coordinape)',
+                href: 'https://coordinape.com/',
+              },
+              {
+                label: '治理投票 (Snapshot)',
                 href: 'https://snapshot.org/#/lundao.eth',
+              },
+              {
+                label: '金庫 (Gnosis Safe Arbitrum)',
+                href: 'https://gnosis-safe.io/app/arb1:0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295/balances',
               },
               {
                 label: '金庫 (Gnosis Safe)',
@@ -91,33 +115,12 @@ const config = {
           {
             title: '社群',
             items: [
-              //{
-              //  label: 'Stack Overflow',
-              //  href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              //},
               {
                 label: 'Discord',
                 href: 'https://discord.gg/9s3RQmajBu',
               },
-              //{
-              //  label: 'Twitter',
-              //  href: 'https://twitter.com/docusaurus',
-              //},
             ],
           },
-          /*{
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },*/
         ],
         copyright: `Copyright © ${new Date().getFullYear()} LunDAO. Built with Docusaurus.`,
       },
