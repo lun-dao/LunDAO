@@ -6,7 +6,7 @@ title: 文章發布獎勵
 
 - 基礎獎勵：文章刊登就可以收到的固定獎勵，為 500 LUN
 - [Request For Article][2] 獎勵：如果此主題符合 RFA 需求，則可以額外領取 RFA 獎勵，依照 RFA 裡面所記載的數量發放
-- [影響力獎勵][4]：透過社群投票的方式評估此文章對 Ethereum 中文社群資源所產生的影響力的獎勵，詳情請見[影響力獎勵][4]頁面
+- [影響力獎勵][3]：透過社群投票的方式評估此文章對 Ethereum 中文社群資源所產生的影響力的獎勵，詳情請見[影響力獎勵][3]頁面
 
 每兩個月社群會舉辦影響力獎勵票選，完成後會連同基礎獎勵、RFA 獎勵一起發送。
 
@@ -21,5 +21,4 @@ title: 文章發布獎勵
 
 [1]: lun-token-usage
 [2]: request-for-article
-[3]: https://github.com/lun-dao/LunDAO/blob/main/contributors.csv
-[4]: impact-reward
+[3]: impact-reward
