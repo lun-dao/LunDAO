@@ -23,10 +23,12 @@ assignees: ''
 - DAO 的工具
 - 建立一個小型的 DAO 的步驟
 
-**你所提供的 LUN 代幣獎勵**：請填入您想獎勵作者的 LUN 代幣數量
+**你所提供的 LUN 代幣獎勵**：請填入您想獎勵作者的 LUN 代幣數量，若想取得 LUN 代幣請參考[此頁面][3]。
 - 300 LUN - tx on [arbiscan][2]
 
-請將代幣轉至位於 [Arbitrum 的社群金庫][2]，並且將 arbiscan 上面的交易 URL 附在上面。未來我們會撰寫智能合約處理 RFA 事務，在此之前先用較為手動的步驟。
+請將代幣轉至位於 [Arbitrum 的社群金庫][4]，並且將 arbiscan 上面的交易 URL 附在上面。未來我們會撰寫智能合約處理 RFA 事務，在此之前先用較為手動的步驟。
 
 [1]: https://lundao.tech/treasury
 [2]: https://arbiscan.io/
+[3]: https://lundao.tech/lun-token-usage
+[4]: https://lundao.tech/treasury
