@@ -1,6 +1,6 @@
 ---
-name: request for article template
-about: 文章徵稿請求的樣板
+name: 文章徵稿請求的樣板
+about: 若想要徵求特定文章主題請使用此樣板
 title: "[徵求文章的主題]"
 labels: Request For Article
 assignees: ''
