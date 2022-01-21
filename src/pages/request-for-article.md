@@ -12,7 +12,7 @@ title: 文章徵稿請求 (Request For Article, RFA)
 
 我們未來會撰寫智能合約來處理 RFA 事務，在此之前則先用較為手動的方式處理。首先請到 [GitHub issues][1] 裡面點選 New Issue -> 文章徵稿請求的樣板。
 
-![github issue template for RFA][2]
+![github issue template for RFA](./assets/github-issue-rfa.png)
 
 填妥樣板內需的資訊之後就好囉！
 
@@ -35,5 +35,4 @@ RFA 的獎勵會跟其他的 [文章獎勵][3] 一起定期發送。
 
 
 [1]: https://github.com/lun-dao/LunDAO/issues/
-[2]: ./assets/github-issue-rfa.png
 [3]: publish-reward
