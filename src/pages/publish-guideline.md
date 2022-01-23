@@ -16,7 +16,7 @@ LunDAO 是一個由社群貢獻的 Ethereum 中文文章發表平台。我們希
 
 如果你還不是很確定，可以直接在 [Github Discussion][2] 或是 [Discord][3] 上面詢問社群成員特定主題是否適合。
 
-另外一個方式是可以到 [Github Issue][4] 裡面找標籤為 `Request For Article` 的 issue，這代表其他人希望看到這樣主題的文章，但卻還沒有類似的文章，通常這樣的文章內容會帶有獎勵，詳情請見 [文章獎勵][1]。
+另外一個方式是可以到 [Github Issue][6] 裡面找標籤為 `Request For Article` 的 issue，這代表其他人希望看到這樣主題的文章，但卻還沒有類似的文章，通常這樣的文章內容會帶有獎勵，詳情請見 [文章獎勵][1]。
 
 # 文章授權
 除了撰寫文章外，還有一件很重要的事情：授權。在 LunDAO 所發表的所有文章都會採用 Creative Common 的 [CC-BY-SA][4] 發表，這代表其他人如果以相同授權 CC-BY-SA 在其他轉載或修改你的文章變成另外一篇文章時，只要他明確標明出處與作者，這樣的利用方式是允許的。
@@ -60,3 +60,4 @@ $ git checkout -b article/dao-introduction
 [3]: https://discord.gg/9s3RQmajBu
 [4]: https://creativecommons.org/licenses/by-sa/4.0/deed.zh_TW
 [5]: https://docusaurus.io/docs/blog
+[6]: https://github.com/lun-dao/LunDAO/issues?q=is%3Aissue+is%3Aopen+label%3A%22Request+For+Article%22
