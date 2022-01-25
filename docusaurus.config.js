@@ -75,7 +75,7 @@ const config = {
                },
                {
                  label: '投稿文章',
-                 href: 'https://lundao.tech/publish-guideline',
+                 to: '/publish-guideline',
                },
                {
                  label: '閱讀文章',
@@ -83,7 +83,7 @@ const config = {
                },
                {
                  label: '文章提案',
-                 href: 'https://github.com/lun-dao/LunDAO/issues',
+                 to: '/request-for-article',
                },
                {
                  label: '社群貢獻指南',
@@ -115,6 +115,10 @@ const config = {
           {
             title: '社群',
             items: [
+              {
+                label: '討論區',
+                href: 'https://github.com/lun-dao/LunDAO/discussions',
+              },
               {
                 label: 'Discord',
                 href: 'https://discord.gg/9s3RQmajBu',
