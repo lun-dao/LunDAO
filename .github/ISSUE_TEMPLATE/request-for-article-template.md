@@ -1,10 +1,9 @@
 ---
-name: 文章徵稿請求的樣板
-about: 若想要徵求特定文章主題請使用此樣板
+name: 文章徵稿請求 (Request For Article)
+about: 在 LunDAO 上面徵求你所想要閱讀的文章內容
 title: "[徵求文章的主題]"
 labels: Request For Article
 assignees: ''
-
 ---
 
 請先修改 issue 標題填寫你要徵求的文章主題，例如「DAO 介紹」、「可升級的智能合約」、「如何透過 Dune Analytics 查詢鏈上資料」等。而以下是針對主題「DAO 簡介」的範例，請刪除掉條列的部分填寫入你所需的文章徵稿請求資訊。
