@@ -1,5 +1,6 @@
 ---
 title: 文章徵稿請求 (Request For Article, RFA)
+sidebar_position: 10
 ---
 
 文章徵稿請求 (Request For Article, RFA) 是一種可以針對特定文章類型提出請求的方式。

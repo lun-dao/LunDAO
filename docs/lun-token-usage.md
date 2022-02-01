@@ -1,5 +1,6 @@
 ---
 title: LUN 代幣
+sidebar_position: 100
 ---
 
 LUN 代幣是由 LunDAO 所發行的社群代幣，此代幣主要有幾個用途：

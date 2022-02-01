@@ -1,5 +1,6 @@
 ---
 title: 社群金庫 (Community Treasury)
+sidebar_position: 1000
 ---
 
 社群金庫是保存社群資產的地方，採用 Gnosis Safe 多簽錢包保存。LunDAO 在 Ethereum Mainnet 與 Arbitrum 上面各有部署一份社群金庫合約，但考慮到交易費的問題我們大多都在 Arbitrum 使用。

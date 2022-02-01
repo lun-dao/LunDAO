@@ -1,5 +1,6 @@
 ---
 title: 社群貢獻代幣發送
+sidebar_position: 101
 ---
 
 # 社群貢獻代幣發送
