@@ -49,12 +49,12 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Tutorial',
-          // },
+          {
+            type: 'doc',
+            docId: 'publish-guideline',
+            position: 'left',
+            label: '關於',
+          },
           {to: '/blog', label: '文章', position: 'left'},
           {
             href: 'https://github.com/lun-dao/LunDAO',
@@ -75,7 +75,7 @@ const config = {
                },
                {
                  label: '投稿文章',
-                 to: '/publish-guideline',
+                 to: '/docs/publish-guideline',
                },
                {
                  label: '閱讀文章',
@@ -83,7 +83,7 @@ const config = {
                },
                {
                  label: '文章提案',
-                 to: '/request-for-article',
+                 to: '/docs/request-for-article',
                },
                {
                  label: '社群貢獻指南',
@@ -103,12 +103,8 @@ const config = {
                 href: 'https://snapshot.org/#/lundao.eth',
               },
               {
-                label: '金庫 (Gnosis Safe Arbitrum)',
-                href: 'https://gnosis-safe.io/app/arb1:0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295/balances',
-              },
-              {
-                label: '金庫 (Gnosis Safe)',
-                href: 'https://gnosis-safe.io/app/eth:0x5Ab62C4Eefb34E8E162e651Ea371410426454275/balances',
+                label: '社群金庫',
+                to: '/docs/treasury',
               },
             ],
           },

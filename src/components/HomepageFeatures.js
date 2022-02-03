@@ -13,7 +13,7 @@ const FeatureList = [
         <div className={styles.callForAction}>
           <Link
               className="button button--secondary button--lg"
-              to="/publish-guideline">
+              to="/docs/publish-guideline">
               投稿文章
           </Link>
         </div>
@@ -45,7 +45,7 @@ const FeatureList = [
         <div className={styles.callForAction}>
           <Link
             className="button button--secondary button--lg"
-            to="/request-for-article">
+            to="/docs/request-for-article">
             文章提案
           </Link>
         </div>
