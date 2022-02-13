@@ -1,13 +1,13 @@
 ---
-title: MEV - 礦工可提取價值
-description: 解釋 MEV (礦工可提取價值) 的成因以及原理，並且簡述目前的解決方案。
+title: MEV - 最大可提取價值
+description: 解釋 MEV (最大可提取價值) 的成因以及原理，並且簡述目前的解決方案。
 slug: mev
-tags: [MEV, Miner Extractable Value]
+tags: [MEV, Miner Extractable Value, Maximal Extractable Value]
 date: 2022-02-05
 image: ./mev/pending-tx.png
 ---
 
-礦工可提取價值 (Miner Extractable Value, MEV) 是一種礦工利用自身的優勢在各種交易中獲得利益的方法。比如說礦工可能可以在 Uniswap 交易中發現可以營利的機會並且自動化的執行特定的策略來營利，而這樣的行為有可能會讓原本的交易者虧損，但有趣的是這也沒有違反區塊鏈的規則，只是利用區塊鏈來完成的一種行為，當然這樣的行為有可能傷害區塊鏈的生態系。本文將會以 Ethereum 作為範例來講解這樣行為的運作原理。
+最大可提取價值 (Maximal Extractable Value, MEV) 是一種透過改變交易順序來獲得利益的方法。比如說礦工可以在 Uniswap 交易中發現可以營利的機會並且自動化的執行特定的策略來營利，而這樣的行為有可能會讓原本的交易者虧損，但有趣的是這也沒有違反區塊鏈的規則，只是利用區塊鏈來完成的一種行為，當然這樣的行為有可能傷害區塊鏈的生態系。本文將會以 Ethereum 作為範例來講解這樣行為的運作原理。
 
 <!--truncate-->
 
@@ -31,7 +31,7 @@ Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當
 
 但這邊是指一般的情況，實際上要把什麼交易打包進去區塊並沒有限制，礦工可以用各種方式決定哪些區塊要打包。
 
-## 礦工可提取價值 (Miner Extractable Value, MEV)
+## 最大可提取價值 (Maximal Extractable Value, MEV)
 由於礦工可以自行決定哪些交易要被打包進去區塊裡面，而這些 pending tx 在 mempool 裡面是一個公開的資訊，一般節點會提供公開的方法讓任何人可以查詢目前 mempool 裡面有哪些交易正在等待被打包。
 
 這邊就出現了一些可以操作的空間。
@@ -45,9 +45,25 @@ Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當
 
 ![MEV](./mev/mev.png)
 
-這樣 Bob 只要可以排序交易，就可以憑空賺 600 USDC，前後相抵他沒有花費任何成本，而這之中能夠更動交易排序的就是礦工了，所以這樣的行為被稱為 Miner Extractable Value (MEV)。當然 Uniswap 有實作一些機制來防範這種行為，但 MEV 可以設計成自動發動的。
+這樣 Bob 只要可以排序交易，第一步花費的 6000 USDC 在第三步就賺回來了，這樣就可以憑空賺 600 USDC，這樣的行為我們稱為三明治攻擊 (Sandwich Attack)
 
-由於利益的驅動並且 mempool 是公開的情況下，會有很多人撰寫許多非常有彈性的腳本來監控 mempool，當他發現排序交易可以帶來利益時，就會自動的排序交易來獲利。這樣就會變成機器人大戰，無數的機器人監控著 mempool，發現賺錢機會就會自動的排序交易，而當他又把交易送到 mempool 之後，背後更厲害的機器人觀測到了，又再次排序，螳螂捕蟬黃雀在後。
+但是要怎麼更動交易順序呢？這就是一件礦工（或是任何可以改變交易的人）能做到的事情了。當礦工發現一個交易在他前後夾擊兩個額外的交易就可以從中獲利時，同時他還要有能力讓當下這個區塊是能夠由他取得記帳權的。所以實際發生的流程會是：
+
+1. 礦工發現可提取價值的交易
+2. 自動產生夾擊的交易並且排入區塊內
+3. 取得該區塊的記帳權並且獲利
+
+而第三步當你有更高的算力時，能夠執行成功的機率越大。如果發現這個機會的那個區塊沒有取得記帳權，這個機會就消失了，他原本用來夾擊的兩個交易在下個區塊就不會再出現。比如說一個礦工（或是礦池、礦場）有全網 20% 的算力，如果在每次他發現有利可圖的交易時都自動的發出夾擊交易企圖獲利，透過他相對高的算力累積下來可能就會是很大一筆收益，即時他的算力沒辦法讓他每次都能夠取得記帳權。
+
+這樣的三明治攻擊行為被稱為 Miner Extractable Value (MEV) 或是 Maximal Extractable Value，而 MEV 只要是透過變更交易順序就可以歸類到此種行為，除了三明治攻擊之外還有更簡單的 MEV 方式如 front running，只要偵測到特定單一筆交易發現可以獲利時，就會發出一模一樣的交易，但更高 gas 的交易來獲利，而執行後可能原本執行交易的人的交易就會失敗（或是減少獲利）。
+
+front running 的行為如果不是礦工也可以做到，只要花費大量的 gas 即可。
+
+Flashbots 的 [MEV Explore][6] 提供了一個排名可以偵測出單一交易的 MEV，所以可以從這邊來看到一些透過 front running 的行為，不過三明治攻擊因為涉及到多筆交易，所以在這個網站上就沒辦法偵測到。目前在網站上所追蹤到最高的一次 MEV 是交易 [0xd70b...7d41][8] 從中獲取了高達三百萬美金的利潤。
+
+Uniswap 或其他有考慮到這樣行為的智能合約會實作一些機制來防範這種行為，但是這種攻擊如果是自動發動的情況下，任何沒有考慮 MEV 行為的智能合約都有可能自動的成為提取價值的對象。
+
+由於利益的驅動並且 mempool 是公開的情況下，會有很多人撰寫許多非常有彈性的腳本來監控 mempool，當他發現排序交易可以帶來利益時，就會自動的排序交易來獲利。這樣就會變成機器人大戰，無數的機器人監控著 mempool，發現賺錢機會就會自動的排序交易，如果 MEV 發起者不是礦工，所以需要把交易送回 mempool 時，監控著 mempool 的其他人看到你新發出的交易時，同樣也會毫不留情的再出發新的交易企圖獲得你的收益。
 
 所以只要你踏入了 mempool 就像踏入了三體的黑暗森林一樣，當你發出意圖或是信號時，強大的掠食者就會撲面而來。
 
@@ -60,9 +76,14 @@ Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當
 
 你有知道其他更好的解決方案嗎？歡迎到 LunDAO 的 [GitHub Discussion][5] 討論！
 
+## 注釋
+- 目前 Miner Extractable Value 逐漸的採用一個新的名詞 Maximal Extractable Value 來取代來更準確的描述這樣的行為，詳情請見 [Why MEV as Maximal Extractable Value instead of Miner Extractable Value?][7] 
 
 [1]: https://www.edennetwork.io/
 [2]: https://yurenju.medium.com/perp-meta-tx-e53cfb65367
 [3]: https://cowswap.exchange/
 [4]: https://ethereum.org/en/developers/docs/mev/#mev-extraction-flashbots
 [5]: https://github.com/lun-dao/LunDAO/discussions/76
+[6]: https://explore.flashbots.net/leaderboard
+[7]: https://explore.flashbots.net/faq
+[8]: https://etherscan.io/tx/0xd70b42daec5bb9ac6e5df3d25d309f186db50df701f667e1f20b22448ea27d41
