@@ -5,6 +5,7 @@ slug: mev
 tags: [MEV, Miner Extractable Value, Maximal Extractable Value]
 date: 2022-02-05
 image: ./mev/pending-tx.png
+authors: yurenju
 ---
 
 最大可提取價值 (Maximal Extractable Value, MEV) 是一種透過改變交易順序來獲得利益的方法。比如說礦工可以在 Uniswap 交易中發現可以營利的機會並且自動化的執行特定的策略來營利，而這樣的行為有可能會讓原本的交易者虧損，但有趣的是這也沒有違反區塊鏈的規則，只是利用區塊鏈來完成的一種行為，當然這樣的行為有可能傷害區塊鏈的生態系。本文將會以 Ethereum 作為範例來講解這樣行為的運作原理。
