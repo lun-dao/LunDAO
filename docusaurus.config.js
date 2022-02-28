@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LunDAO',
-  tagline: '鼓勵撰寫與 Ethereum 社群相關的中深度的中文文章',
+  tagline: 'Ethereum 中文資源的寫作平台',
   url: 'https://lundao.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
