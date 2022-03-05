@@ -16,8 +16,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://github.com/lun-dao/LunDAO#%E9%87%8D%E8%A6%81%E8%B3%87%E8%A8%8A">
-            Token Generation Event ⏱️
+            to="/blog">
+            閱讀文章
           </Link>
         </div>
       </div>
@@ -29,8 +29,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="撰寫與 Ethereum 社群相關的中深度的中文文章">
+      title={`${siteConfig.title}`}
+      description="Ethereum 中文資源的寫作平台">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

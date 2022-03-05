@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'LunDAO',
-  tagline: '鼓勵撰寫與 Ethereum 社群相關的中深度的中文文章',
+  tagline: 'Ethereum 中文資源的寫作平台',
   url: 'https://lundao.tech',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -24,13 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/lun-dao/LunDAO/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/lun-dao/LunDAO/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/lun-dao/LunDAO/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/lun-dao/LunDAO/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

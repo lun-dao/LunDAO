@@ -21,22 +21,6 @@ const FeatureList = [
     ),
   },
   {
-    title: '閱覽文章',
-    Svg: require('../../static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        閱讀已在 LunDAO 投稿的文章，看看社群成員發表了什麼文章。
-        <div className={styles.callForAction}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog">
-            閱讀文章
-          </Link>
-        </div>
-      </>
-    ),
-  },
-  {
     title: '文章提案',
     Svg: require('../../static/img/undraw_docusaurus_react.svg').default,
     description: (
@@ -72,7 +56,7 @@ const FeatureList = [
 
 function Feature({Svg, title, description}) {
   return (
-    <div className={clsx('col col--3')}>
+    <div className={clsx('col col--4')}>
       <div className="text--center">
         <Svg className={styles.featureSvg} alt={title} />
       </div>
