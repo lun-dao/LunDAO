@@ -2,7 +2,7 @@
 title: Hardhat mainnet forking：主網分叉
 description: 教學如何利用 Hardhat 進行主網分叉，並且提供簡單範例展示其強大潛力。
 slug: hardhat-forking
-tags: [Forking, Mainnet Forking, Ethereum, Hardhat, Nomic Labs]
+tags: [Mainnet Fork, Mainnet Forking, Ethereum, Hardhat, Nomic Labs]
 date: 2022-03-07
 authors: Chuan-Chun Wang (@2468834)
 ---
@@ -26,7 +26,7 @@ DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度
 
 背景知識與環境設定
 ---
-本文**不會**提供 Hardhat 與其他相關套件的安裝指引，亦**不會**細探任何與 Dapp 和 smart contract 有關的知識與開發技巧；請讀者應了解如何撰寫、部屬合約[^4]，並且準備好下述之軟硬體開發環境。
+本文**不會**提供 Hardhat 與其他相關套件的安裝指引，亦**不會**細探任何與 Dapp 和 smart contract 有關的知識與開發技巧；請讀者應了解如何撰寫、部屬、呼叫合約[^4]，並且準備好下述之軟硬體開發環境。另外，Truffle（Ganache）亦有提供 mainnet forking 功能，在抽象概念方面雷同，然本文僅介紹 Hardhat 環境需如何設定。
 
 - Software
   - Windows
@@ -49,6 +49,17 @@ DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度
 [^4]: 若您已知道如何利用 Hardhat 或 Truffle 或任何開發框架，部屬最基本的 ERC-20 合約，則本文深度恰巧適合您。
 
 
+重要必備條件
+---
+由於 mainnet forking 的實作細節是與一個歸檔節點（archived node）的歷史資料作互動，藉此方能實現於開發者指定的任意區塊高度進行主網分叉；因此，**你必需準備好 archived node** 並使得 Hardhat 能夠連接上它。最直白地方式就是透過 Geth、OpenEthereum 等工具自架節點[^5]，或是使用市面上知名的數家 SaaS 節點供應商之服務[^6]。
+
+[^5]: 我已多次透過樹梅派 4B 搭配 1TB SATA SSD 成功搭建歸檔節點，不以挖礦為目的之下，搭建節點非難事
+[^6]: Infura、Alchemy、QuickNode 均有提供存取歸檔節點的服務，其中 Alchemy 在作者撰文時為免費服務。
+
+
+
+
+
 
 
 
@@ -58,3 +69,13 @@ Related resources
 
 Further reading
 ---
+- Hardhat
+  - Mainnet forking：https://hardhat.org/hardhat-network/guides/mainnet-forking.html
+- Alchemy
+  - https://www.alchemy.com/
+- Infura
+  - https://infura.io/
+- QuickNode
+  - https://www.quicknode.com/
+- Truffle
+  - Simulate Live Networks with Forked Sandboxes：https://trufflesuite.com/blog/sandbox-forking-with-truffle-teams/index.html
