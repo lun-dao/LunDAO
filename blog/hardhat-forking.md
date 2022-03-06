@@ -51,9 +51,9 @@ DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度
 
 重要必備條件
 ---
-由於 mainnet forking 的實作細節是與一個歸檔節點（archived node）的歷史資料作互動，藉此方能實現於開發者指定的任意區塊高度進行主網分叉；因此，**你必需準備好 archived node** 並使得 Hardhat 能夠連接上它。最直白地方式就是透過 Geth、OpenEthereum 等工具自架節點[^5]，或是使用市面上知名的數家 SaaS 節點供應商之服務[^6]。
+由於 mainnet forking 的實作細節是與一個歸檔節點（archived node）的歷史資料作互動，藉此方能實現於開發者指定的任意區塊高度進行主網分叉；因此，**你必需準備好 archived node** 並使得 Hardhat 能夠連接上它。最直白地方式即透過 Geth、OpenEthereum 等工具自架節點[^5]，或是使用市面上知名的數家 SaaS 節點供應商之服務[^6]。本文為過程簡潔、輕鬆好學習，以下將搭配 Alchemy 提供的服務。
 
-[^5]: 我已多次透過樹梅派 4B 搭配 1TB SATA SSD 成功搭建歸檔節點，不以挖礦為目的之下，搭建節點非難事
+[^5]: 作者已多次透過樹梅派 4B 搭配 1TB SATA3 SSD 成功搭建歸檔節點，不以挖礦為目的之下，搭建節點非難事
 [^6]: Infura、Alchemy、QuickNode 均有提供存取歸檔節點的服務，其中 Alchemy 在作者撰文時為免費服務。
 
 
@@ -65,14 +65,19 @@ DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度
 
 Related resources
 ---
+- Yarn
+  - https://classic.yarnpkg.com/en/
+- Hardhat
+  - GitHub：https://github.com/NomicFoundation/hardhat
+  - Mainnet forking：https://hardhat.org/hardhat-network/guides/mainnet-forking.html
+  - Configuration：https://hardhat.org/config/
+  - Hardhat Network Reference：https://hardhat.org/hardhat-network/reference/
+- Alchemy
+  - https://www.alchemy.com/
 
 
 Further reading
 ---
-- Hardhat
-  - Mainnet forking：https://hardhat.org/hardhat-network/guides/mainnet-forking.html
-- Alchemy
-  - https://www.alchemy.com/
 - Infura
   - https://infura.io/
 - QuickNode
