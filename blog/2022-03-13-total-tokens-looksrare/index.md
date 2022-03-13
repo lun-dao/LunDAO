@@ -2,9 +2,12 @@
 slug: total-tokens-looksrare
 title: 基本功：从合约看 token 数量
 tags: [ERC20, LooksRare]
+authors: zjiekai
 ---
 
 不知道你是否和我一样，总是担心关注的 token 增发，但又对 CoinGecko 或者 Etherscan 上的数字心怀疑虑。以太坊上每个 token 都是独立的合约，那就深入合约来探个究竟吧。Code is Law！ 
+
+<!--truncate-->
 
 让我们以最近发行的 LooksRare 项目为例。
 
