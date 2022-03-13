@@ -4,7 +4,7 @@ description: 解釋 MEV (最大可提取價值) 的成因以及原理，並且�
 slug: mev
 tags: [MEV, Miner Extractable Value, Maximal Extractable Value]
 date: 2022-02-13
-image: ./mev/pending-tx.png
+image: ./pending-tx.png
 authors: yurenju
 ---
 
@@ -19,14 +19,14 @@ Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當
 
 「在 Uniswap 上用 3000 USDC 交換 1 ETH」這件事情我們可以看成是 Alice 的意圖，一件他想要執行的事情，稱為 pending transaction。這個 pending tx 會被傳送到 Ethereum 上面的節點，而節點之間會互相交換 pending tx，盡可能的讓更多節點知道使用者有這個需求，這些還沒被打包到區塊裡面的 pending tx 就會被放到節點特定區域先儲藏起來，這個區域叫做 mempool。而每個節點因為會收取來自不同地方的 pending tx，所以每個節點的 mempool 內容可能都不一樣，排序也會不一樣。
 
-![pending tx](mev/pending-tx.png)
+![pending tx](pending-tx.png)
 
 節點有幾種不同的型態，而礦工也是節點的一種型態，他的工作是負責把 mempool 裡面的 pending tx 打包起來變成一個區塊，然後跟其他礦工一起競爭記帳權，當其中一個礦工爭取到了記帳權後，這個區塊就會被發佈出去，此時 Alice 的 pending tx 才變成一個已經上鏈的交易 (transaction)。
 
 ## 礦工怎麼挑選 pending tx
 因為包裝、發布區塊是一件利益導向的事情，每發布一個區塊礦工可以得到固定的區塊獎勵，還有在這個區塊裡面的交易所提供的交易費。比如說 14143088 這個區塊總共有 360 個被打包進去的交易，而發布這個區塊可以得到的固定獎勵是 2 ETH (依照今天的匯率是 16 萬台幣)，而後面兩個數字 `2.410435284410848966 - 2.13247814979521476 ~= 0.2 ETH` 則是所有交易提供的交易費加總。為什麼有兩個數字涉及到 EIP-1559 這邊就不先深入討論。
 
-![block 14143088](./mev/block-14143088.png)
+![block 14143088](./block-14143088.png)
 
 至於礦工是怎麼挑選哪些交易要被放到這個區塊裡面，基本上就是前面講的利益導向。一般的情況，礦工會排序所有交易裡面提供的交易費，並且優先打包提供比較多交易費的交易。所以交易費提供較多的交易會排序在前面被打包進去區塊裡面，如果你交易費提供的少，就會過了很久等到所有交易都消化的差不多才會輪到你。
 
@@ -44,7 +44,7 @@ Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當
 2. Alice 用 3,000 USDC 只能買到 0.8 ETH，此時 ETH 再度漲價
 3. Bob 再次把 2 ETH 賣掉，由於 Alice 把價格也墊高了，所以 Bob 可以把 2 ETH 賣到 6,600 USDC
 
-![MEV](./mev/mev.png)
+![MEV](./mev.png)
 
 這樣 Bob 只要可以排序交易，第一步花費的 6000 USDC 在第三步就賺回來了，這樣就可以憑空賺 600 USDC，這樣的行為我們稱為三明治攻擊 (Sandwich Attack)
 
