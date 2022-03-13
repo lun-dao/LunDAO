@@ -250,13 +250,15 @@ Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 
 Appendix：在 Hardhat Network 上面與 `WETH9` 合約互動
 ---
+此附錄將透過執行一段簡短的 JavaScript 腳本，向讀者展示要怎麼在已完成 mainnet forking 的 Hardhat Network 之內，與知名的 Wrapped Ether（`WETH9`）合約互動。關於什麼是 Wrapped Ether 的疑問，請參考文末延伸閱讀或請讀者自行查詢其他網路資料。
+
 1. 在 `hardhat_fork` 資料夾底下創立新的資料夾 `scripts`
 2. 前往 Etherscan.io 或任何你信任的 Ethereum blockchain explorer 尋找 WETH 合約
    - https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code
 3. 將合約 ABI 儲存成 `contract-abi.json` 檔案，並放置於 `hardhat_fork/scripts` 資料夾底下
    - 若是使用 Etherscan，則需滾動至網頁最下方，如圖所示
 
-![weth9-contract-abi](./hardhat-forking/weth9-contract-abi.png)
+![weth9-contract-abi](./weth9-contract-abi.png)
 
 4. 前往這個 Gist 下載 `interact.js` 腳本，並且把它儲存在 `hardhat_fork/scripts` 資料夾底下
    - https://gist.github.com/a2468834/45c6d10fa01deb403ab5b330f0d885c2
@@ -327,7 +329,7 @@ Account Address                                       ETH-Balance   WETH-Balance
 2. 在 step 0，程式嘗試向 `WETH9` 合約詢問其 weth 總發行量，並與此合約地址的 balance 做比較
    - 兩者數值相符且與 Etherscan 上的餘額吻合
    - Etherscan Analytics 分頁謹顯示當日日末餘額，因此需查詢前一日餘額為準
-![Etherscan-Analytics](./hardhat-forking/etherscan-analytics.png)
+![Etherscan-Analytics](./etherscan-analytics.png)
 3. 執行 step 4 之前，記得將 ethers.js 的 `signer` 切換成另一個帳號
    - 由於具提領 10 weth 的帳號已由 `#0` 換為 `#1`，因此需切換 `signer`
 4. 最後會印出稍早完成的所有 tx 的細節
@@ -353,6 +355,8 @@ Related resources
   - https://www.alchemy.com/
 - Ethereum on ARM
   - https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html
+- Wrapped Ether
+  - https://weth.io/index.html
 
 Further reading
 ---
