@@ -4,7 +4,7 @@ description: 教學如何利用 Hardhat 進行主網分叉，並且提供簡單�
 slug: hardhat-forking
 tags: [Mainnet Fork, Mainnet Forking, Ethereum, Hardhat, Nomic Labs]
 date: 2022-03-07
-authors: Chuan-Chun Wang (@2468834)
+authors: a2468834
 ---
 
 在 Ethereum 進行 Dapp 開發少不了撰寫智能合約（smart contract）；除了使用 Geth（Go Ethereum）、OpenEthereum 等工具自行建立 local testnet，並且將合約部屬在上面之外，還可以將合約部屬到各大公開測試網（testnet）[^1]。然而，這些方法雖然都使用與主網（mainnet）幾乎相同的[^2]程式碼當作 L1 底層，但是與直接部屬在 mainnet 最大的差異就是：你幾乎無法讓 Dapp 與其他知名合約、DEX 作互動。
@@ -52,7 +52,7 @@ DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度
 
 附註：以下文章所附的指令或程式碼，若無特別提到 Windows 或 Linux，則代表兩者皆可使用相同內容成功執行
 
-[^5]: 作者已多次透過樹梅派 4B 搭配 1TB SATA3 SSD 成功搭建歸檔節點，不以挖礦為目的之下，搭建節點非難事
+[^5]: 透過樹梅派 4B 可以搭建歸檔節點，不以挖礦為目的來搭建歸檔節點非難事，只需要準備大容量的 SATA3 SSD 即可，詳細請參考文末的延伸閱讀 Ethereum on ARM
 [^6]: Infura、Alchemy、QuickNode 均有提供存取歸檔節點的服務，其中 Alchemy 在作者撰文時為免費服務。
 
 
@@ -351,7 +351,8 @@ Related resources
   - Hardhat Runtime Environment (HRE)：https://hardhat.org/advanced/hardhat-runtime-environment.html
 - Alchemy
   - https://www.alchemy.com/
-
+- Ethereum on ARM
+  - https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html
 
 Further reading
 ---
