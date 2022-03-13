@@ -36,5 +36,5 @@ LUN 代幣是由 LunDAO 所發行的社群代幣，此代幣主要有幾個用�
 [3]: publish-reward
 [4]: https://etherscan.io/address/0xd6b5f077c56e94de018e34d4908f36848b2c9d3f
 [5]: https://arbiscan.io/address/0x3Fc39F44FdcaE9E46Ef8720BE5D5f8cbeC619e25
-[6]: organization-reward
+[6]: contributing
 [7]: https://app.uniswap.org/#/swap
