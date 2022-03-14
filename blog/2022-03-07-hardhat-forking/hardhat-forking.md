@@ -325,14 +325,17 @@ Account Address             ETH-Balance     WETH-Balance
    - 兩者數值相符且與 Etherscan 上的餘額吻合
    - Etherscan Analytics 分頁謹顯示當日日末餘額，因此需查詢前一日餘額為準
 ![Etherscan-Analytics](./etherscan-analytics.png)
-4. 在 step 1，我們以隨機挑選的地址的名義，向 `WETH9` 合約存款 3 eth；之所以此行為不會是 invalid tx，歸功於 Line 41 的 `hardhat_impersonateAccount` 模式[^9]，它讓我們能夠在 Hardhat Network 內以未知密鑰地址的名義發送 tx。
+4. 在 step 1，我們以隨機挑選的地址的名義，向 `WETH9` 合約存款 3 eth；之所以此行為不是 invalid tx，歸功於 Line 41 開啟 `hardhat_impersonateAccount` 模式[^9]，它讓我們能夠在 Hardhat Network 內以未知密鑰地址的名義發送 tx。
 5. 最後會印出稍早完成的所有 tx 的細節
    - 讀者可以透過 `blockNumber` 查覺到這些 tx 與當初指定 mainnet forking 區塊高度之間的關聯性
-6. 由於傳送 tx 需要耗費 tx fee，所以我們可以發現最終 `#0` 和 `#1` 的 eth 餘額比一開始的少，但是他們的 weth 均已提領完畢
+6. 由於傳送 tx 需要耗費 tx fee，所以我們可以發現最終 `Account #0` 和 `Account #1` 的 eth 餘額比一開始少
 
-另外，作者同樣透過 mainnet forking 技巧，撰寫了另一份 JavaScript 腳本，只需將第六步驟取代為下載此腳本，即可執行另一種常見的任務。
-  - https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b
-  - 此腳本透過不停變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」。
+
+另外，作者同樣透過 mainnet forking 技巧，撰寫另一份 JavaScript 腳本，只需將第四步驟改為下載此腳本，即可執行另一種常見的任務。
+- https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b
+- 此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
+- 讀者亦可使用 Dune Analysis 等平台達成此目的，然而靈活度度與支付規費不如自行寫腳本來的好
+
 
 [^8]: 有省略一些與本文無關的檔案與資料夾
 [^9]: https://hardhat.org/hardhat-network/reference/#hardhat-impersonateaccount
