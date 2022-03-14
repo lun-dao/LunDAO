@@ -259,6 +259,7 @@ Appendix：在 Hardhat Network 上面與 `WETH9` 合約互動
 
 4. 前往這個 Gist 下載 `interact.js` 腳本，並且把它儲存在 `hardhat_fork/scripts` 資料夾底下
    - https://gist.github.com/a2468834/6101244f5000e467ec8904ac5f0ec41d
+   - 或可至 GitHub 上面，包含本文之 repo 下載
 5. 截至目前為止，`hardhat_fork` 資料夾應該要長得像這樣子[^8]
 ```Shell
 📂 hardhat_fork
@@ -333,6 +334,7 @@ Account Address             ETH-Balance     WETH-Balance
 
 另外，作者同樣透過 mainnet forking 技巧，撰寫另一份 JavaScript 腳本，只需將第四步驟改為下載此腳本，即可執行另一種常見的任務。
 - https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b
+- 或可至 GitHub 上面，包含本文之 repo 下載
 - 此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
 - 讀者亦可使用 Dune Analysis 等平台達成此目的，然而靈活度度與支付規費不如自行寫腳本來的好
 
