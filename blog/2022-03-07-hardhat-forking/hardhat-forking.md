@@ -54,6 +54,8 @@ Mainnet forking 背後的運作機制，概念上就是模擬一個仿造 Ethere
 ---
 由於 mainnet forking 的運作過程需與 archive node 作互動；因此，**你必需準備好 archive node** 並將 Hardhat 連接上它。最直白地方式即透過 Geth、OpenEthereum 等工具自架節點[^5]，或可使用市面上知名的數家 SaaS 節點供應商之服務[^6]。本文為求過程輕鬆好學習，以下將搭配 Alchemy 提供的服務。
 
+另外，由於 Hardhat Network 是 EVM-compatible blockchain，因此理論上任何 EVM-compatible chain 的歸檔節點皆有機會使用 mainnet forking，但實際上可能與 Ethereum mainnet 相比有所限制，筆者僅另外使用過 Polygon mainnet 亦可順利運作。
+
 [^5]: 透過樹梅派 4B 可以搭建歸檔節點，不以挖礦為目的來搭建歸檔節點非難事，只需要準備大容量的 SATA3 SSD 即可，詳細請參考文末的延伸閱讀 Ethereum on ARM
 [^6]: Infura、Alchemy、QuickNode 均有提供存取歸檔節點的服務，其中 Alchemy 在作者撰文時為免費服務。
 
