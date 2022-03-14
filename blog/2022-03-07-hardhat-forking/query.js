@@ -1,4 +1,4 @@
-// (1) Please the tutorial: https://github.com/a2468834/LunDAO/blob/article/hardhat-forking/blog/2022-03-07-hardhat-forking/hardhat-forking.md
+// (1) Please the tutorial
 // (2) Put the script into scripts/query.js
 // (3) At the step 6 in the section Appendix, please run the following command instead:
 //     $ yarn hardhat --network "hardhat" run scripts/query.js
