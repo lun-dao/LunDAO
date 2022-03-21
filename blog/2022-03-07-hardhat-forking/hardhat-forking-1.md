@@ -243,7 +243,7 @@ WARNING: These accounts, and their private keys, are publicly known.
 Any funds sent to them on Mainnet or any other live network WILL BE LOST.
 ```
 
-本文到此已完成所有步驟，恭喜各位讀者已學會如何使用 Hardhat 進行 mainnet fork。另一篇[文章](./hardhat-forking-2.md)將操作簡單的範例，向有興趣的讀者展示 Hardhat Network 的有趣應用。
+本文到此已完成所有步驟，恭喜各位讀者已學會如何使用 Hardhat 進行 mainnet forking。另一篇[文章](./hardhat-forking-2.md)將操作簡單的範例，向有興趣的讀者展示 Hardhat Network 的有趣應用。
 
 [^7]: 有興趣的讀者請參見這個連結 https://hardhat.org/hardhat-network/reference/#accounts
 
