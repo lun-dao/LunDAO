@@ -11,30 +11,23 @@ const end_block     = 14379910; // The ending block number you want
 async function method1() {
     console.log("Method 1");
     
-    var config      = { method: "hardhat_reset",
-                        params: [{
-                            forking: {
-                                jsonRpcUrl: process.env.Mainnet,
-                                blockNumber: start_block}}]};
+    var config = {  method: "hardhat_reset",
+                    params: [{
+                        forking: {
+                            jsonRpcUrl: process.env.Mainnet,
+                            blockNumber: 0}}]
+    };
     
     // Prepare the ethers.js Provider object
     var provider = await hre.ethers.provider;   // The default forking block number is in 'hardhat.config.js' or the current highest block
-    await hre.network.provider.request(config); // Reset the fork from another block number
     
     // Prepare the ethers.js Contract object
     var WETH9 = new hre.ethers.Contract(weth9_address, contract_ABI, provider);
     
     for(var block_i = start_block; block_i < (end_block+1); block_i++) {
-        if(block_i == start_block) {
-            // No need to reset Provider and Contract objects
-        }
-        else {
-            config.params[0].forking.blockNumber = block_i;
-            
-            // Reset Provider and Contract objects to another forking block number
-            await hre.network.provider.request(config);
-            WETH9 = WETH9.connect(provider);
-        }
+        config.params[0].forking.blockNumber = block_i;
+        await hre.network.provider.request(config); // Reset the mainnet forking from another block number
+        WETH9 = WETH9.connect(provider);
         
         console.log("----------------------------------------");
         console.log(`Block number: ${await provider.getBlockNumber()}`);
