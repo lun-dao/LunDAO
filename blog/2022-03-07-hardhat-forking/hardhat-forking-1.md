@@ -119,7 +119,7 @@ Step 2：調整 `hardhat.config.js`
 目標：設定進行 mainnet forking 所需的相關參數
 
 1. 在 `hardhat_fork` 資料夾，新增一個空白檔案叫做 `.env`，並以文字編輯器將以下內容插入其中
-   - 記得先前往 Alchemy 註冊帳號，並創立一個空白 app 專案，然後方能取得 key
+   - 記得先前往 Alchemy 註冊帳號，並創立一個空白 app 專案（預設可存取 archive node）
 ```
 Mainnet = "https://eth-mainnet.alchemyapi.io/v2/<your_Alchemy_key>"
 ```
