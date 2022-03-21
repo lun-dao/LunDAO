@@ -36,7 +36,7 @@ authors: a2468834
 
 4. 前往這個 Gist 下載 `interact.js` 腳本，並且把它儲存在 `hardhat_fork/scripts` 資料夾底下
    - https://gist.github.com/a2468834/6101244f5000e467ec8904ac5f0ec41d
-   - 或可至 GitHub 上面，包含本文之 repo 下載
+   - 或可至 GitHub 上面 LunDAO repo 下載
 5. 截至目前為止，`hardhat_fork` 資料夾應該要長得像這樣子[^8]
 ```Shell
 📂 hardhat_fork
@@ -148,25 +148,62 @@ Account Address             ETH-Balance     WETH-Balance
 ---
 這個範例要解決的是另一個事情：要怎麼抓取 Ethereum 上面某個數據的歷史資料呢？
 
+Etherscan 提供圖形化介面讓開發者可以快速查詢合約內 `public` `view`/`pure` function 的回傳值，但是如果我們有興趣的回傳值只會出現在特定 block number 呢？這時候除了使用 Dune Analytics 等網站提供的服務，我們其實可以透過 mainnet forking 的功能來自己實作。
 
-
-另外，作者同樣透過 mainnet forking 技巧，撰寫另一份 JavaScript 腳本，只需將第四步驟改為下載此腳本，即可執行另一種常見的任務。
+以下將使用另一份 JavaScript 腳本，只需將前一個範例的第四步驟改為下載此腳本，即可成功執行。
 - https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b
-- 或可至 GitHub 上面，包含本文之 repo 下載
-- 此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
-- 讀者亦可使用 Dune Analysis 等平台達成此目的，然而靈活度度與支付規費不如自行寫腳本來的好
+- 或可至 GitHub 上面 LunDAO repo 下載
+- 截至目前為止，`hardhat_fork` 資料夾應該要長得像這樣子[^4]
+```Shell
+📂 hardhat_fork
+ │
+ ├── 📂 scripts
+ │    │
+ │    ├── 📄 contract-abi.json
+ │    │
+ │    ├── 📄 interact.js
+ │    │
+ │    └── 📄 query.js
+ │
+ ├── 📄 .env
+ │
+ └── 📄 hardhat.config.js
+```
+
+執行指令之後，可見 terminal 印出類似這樣子的文字
+```Shell
+$ yarn hardhat --network "hardhat" run scripts/query.js
+yarn run v1.22.17
+
+Method 1
+----------------------------------------
+Block number: 14379900
+TotalSupply:  7080076.411770262795354559
+----------------------------------------
+Block number: 14379901
+TotalSupply:  7080077.697963348707441243
+----------------------------------------
+Block number: 14379902
+TotalSupply:  7080074.493707533508180991
+...
+```
+
+以下筆者將對 `query.js` 的程式碼做一些重點解析
+
+### Line 14-19,28-29
+此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
 
 
+### Line 38-51
+事實上，想要查詢 `public` `view`/`pure` function 的歷史數據，不需要用到 mainnet forking 模式，可以單純透過呼叫合約函數，但是附加 `blockTag` 即可[^5]。
 
 
-
-另外，作者同樣透過 mainnet forking 技巧，撰寫另一份 JavaScript 腳本，只需將第四步驟改為下載此腳本，即可執行另一種常見的任務。
-- https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b
-- 或可至 GitHub 上面，包含本文之 repo 下載
-- 此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
-- 讀者亦可使用 Dune Analysis 等平台達成此目的，然而靈活度度與支付規費不如自行寫腳本來的好
+### Line 55-56
+執行的時候記得把其中一行的註解拿掉；另外，mainnet forking 的分叉高度不能小於想要查詢`public` `view`/`pure` function 的歷史數據的區塊高度。
 
 
+[^4]: 有省略一些與本文無關的檔案與資料夾
+[^5]: `blockTag` 是 ethers.js 的語法，web3.js 的 API 使用方法可能有所不同
 
 
 
