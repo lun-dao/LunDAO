@@ -195,7 +195,7 @@ TotalSupply:  7080074.493707533508180991
 
 
 ### Line 38-51
-事實上，想要查詢 `public` `view`/`pure` function 的歷史數據，不需要用到 mainnet forking 模式，可以單純透過呼叫合約函數，但是附加 `blockTag` 即可[^5]。
+事實上，查詢 `public` `view`/`pure` function 的歷史數據，不需要用到 mainnet forking 模式。可以單純透過呼叫合約函數，額外附加 `blockTag` 即可[^5]。`method1()` 為使用 mainnet forking 的方法，`method2()` 則是不需使用 mainnet forking 的方法。
 
 
 ### Line 55-56
