@@ -146,7 +146,7 @@ Account Address             ETH-Balance     WETH-Balance
 
 範例二：抓取 `public` 變數的歷史數據
 ---
-
+這個範例要解決的是另一個事情：要怎麼抓取 Ethereum 上面某個數據的歷史資料呢？
 
 
 
