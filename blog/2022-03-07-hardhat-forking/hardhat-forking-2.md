@@ -1,7 +1,7 @@
 ---
 title: Hardhat mainnet forking：主網分叉 (2)
-description: 如何利用 Hardhat 進行主網分叉
-slug: hardhat-forking
+description: 利用 Hardhat 主網分叉做一些酷炫的事情
+slug: hardhat-forking-2
 tags: [Mainnet Fork, Mainnet Forking, Hardhat, Nomic Labs]
 date: 2022-03-07
 authors: a2468834
@@ -10,6 +10,8 @@ authors: a2468834
 
 
 在上一篇[文章](./hardhat-forking-1.md)我們已經學會了怎麼使用 Hardhat mainnet forking，但是讀者可能尚有疑惑不知道這樣的功能可以做什麼？本篇文章將延續相同主題，並給出幾個例子，向讀者展示 mainnet forking 能夠為開發過程帶來的方便性。
+
+<!--truncate-->
 
 
 
@@ -25,11 +27,11 @@ authors: a2468834
 
 以下將透過執行一段簡短的 JavaScript 腳本，向讀者展示要怎麼在已完成 mainnet forking 的 Hardhat Network 之內，與知名的 `WETH9` 互動。
 
-0. 延續前文的操作環境
-1. 在 `hardhat_fork` 資料夾底下創立新資料夾 `scripts`
-2. 前往 Etherscan.io 或任何你信任的 Ethereum blockchain explorer 尋找 WETH 合約
+1. 延續前文的操作環境
+2. 在 `hardhat_fork` 資料夾底下創立新資料夾 `scripts`
+3. 前往 Etherscan.io 或任何你信任的 Ethereum blockchain explorer 尋找 WETH 合約
    - https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code
-3. 將合約 ABI 儲存成 `contract-abi.json` 檔案，並放置於 `hardhat_fork/scripts` 資料夾底下
+4. 將合約 ABI 儲存成 `contract-abi.json` 檔案，並放置於 `hardhat_fork/scripts` 資料夾底下
    - 若是使用 Etherscan，則需滾動至網頁最下方，如圖所示
 
 ![weth9-contract-abi](./weth9-contract-abi.png)
@@ -99,22 +101,45 @@ Account Address             ETH-Balance     WETH-Balance
 
 ### Line 8-9
 開啟 mainnet forking 模式讓我們得以直接與真實的 `WETH9` 合約地址互動，不需要額外部屬其他合約。另外，`somebody` 地址則是隨機挑選的一個地址，恰巧該地址同時擁有 eth 和 weth，在接下來的操作當中可見奇效。
+```javascript
+const weth9_address = "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2";
+const somebody      = "0x2feb1512183545f48f6b9c5b4ebfcaf49cfca6f3";
+```
 
 
 ### Line 13-30
 用來讓印在 terminal 的文字看起來排版美美的函數們，並沒有特別之處
+```javascript
+function addressSlicing(address) {
+    /* Skip */
+}
+
+async function printAccountAndBalance(provider, contract, account0, account1) {
+    /* Skip */
+}
+```
 
 
 ### Line 34-35
 `hre`（Hardhat Runtime Environment, HRE）是一個 Hardhat Network 啟動之後，包含所有 Hardhat 套件功能的物件，詳細內容請見文末延伸閱讀。
 
 `hre.ethers.getSigners()` 回傳一個長度為 20 的 ethers.js Signer 陣列，就是前文所述的那二十個各有 10000 ETH 的帳號
+```javascript
+const HRE_EOAs = await hre.ethers.getSigners();
+const provider = await hre.ethers.provider;
+```
 
 
 ### Line 40-43,47
 在 mainnet forking 模式之下，Hardhat Network 允許開發者發送 tx，**即便你根本未持有該地址的私鑰**。有了這個功能，我們可以隨意尋找任何具備我們有興趣條件的地址（EOA 或 contract address 均可），然後以它的名義發送 tx 來進行各式操作，讓 mainnet forking 的測試環境兼具高仿真度與高便利性。
 
 除了 `hardhat_impersonateAccount` 功能之外，還有其他例如：`hardhat_setNonce`、`hardhat_setBalance`、`hardhat_setCode`、`hardhat_setStorageAt`等功能，詳細可見[這邊](https://hardhat.org/hardhat-network/guides/mainnet-forking.html#customizing-hardhat-network-s-behavior)的說明。
+```javascript
+await hre.network.provider.request({
+    method: "hardhat_impersonateAccount",
+    params: [somebody]
+});
+```
 
 
 ### Line 50-56
@@ -124,19 +149,35 @@ Account Address             ETH-Balance     WETH-Balance
 
 
 ### Line 64-68
-我們以 `somebody` 地址的名義，向 `WETH9` 合約存款 3 eth；之所以此行為不是 invalid tx，歸功於前述的 `hardhat_impersonateAccount` 功能[^9]，它讓我們能夠在 Hardhat Network 內以未知密鑰地址的名義發送 tx。
+我們以 `somebody` 地址的名義（i.e., 使用 `signer_1` 發出 txn），向 `WETH9` 合約存款 3 eth；之所以此行為不是 invalid tx，歸功於前述的 `hardhat_impersonateAccount` 功能[^9]，它讓我們能夠在 Hardhat Network 內以未知密鑰地址的名義發送 tx。
+```javascript
+var overrides = {value : hre.ethers.utils.parseEther("3.0")};
+WETH9         = WETH9.connect(signer_1);
+txn_array.push(await WETH9.deposit(overrides));
+await printAccountAndBalance(provider, WETH9, signer_0, signer_1);
+```
 
 
 ### Line 72-80
 這個段落把 `Account#1`（即 `somebody` 地址）的 13 個 weth 轉給 `Account#0`（即 HRE 預設地址 No.0）。
+```javascript
+WETH9 = WETH9.connect(signer_1);
+txn_array.push(
+    await WETH9.transferFrom(
+        signer_1.address, 
+        signer_0.address, 
+        hre.ethers.utils.parseEther("13.0")
+));
+await printAccountAndBalance(provider, WETH9, signer_0, signer_1);
+```
 
 
 ### Line 84-89
-由於傳送 tx 需要耗費 tx fee，所以我們可以發現最終 `Account #0` 和 `Account #1` 的 eth 餘額總和比最初的時候少一些。
+由於傳送 tx 需要耗費 tx fee，所以我們可以發現最終印出的結果顯示：`Account #0` 和 `Account #1` 的 eth 餘額總和比最初的時候少一些。
 
 
 ### Line 93-97
-最後印出稍早發送的所有 tx 的細節，讀者可以透過 `blockNumber` 查覺這些 tx 與當初指定 mainnet forking 區塊高度之間的關聯性，可見 Hardhat Network 是有在逐步長高。
+最後會印出稍早發送的所有 tx 的細節；讀者可以透過 `blockNumber` 查覺這些 tx 與當初指定 mainnet forking 區塊高度之間的關聯性，可見 Hardhat Network 是有在逐步長高。
 
 
 [^8]: 有省略一些與本文無關的檔案與資料夾
@@ -192,14 +233,36 @@ TotalSupply:  7080074.493707533508180991
 
 ### Line 14-19,28-29
 此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，`WETH9` 合約的 `totalSupply()` 數值變化」
+```javascript
+var config = {  method: "hardhat_reset",
+                params: [{
+                    forking: {
+                        jsonRpcUrl: process.env.Mainnet,
+                        blockNumber: 0}}]
+};
+config.params[0].forking.blockNumber = block_i;
+await hre.network.provider.request(config);
+```
 
 
 ### Line 38-51
 事實上，查詢 `public` `view`/`pure` function 的歷史數據，不需要用到 mainnet forking 模式。可以單純透過呼叫合約函數，額外附加 `blockTag` 即可[^5]。`method1()` 為使用 mainnet forking 的方法，`method2()` 則是不需使用 mainnet forking 的方法。
+```javascript
+async function method2() {
+    /* Skip */
+}
+```
 
 
 ### Line 55-56
 執行的時候記得把其中一行的註解拿掉；另外，mainnet forking 的分叉高度不能小於想要查詢`public` `view`/`pure` function 的歷史數據的區塊高度。
+```javascript
+async function main() {
+    // Delete one of the following comments
+    //await method1();
+    //await method2();
+}
+```
 
 
 [^4]: 有省略一些與本文無關的檔案與資料夾
