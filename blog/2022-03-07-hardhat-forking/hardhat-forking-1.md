@@ -1,7 +1,7 @@
 ---
 title: Hardhat mainnet forking：主網分叉 (1)
 description: 如何利用 Hardhat 進行主網分叉
-slug: hardhat-forking
+slug: hardhat-forking-1
 tags: [Mainnet Fork, Mainnet Forking, Hardhat, Nomic Labs]
 date: 2022-03-07
 authors: a2468834
@@ -9,17 +9,23 @@ authors: a2468834
 
 
 
-在 Ethereum 進行 Dapp 開發少不了撰寫智能合約（smart contract）；除了使用 Go Ethereum（Geth）、OpenEthereum 等工具自建 local testnet，並將合約部屬在上面之外，還可以將合約部屬到各大公開測試網（testnet）[^1]。然而，這些方法雖然都使用與主網（mainnet）幾乎相同的[^2]程式碼當作 L1 底層，但是與直接部屬在 mainnet 最大的差異就是：你幾乎無法讓 Dapp 與其他知名合約、DEX 作互動。
+本文章將展示怎麼使用知名開發工具 Hardhat 的主網分叉（mainnet forking），令開發者可任意指定欲分叉的區塊鏈高度，並與 Hardhat 內建的自定義 testnet（Hardhat Network）結合，享受最高仿真度、最簡便的開發環境。
+
+<!--truncate-->
+
+在 Ethereum 開發 Dapp 少不了撰寫智能合約（smart contract）；除了使用 Go Ethereum（Geth）、OpenEthereum 等工具自建一條 local testnet，並將合約部屬在上面之外，還可將合約部屬到各大公開測試網（testnet）[^1]。然而，這些方法雖然都使用與主網（mainnet）幾乎相同的[^2]程式碼當作 L1 底層，但是與直接部屬在 mainnet 最大的差異就是：你幾乎無法讓你的 Dapp 與其他知名合約、DEX 做互動。
 
 DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度的互操作性（interoperability）；各個合約之間可以透過程式呼叫，輕鬆地與彼此互動，達成傳統金融所無法企及的巨大靈活能力。
 
-然而，如果你正在開發的 Dapp/DeFi 專案，無法在極度擬真的環境當中進行最完整的測試就貿然上線，則此服務將暴露於巨大風險之下。
+然而，如果你正在開發的 Dapp/DeFi 專案，無法在極度仿真的環境當中，通過完整的測試即貿然上線，則此服務將暴露於巨大風險之下。
 
 部屬合約於 (local) testnet 當中，為求最精緻的模擬環境，你將會耗費極大心力逐一複製所有第三方合約、DEX 的程式碼，並重新佈署於模擬環境當中，這完全不是一個可行的方法。
 
-這篇教學文章將展示內建於知名開發工具 Hardhat 的主網分叉功能（mainnet forking），開發者可以任意指定欲分叉的區塊鏈高度，並與 Hardhat 內建的自定義 testnet（Hardhat Network）結合，享受最高仿真度、最簡便的開發環境。
+Hardhat 的說明文件是這麼介紹 mainnet forking：
 
-> You can start an instance of Hardhat Network that forks mainnet. This means that it will simulate having the same state as mainnet, but it will work as a local development network. [^3]
+> You can start an instance of Hardhat Network that forks mainnet. **This means that it will simulate having the same state as mainnet**, but it will work as a local development network. [^3]
+
+本文章將帶領各位讀者熟悉 mainnet forking 的使用方法，並在另一篇文章當中舉幾個例子讓讀者能體會 mainnet forking 的方便性，以期各位讀者都能善用此工具。
 
 [^1]: 例如：Rinkeby、Goerli、Kintsugi 等
 [^2]: 可能因不同 testnet 共識機制，而與主網略有差異，但是一般來說很罕見出現 Dapp 能夠運行於 testnet 卻無法運行於 mainnet，尤其所有網路的 EVM 實作細節均相同
