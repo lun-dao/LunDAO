@@ -3,7 +3,6 @@ title: Hardhat mainnet forking：主網分叉 (1)
 description: 如何利用 Hardhat 進行主網分叉
 slug: hardhat-forking-1
 tags: [Mainnet Fork, Mainnet Forking, Hardhat, Nomic Labs]
-date: 2022-03-07
 authors: a2468834
 ---
 

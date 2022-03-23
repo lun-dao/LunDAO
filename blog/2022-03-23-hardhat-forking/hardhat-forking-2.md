@@ -3,7 +3,6 @@ title: Hardhat mainnet forking：主網分叉 (2)
 description: 利用 Hardhat 主網分叉做一些酷炫的事情
 slug: hardhat-forking-2
 tags: [Mainnet Fork, Mainnet Forking, Hardhat, Nomic Labs]
-date: 2022-03-07
 authors: a2468834
 ---
 
