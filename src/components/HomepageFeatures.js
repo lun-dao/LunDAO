@@ -45,7 +45,7 @@ const FeatureList = [
         <div className={styles.callForAction}>
           <Link
               className="button button--secondary button--lg"
-              to="https://github.com/lun-dao/LunDAO/blob/main/CONTRIBUTING.md">
+              to="/docs/contributing">
               貢獻指南
           </Link>
         </div>
