@@ -20,6 +20,18 @@ sidebar_position: 20
 - Solidity 使用教學：500 LUN (基礎獎勵) + 100 LUN (影響力獎勵) = 600 LUN
 - DeFi 機制分析：500 LUN (基礎獎勵) + 200 LUN (RFA 獎勵) + 300 LUN (影響力獎勵) = 1,000 LUN
 
+## 發送紀錄
+### 2022/3/25
+
+|文章                              |作者      |基礎獎勵|RFA 獎勵|總計 |
+|--------------------------------|--------|----|------|---|
+|[MEV - 最大可提取價值](https://lundao.tech/blog/mev)                   |[yurenju](https://github.com/yurenju) |500 |      |500|
+|[基本功：从合约看 token 数量](https://lundao.tech/blog/total-tokens-looksrare)               |[zjiekai](https://github.com/zjiekai) |500 |      |500|
+|[Hardhat mainnet forking：主網分叉 (1)](https://lundao.tech/blog/hardhat-forking-1)|[a2468834](https://github.com/a2468834)|500 |150   |650|
+|[Hardhat mainnet forking：主網分叉 (2)](https://lundao.tech/blog/hardhat-forking-2)|[a2468834](https://github.com/a2468834)|500 |      |500|
+
+
+
 [1]: lun-token-usage
 [2]: request-for-article
 [3]: impact-reward
