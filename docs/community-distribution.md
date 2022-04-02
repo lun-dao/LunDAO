@@ -57,22 +57,22 @@ sidebar_position: 101
 
 - 日期：2022/03/24 - 2022/03/29
 - 交易紀錄：
-  - Gnosis Safe TBD
-  - Arbiscan TBD
+  - [Gnosis Safe](https://gnosis-safe.io/app/arb1:0xC2bEeC7a39Ea549F72d937E7b5951B8ee0C8d295/transactions/0xe2a94a7ca0664d395c1e9937adb22f9b91309a22005b3ac52b5443e60b02ccf7)
+  - [Arbiscan](https://arbiscan.io/tx/0x925f9ad2e7d1c359a9a6d80479355356c1cf5039c4567fbe2a17bd2982a71daa)
 
-|name       |address                                   |LUN distribution|GIVE received|GIVE sent|LUN without decimals  |
-|-----------|------------------------------------------|----------------|-------------|---------|----------------------|
-|ccwang     |0x81e9d67543fae31cebeb47c9ffbb0cd67c4475c6|2826.666667     |106          |0        |2826666666666666666666|
-|chnejohnson|0x96a4715280c3dac3f3093d51aa278aa5eb60ffde|0               |0            |0        |0                     |
-|gasolin    |0xfda995eb398750319a2d5e8a4766c02e54db24b8|480             |18           |0        |480000000000000000000 |
-|hydai      |0x9a76d78f203ec6f7289bb0178cb6c25f18a9911e|453.3333333     |17           |100      |453333333333333333333 |
-|iisaint    |0x9b98b59388bdcf8dbac81bb7f3cd6910b712f85e|0               |0            |0        |0                     |
-|kimiwu123  |0x352a9d61537063781d5bdab36e8dccf540d6a595|133.3333333     |5            |0        |133333333333333333333 |
-|moojing    |0x8865d9736ad52c6cdbbea9bcd376108284cfd0e4|0               |0            |0        |0                     |
-|quesalltime|0x0b7bb1a65b9400a2a3271fcbf0443d85871231e3|0               |0            |0        |0                     |
-|wiasliaw   |0x66fa22aefb2cf14c1fa45725c36c2542521c0d3e|613.3333333     |23           |0        |613333333333333333333 |
-|yurenju    |0x8fa26cda1a3a8c0c89d01261689a63418d436d24|2026.666667     |76           |100      |2026666666666666666666|
-|zjiekai    |0x9d1870d70f197bdf59b996bb31a20ffed2ffca87|1466.666667     |55           |100      |1466666666666666666666|
+|name       |address                                   |LUN distribution|GIVE received|GIVE sent|
+|-----------|------------------------------------------|----------------|-------------|---------|
+|ccwang     |0x81e9d67543fae31cebeb47c9ffbb0cd67c4475c6|2826.666667     |106          |0        |
+|chnejohnson|0x96a4715280c3dac3f3093d51aa278aa5eb60ffde|0               |0            |0        |
+|gasolin    |0xfda995eb398750319a2d5e8a4766c02e54db24b8|480             |18           |0        |
+|hydai      |0x9a76d78f203ec6f7289bb0178cb6c25f18a9911e|453.3333333     |17           |100      |
+|iisaint    |0x9b98b59388bdcf8dbac81bb7f3cd6910b712f85e|0               |0            |0        |
+|kimiwu123  |0x352a9d61537063781d5bdab36e8dccf540d6a595|133.3333333     |5            |0        |
+|moojing    |0x8865d9736ad52c6cdbbea9bcd376108284cfd0e4|0               |0            |0        |
+|quesalltime|0x0b7bb1a65b9400a2a3271fcbf0443d85871231e3|0               |0            |0        |
+|wiasliaw   |0x66fa22aefb2cf14c1fa45725c36c2542521c0d3e|613.3333333     |23           |0        |
+|yurenju    |0x8fa26cda1a3a8c0c89d01261689a63418d436d24|2026.666667     |76           |100      |
+|zjiekai    |0x9d1870d70f197bdf59b996bb31a20ffed2ffca87|1466.666667     |55           |100      |
 
 
 
