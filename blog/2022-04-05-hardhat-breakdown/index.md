@@ -9,12 +9,14 @@ authors: yurenju
 
 撰寫 Solidity 智能合約概括上來說跟寫一般程式相同，需要撰寫、除錯、測試以及佈署等工作，而不同之處在於智能合約運行在區塊鏈網路上，在開發過程中會需要本地開發測試用的網路以及佈署到不同網路（比如說測試網路 Rinkeby, Ropsten 或是 production 網路 mainnet 等）網路管理的功能，同時佈署到網路上之後，還會需要編譯後的產物 (artifact) 包括 ABI (Application binary interface) 來跟區塊鏈網路上的智能合約互動。
 
-Hardhat 是一套開發智能合約用的開發工具，內建了區塊鏈網路設定管理以及編譯器管理的功能，並且提供一個彈性的框架讓各種 plugin 可以延伸 Hardhat 來提供各式各樣的功能。本篇文章會介紹 Hardhat 的基礎結構以及所提供的各種功能讓開發者可以更加理解與活用這個工具。
+[Hardhat](https://hardhat.org/getting-started/) 是一套開發智能合約用的開發工具，內建了區塊鏈網路設定管理以及編譯器管理的功能，並且提供一個彈性的框架讓各種 plugin 可以延伸 Hardhat 來提供各式各樣的功能。本篇文章會介紹 Hardhat 的基礎結構以及所提供的各種功能讓開發者可以更加理解與活用這個工具。
+
+雖然說 [Truffle](https://trufflesuite.com/) 與 [Remix IDE](https://remix.ethereum.org/?) 都有提供類似的功能，但 Hardhat 由於是目前逐漸熱門的工具而且他的彈性架構讓開發者想自訂功能可以更加方便，同時 TypeScript 優良的支援讓開發者透過 Hardhat 能夠有更好的型別支援，這也是本文為什麼針對 Hardhat 進行解析的原因。
 
 本文章的運行環境統一都是 Node.js v16 運行在 macOS 環境，其他作業系統可能會有些微的不同。
 
 ## Hardhat 架構
-Hardhat 的核心基礎是由 Ethereum 網路設定管理、編譯器與產物管理與 Hardhat Network 組成，並且透過一個彈性的擴充框架可以架構在 hardhat 上面提供更多功能。
+Hardhat 的核心基礎是由 EVM 網路設定管理、編譯器與編譯產物 (Artifact) 管理與 Hardhat Network 組成，並且透過一個彈性的擴充框架可以架構在 hardhat 上面提供更多功能。
 
 ![Hardhat Architecture](hardhat-arch.png)
 
@@ -142,7 +144,7 @@ $ npx hardhat accounts
 // ...
 ```
 
-在 `accounts` 指令裡面，在 `taskArgs` 後面第二個參數是 `hre`，這是 Hardhat Runtime Enivonment 的縮寫。HRE 是一個可以讓擴充套件將功能提供給其他指令、腳本或是測試檔案使用的物件。比如說在 `accounts` 指令裡面就用了 `hre.ethers.getSigners()` 取得 signers，這個 `hre.ethers` 就是由 `hardhat-ethers` 所提供的。
+在 `accounts` 指令裡面，在 `taskArgs` 後面第二個參數是 `hre`，這是 `Hardhat Runtime Enivonment` 的縮寫。HRE 是一個可以讓擴充套件將功能提供給其他指令、腳本或是測試檔案使用的物件。比如說在 `accounts` 指令裡面就用了 `hre.ethers.getSigners()` 取得 signers，這個 `hre.ethers` 就是由 `hardhat-ethers` 所提供的。
 
 如果像在 `accounts` 指令這種用 `task()` 初始化一個新的指令時，`hre` 會作為第二個參數被傳入，如此一來自訂的指令就可以透過 `hre` 來使用擴充套件所提供的功能，比如說 `hre.ethers.getSigners()` 就可以取得可以含有私鑰資訊並且可以發送交易的 Signer 物件。
 
@@ -172,9 +174,9 @@ const hre = require("hardhat");
 ```
 
 ## Hardhat Network
-在 `accounts` 指令的源碼還有另外一個細節： `hre.ethers.getSigners()` 回傳了測試用的帳戶，那這些帳戶到底是連結到哪個 Ethereum 網路的帳戶呢？在沒有指定哪一個區塊鏈網路的狀況下，hardhat 會連結到一個內部的區塊鏈網路：Hardhat Network。
+在 `accounts` 指令的原始碼還有另外一個細節： `hre.ethers.getSigners()` 回傳了測試用的帳戶，那這些帳戶到底是連結到哪個 Ethereum 網路的帳戶呢？在沒有指定哪一個區塊鏈網路的狀況下，hardhat 會連接到預設的本機測試區塊鏈網路 `Hardhat Network`。
 
-Hardhat Network 是 hardhat 內建的 Ethereum 網路，主要針對開發 Ethereum Dapp 所設計來讓開發、除錯、測試可以更方便的進行。
+Hardhat Network 是 hardhat 內建的 EVM 本地開發區塊鏈網路，主要針對開發 Ethereum Dapp 所設計來讓開發、除錯、測試可以更方便的進行。
 
 Hardhat Network 有兩種運行模式，第一種是 in-process 的運作模式，當你執行各種 hardhat 指令如：
 
