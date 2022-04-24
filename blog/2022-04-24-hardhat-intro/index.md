@@ -220,7 +220,7 @@ module.exports = {
 $ npx hardhat run --network rinkeby ./scripts/sample-script.js
 ```
 
-這樣這份 Greeter 合約就會被佈署到 Rinkeby 測試網路上面了。
+這樣這份 Greeter 合約就會被佈署到 Rinkeby 測試網路上面了。這邊的範例給的比較簡易，但實際上通常會把可抽換的資訊如 `INFURA_PROJECT_ID` 或 `MNEMONIC` 透過環境變數傳入，並且用 [dotenv](https://github.com/motdotla/dotenv) 模組管理。
 
 ## 比較
 跟 Hardhat 類似的工具有幾個如 Truffle 與 Remix，但是 Hardhat 跟其他的工具比較有些額外的好處。
