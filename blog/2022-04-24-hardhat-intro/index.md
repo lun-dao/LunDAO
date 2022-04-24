@@ -89,7 +89,7 @@ module.exports = {
 
 編譯 Solidity 檔案的編譯器版本可以在 `hardhat.config.js` 裡面設定，上面的範例指定 `solidity: "0.8.4"` 是最基礎的設定，還有一些也可以設定的項目：
 
-- 最佳化：設定要不要開啟編譯最佳化以及最佳化的程度
+- 最佳化：設定要不要開啟編譯最佳化以及最佳化的程度，預設是關閉最佳化[^註1]
 - EVM 版本：EVM 在不同的分岔後會多出一些新的功能或格式上的差異，這邊也可以指定
 
 設定的方法如下，更詳細的資訊可以參考 hardhat 官方網站裡面的 [Compiling your contracts](https://hardhat.org/guides/compile-contracts.html) 一節。
@@ -99,13 +99,14 @@ solidity: {
   settings: {
     optimizer: {
       enabled: true, // 啟用最佳化
-      runs: 200 // 最佳化的程度
+      runs: 200 // 最佳化的評估方式
     },
     evmVersion: "istanbul" // 可以選擇 instanbul, berlin, london 等
   }
 }
 ```
 
+而 `runs` 參數是開發者評估這個合約預估會執行幾次，提供給編譯器執行最佳化時的參考依據，可以閱讀 [LunDAO discord 討論](https://discord.com/channels/927177880318922802/927177880318922807/967717928290107392)。
 
 如果你遇到編譯器與 solidity 檔案中所指定的版本沒有相符時，也可以指定多重編譯器版本，比如說你自己的合約用 0.6，但是你所引用的 openzeppelin 合約則是 0.5，此時可以在 Hardhat 設定檔裡面指定多種不同版本的 solidity。
 
@@ -254,3 +255,5 @@ const Greeter = await ethers.getContractFactory("Greeter");
 而 Hardhat 上面豐富的工具如 [hardhat-deploy](https://github.com/wighawag/hardhat-deploy), [hardhat-etherscan](https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html) 與 [hardhat-gas-reporter](https://github.com/cgewecke/hardhat-gas-reporter) 等等都讓開發工作能夠更順利的進行。
 
 然而 hardhat 提供的彈性框架有時候在開發上也會造成一些困擾，接下來 Hardhat 系列文章將會更深入的解釋 Hardhat 結構與原理，當在大量使用 Hardhat 可以更明白發生了什麼事情以及如何解決使用 Hardhat 會遇到的問題。
+
+[^註1]: 關閉最佳化時仍會有部分的最佳化，請參考 [LunDAO discord 討論](https://discord.com/channels/927177880318922802/927177880318922807/967723565623423006)
