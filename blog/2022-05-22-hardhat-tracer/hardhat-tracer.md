@@ -265,10 +265,15 @@ Related resources
   - https://etherscan.io/tx-decoder
 - Alchemy
   - https://www.alchemy.com/
+  - https://docs.alchemy.com/alchemy/enhanced-apis/debug-api
+- Tenderly
+  - https://dashboard.tenderly.co/explorer
 - Smart Contracts at Etherscan
   - https://etherscan.io/address/0x3b7157E5E732863170597790b4c005436572570F
   - https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
 - hardhat-tracer
   - https://www.npmjs.com/package/hardhat-tracer
   - https://github.com/zemse/hardhat-tracer
-- 
+- ABI2Solidity
+  - https://bia.is/tools/abi2solidity/
+  - https://github.com/maxme/abi2solidity
