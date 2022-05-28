@@ -8,7 +8,7 @@ authors: a2468834
 
 
 
-本文章將展示如何將「hardhat-tracer」搭配 Hardhat 一起使用，令開發者能快速的視覺化呈現特定 transaction 運作過程，加速開發合約的流程與將低除錯難度。
+本文章將展示如何使用知名開發框架 Hardhat 的附加元件「hardhat-tracer」，令開發者能視覺化地了解特定 transaction 運作過程，加速開發流程與降低除錯難度。
 
 <!--truncate-->
 
