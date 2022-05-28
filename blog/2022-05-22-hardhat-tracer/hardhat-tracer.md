@@ -127,7 +127,9 @@ $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
-Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
 
 CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
    EVENT <UnknownContract 0x3b7157E5E732863170597790b4c005436572570F>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
@@ -141,7 +143,9 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
 $ yarn hardhat --network "hardhat" trace --fulltrace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
-Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
 
 CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
    SLOAD 0x0000000000000000000000000000000000000000000000000000000000000001 => (0x0000000000000000000000000000000000000000000000000000000000000001)
@@ -240,7 +244,9 @@ module.exports = {
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
-Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
 
 CALL TokenSale.depositETH{value: 40000000000000000}()
    EVENT TokenSale.Deposited(depositor=[Someone], token=[WrappedEther], amount=40000000000000000)
