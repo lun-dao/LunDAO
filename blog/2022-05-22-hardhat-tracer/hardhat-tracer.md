@@ -87,8 +87,6 @@ authors: a2468834
 ---
 以下開始介紹如何使用 hardhat-tracer 套件解析特定 transaction 的執行內容。由於 hardhat-tracer 會需要向 Ethereum node 發送 `debug_traceTransaction`、`eth_getStorageAt`、`eth_getCode` 等 JSON-RPC method 撈取歷史資料，因此務必確認節點處於歸檔節點（archive node）模式。您可以選擇自行架設[^2] archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。
 
-### 分析歷史 transaction
-
 假設我們想知道這個 transaction [^1] 的詳細運作過程
 > 0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c
 
@@ -174,7 +172,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
 
 根據上述結果，我們可以發現到執行這個 transaction 的過程會與兩個合約互動 — `0x3b7157E5E732863170597790b4c005436572570F` 和 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`，因此我們可以前往 Etherscan 來查詢這兩個合約的 ABI 分別為何？再搭配 [ABI2Solidity](https://bia.is/tools/abi2solidity/) 把 JSON format ABI 轉成 solidity `interface` format。
 
-5. 按照一般使用 hardhat 套件的習慣，我們在 `contracts` 子資料夾底下創建這份 solidity code [^4]
+5. 按照一般使用 hardhat 套件的習慣，我們在 `contracts` 子目錄底下創建這份 solidity code [^4]
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
@@ -254,19 +252,11 @@ CALL TokenSale.depositETH{value: 40000000000000000}()
       EVENT WrappedEther.Deposit(dst=[TokenSale], wad=40000000000000000)
 ```
 
-### 分析自建網路 transaction
-
-
-
-
-
-
-
 [^2]: 需要準備大容量 SSD，其餘硬體條件較無嚴苛限制（樹梅派 4B 即足以運行 Go-Ethereum）
 
 [^3]: 由於 `debug_traceTransaction` 屬於 Alchemy 需付費的 API method，因此若讀者使用 Growth 以上的方案，那麼您可以直接以 `--network "mainnet"` 連結 Alchemy；另一種免費的替代方案則為改用 Hardhat Network 來解析 transaction，只對 Alchemy 發送 `eth_getStorageAt`、`eth_getCode` 等請求，因此筆者在此以 `--network "hardhat"` 參數舉例
 
-[^4]: 如果讀者知道關於待解析 transaction 的所有互動合約的 source code，那麼推薦您可以直接把那些 source code 加入 `contracts` 子資料夾底下做編譯，這樣能讓 hardhat-tracer 顯示結果擁有最高的可讀性；若無法取得所有 source code，則只使用合約們 ABI 所轉成的 `interface` 做編譯亦可。
+[^4]: 如果讀者知道待解析 transaction 的所有互動合約 source code，那麼推薦您直接把那些程式碼加入 `contracts` 子目錄底下做編譯，這樣能讓 hardhat-tracer 顯示結果擁有最高的可讀性；若無法取得所有 source code，則只使用合約們 ABI 所轉成的 `interface` 做編譯亦可。
 
 
 Related resources
