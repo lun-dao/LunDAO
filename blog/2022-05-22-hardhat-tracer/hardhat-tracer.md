@@ -28,6 +28,7 @@ authors: a2468834
     - Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-1053-raspi aarch64)
   - Node.js v16.14.2
   - Yarn 1.22.18
+  - hardhat-tracer v1.1.0-**rc.6**
 
 由於本文後續會涉及使用 Hardhat Network 的內容，因此強烈推薦讀者應具備此部分操作經驗；LunDAO 亦已有此系列教學文章，歡迎多加閱讀並與大家討論。
 
@@ -264,5 +265,10 @@ Related resources
   - https://etherscan.io/tx-decoder
 - Alchemy
   - https://www.alchemy.com/
-- Wrapped Ether
-  - https://weth.io/index.html
+- Smart Contracts at Etherscan
+  - https://etherscan.io/address/0x3b7157E5E732863170597790b4c005436572570F
+  - https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
+- hardhat-tracer
+  - https://www.npmjs.com/package/hardhat-tracer
+  - https://github.com/zemse/hardhat-tracer
+- 
