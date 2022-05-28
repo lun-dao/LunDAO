@@ -165,7 +165,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
    SSTORE 0x0000000000000000000000000000000000000000000000000000000000000001 <= (0x0000000000000000000000000000000000000000000000000000000000000001)
 ```
 
-到這邊為止，我們已經成功使用 hardhat-tracer 套件來解析 transaction 了。然而，以上資訊相比 GUI 來說仍不夠最佳可讀性，尤其合約地址、event 名稱等都以原始型態呈現，造成版面相當冗長且混亂。
+到這邊為止，我們已經成功使用 hardhat-tracer 套件來解析 transaction 了。然而，以上資訊相比 GUI 來說仍不比其可讀性，尤其合約地址、event 名稱等都以原始型態呈現，造成版面相當冗長且混亂。
 
 所幸 hardhat-tracer 套件提供 address name tag 功能，讓我們可以自定義什麼地址要以什麼名稱標籤來顯示。另外，hardhat-tracer 也支援匯入已知合約的程式碼或 `interface`，讓解析結果可以自動帶入該合約來顯示。
 
@@ -235,7 +235,7 @@ module.exports = {
 };
 ```
 
-1. 重新執行 hardhat-tracer 指令，我們可以看到解析結果變得可讀性很高
+8. 重新執行 hardhat-tracer 指令，我們可以看到可讀性變得很高（比起 step 3 來說）
 
 ```
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
