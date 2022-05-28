@@ -107,13 +107,13 @@ module.exports = {
 };
 ```
 
-1. 在資料夾底下安裝 hardhat-tracer 套件（假設該資料夾已安裝完成 hardhat 套件）
+1. 在資料夾底下安裝 hardhat-tracer 套件（假設該資料夾已安裝完成 Hardhat）
 
 ```Shell
 $ yarn add hardhat-tracer
 ```
 
-2. 執行以下指令（注意要指定 `--network` 參數[^3]讓 hardhat 能正確連結到對的網路）
+2. 執行以下指令（注意要指定 `--network` 參數[^3]讓 Hardhat 能連結到正確的網路）
 
 ```Shell
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
@@ -172,7 +172,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
 
 根據上述結果，我們可以發現到執行這個 transaction 的過程會與兩個合約互動 — `0x3b7157E5E732863170597790b4c005436572570F` 和 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`，因此我們可以前往 Etherscan 來查詢這兩個合約的 ABI 分別為何？再搭配 [ABI2Solidity](https://bia.is/tools/abi2solidity/) 把 JSON format ABI 轉成 solidity `interface` format。
 
-5. 按照一般使用 hardhat 套件的習慣，我們在 `contracts` 子目錄底下創建這份 solidity code [^4]
+5. 按照一般使用 Hardhat 的習慣，我們在 `contracts` 子目錄底下創建這份 solidity code [^4]
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
