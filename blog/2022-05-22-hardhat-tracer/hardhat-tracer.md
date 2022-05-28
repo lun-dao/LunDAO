@@ -12,7 +12,7 @@ authors: a2468834
 
 <!--truncate-->
 
-開發大型智能合約（smart contract）專案的過程中，一定少不了與其他合約互動的過程，例如：DEX 聚合器（aggregator）的開發團隊，就必須熟悉如何與各大 DEX contract 直接互動。因此，取得一款好用的工具能快速、簡要、視覺化地呈現出執行一條 transaction 過程中，發生的所有 message call、event log 就顯得格外重要。本文將介紹幾款工具，分別可解析歷史 transaction 及主網分叉 transaction；隨著目前 smart contract 專案日益複雜，開發者對這方面的需求蓬勃發展，因此新套件推陳出新，亦歡迎熱心的讀者前往 LunDAO [Issues](https://github.com/lun-dao/LunDAO/issues) 或 [Discussions](https://github.com/lun-dao/LunDAO/discussions) 頁面與我們分享。
+開發大型智能合約（smart contract）專案的過程中，一定少不了與其他合約做互動，例如：DEX 聚合器（aggregator）的開發團隊，就必須熟悉如何與 DEX 合約直接互動。因此，如何取得一款好用的工具能快速、簡要、視覺化地呈現出執行一條 transaction 過程，包含所有 message call、event log 等，就顯得格外重要，本文將介紹幾款工具可以達成此一目的。隨著目前 smart contract 專案日益複雜，開發者對這方面的需求蓬勃發展，因此新套件推陳出新；非常歡迎熱心的讀者前往 LunDAO [Issues](https://github.com/lun-dao/LunDAO/issues) 或 [Discussions](https://github.com/lun-dao/LunDAO/discussions) 頁面與大家分享。
 
 
 安裝環境與注意事項
@@ -23,19 +23,18 @@ authors: a2468834
 以下列出筆者實際測試能夠運行本文步驟的軟體條件，實際情況必不限於此配置敬請讀者參酌考量。
 
 - Software
-  - Windows
-    - OS：Windows 10 Pro 21H1 (w/o WSL)
-    - nodejs v16.14.2 和 yarn 1.22.18
-  - Linux
-    - OS：Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-1053-raspi aarch64)
-    - nodejs v16.14.2 和 yarn 1.22.18
+  - OS
+    - Windows 10 Pro 21H1 (w/o WSL)
+    - Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-1053-raspi aarch64)
+  - Node.js v16.14.2
+  - Yarn 1.22.18
 
-由於本文後續會涉及主網分叉（mainnet forking）的內容，因此強烈推薦讀者應具備此部分的操作經驗，LunDAO 亦已有此部分一系列教學文章，歡迎多加閱讀並與我們討論。
+由於本文後續會涉及使用 Hardhat Network 的內容，因此強烈推薦讀者應具備此部分操作經驗；LunDAO 亦已有此系列教學文章，歡迎多加閱讀並與大家討論。
 
 
 使用圖形化介面工具
 ---
-假設我們對於這筆 transaction [^1]相當有興趣，那麼筆者分享以下四種不同的方法可解析此交易的執行細節。
+假設我們對於這筆 transaction[^1] 相當有興趣；以下筆者將分享四種方法解析此 transaction 的執行細節。
 
 > 0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998
 
@@ -48,7 +47,7 @@ authors: a2468834
 
 ![etherscan-parity-trace-2](./etherscan-parity-trace-2.png)
 
-此方法呈現的效果較不視覺化，然而應為目前最通用的分析方式；不只 Etherscan 有支援 Parity VM tracer，其它較不熱門的 block explorer 網站應能找到類似功能。
+此方法呈現的效果較不視覺化，然而應為目前最通用的分析方式；不只 Etherscan 有支援 Parity VM tracer，其它的 block explorer 網站應能找到類似功能。
 
 
 ### Etherscan Transaction Decoder
@@ -59,12 +58,12 @@ authors: a2468834
 
 ![etherscan-txn-decoder-2](./etherscan-txn-decoder-2.png)
 
-可以看到 Etherscan 已經幫我們分門別類地將執行 transaction 的過程會發出的 event log、message call 等重要事件，以條列表格的方式呈現出來。
+可以看到 Etherscan 已經分門別類地將執行 transaction 的過程會發出的 event log、message call 等重要事件，以條列表格的方式呈現出來。
 
 
 ### EthTx.info
 
-此服務以一個使用 Python 撰寫的[開源軟體](https://github.com/ethtx/ethtx)所建立，並由 [Token Flow](https://tokenflow.live/) 這間公司所維護，在筆者撰文當下為免費型式公開讓所有開發者自由使用。
+此服務以 Python 撰寫的[開源軟體](https://github.com/ethtx/ethtx)所建立，並由 [Token Flow](https://tokenflow.live/) 團隊所維護，在筆者撰文當下為免費公開讓所有開發者自由使用。
 
 1. 前往 https://ethtx.info/
 2. 選擇正確的網路（此例為 ETH mainnet），並輸入對應的 transaction hash
@@ -78,19 +77,19 @@ authors: a2468834
 
 ![tenderly](tenderly.png)
 
-由於 Tenderly 提供不只分析特定 transaction 細節的功能，還有許多其它實用的工具（例如：simulator、local transaction analysis）；若讀者有興趣的話，較建議註冊一個免費帳號，以啟用更多功能。
+由於 Tenderly 不只提供分析 transaction 的功能，還有需多實用的其它工具（例如：simulator、local transaction analysis）；若讀者有興趣的話，建議可註冊一個免費帳號。
 
-[^1]: 筆者隨機挑選的 transaction，並沒有任何其它特殊用意
+[^1]: 筆者隨機挑選的 transaction hash，並沒有任何特殊用意
 
 
 使用 hardhat-tracer 套件
 ---
 以下開始介紹如何使用 hardhat-tracer 套件解析特定 transaction 的執行內容。由於 hardhat-tracer 會需要向 Ethereum node 發送 `debug_traceTransaction`、`eth_getStorageAt`、`eth_getCode` 等 JSON-RPC method 撈取歷史資料，因此務必確認節點處於歸檔節點（archive node）模式。您可以選擇自行架設[^2] archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。
 
-假設我們想知道這個 transaction [^1] 的詳細運作過程
+假設我們想知道這個 transaction[^1] 的詳細過程
 > 0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c
 
-關於 `hardhat.config.js` 的內容，以下為與此套件有關的部分，其他細節請參考別篇說明文件
+關於 `hardhat.config.js` 的內容，以下僅列出與此套件有關的欄位，其他細節請參考相關說明文件。
 
 ```Javascript
 module.exports = {
@@ -109,19 +108,19 @@ module.exports = {
 
 1. 在資料夾底下安裝 hardhat-tracer 套件（假設該資料夾已安裝完成 Hardhat）
 
-```Shell
+```
 $ yarn add hardhat-tracer
 ```
 
 2. 執行以下指令（注意要指定 `--network` 參數[^3]讓 Hardhat 能連結到正確的網路）
 
-```Shell
+```
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 ```
 
 3. 等候數分鐘之後，就可以看到 terminal 顯示以下資訊
 
-```Shell
+```
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
@@ -137,7 +136,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
 
 4. 以上解析結果為 hardhat-tracer 預設解析模式，僅顯示 event log 和 function call；若您想要一併了解 state variables 的讀寫情況（`SLOAD`、`SSTORE`），那麼可以多加上 `--fulltrace` 參數
 
-```Shell
+```
 $ yarn hardhat --network "hardhat" trace --fulltrace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
@@ -238,7 +237,7 @@ module.exports = {
 
 1. 重新執行 hardhat-tracer 指令，我們可以看到解析結果變得可讀性很高
 
-```Shell
+```
 $ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
 yarn run v1.22.18
 
