@@ -130,21 +130,20 @@ yarn run v1.22.18
 Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
 
 CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
-   EVENT <UnknownContract [TokenSale]>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
+   EVENT <UnknownContract 0x3b7157E5E732863170597790b4c005436572570F>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
    CALL UnknownContractAndFunction(to=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, input=0xd0e30db0, ret=0x)
-      EVENT <UnknownContract [WrappedEther]>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
+      EVENT <UnknownContract 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
 ```
 
 4. 以上解析結果為 hardhat-tracer 預設解析模式，僅顯示 event log 和 function call；若您想要一併了解 state variables 的讀寫情況（`SLOAD`、`SSTORE`），那麼可以多加上 `--fulltrace` 參數
 
 ```Shell
 $ yarn hardhat --network "hardhat" trace --fulltrace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
-
 yarn run v1.22.18
 
 Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
 
-CALL TokenSale.depositETH{value: 40000000000000000}()
+CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
    SLOAD 0x0000000000000000000000000000000000000000000000000000000000000001 => (0x0000000000000000000000000000000000000000000000000000000000000001)
    SSTORE 0x0000000000000000000000000000000000000000000000000000000000000001 <= (0x0000000000000000000000000000000000000000000000000000000000000002)
    SLOAD 0x0000000000000000000000000000000000000000000000000000000000000005 => (0x0000000000000000000000000000000000000000000000000000000062196d80)
@@ -157,28 +156,111 @@ CALL TokenSale.depositETH{value: 40000000000000000}()
    SSTORE 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56e <= (0x000000000000000000000000000000000000000000000000008e1bc9bf040000)
    SLOAD 0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb27 => (0x00000000000000000000000000000000000000000000025e69bc17dc01d0d07f)
    SSTORE 0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb27 <= (0x00000000000000000000000000000000000000000000025e6a4a33a5c0d4d07f)
-   EVENT TokenSale.Deposited(depositor=[Someone], token=[WrappedEther], amount=40000000000000000)
-   CALL WrappedEther.deposit{value: 40000000000000000}()
+   EVENT <UnknownContract 0x3b7157E5E732863170597790b4c005436572570F>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
+   CALL UnknownContractAndFunction(to=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, input=0xd0e30db0, ret=0x)
       SLOAD 0x42dd4d28989ab1eee96fb196b01de4c17c0f145bc71364b95645949f1f133408 => (0x00000000000000000000000000000000000000000000025e69bc17dc01d0d07f)
       SSTORE 0x42dd4d28989ab1eee96fb196b01de4c17c0f145bc71364b95645949f1f133408 <= (0x00000000000000000000000000000000000000000000025e6a4a33a5c0d4d07f)
-      EVENT WrappedEther.Deposit(dst=[TokenSale], wad=40000000000000000)
+      EVENT <UnknownContract 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
    SSTORE 0x0000000000000000000000000000000000000000000000000000000000000001 <= (0x0000000000000000000000000000000000000000000000000000000000000001)
 ```
 
 到這邊為止，我們已經成功使用 hardhat-tracer 套件來解析 transaction 了。然而，以上資訊相比 GUI 來說仍不夠最佳可讀性，尤其合約地址、event 名稱等都以原始型態呈現，造成版面相當冗長且混亂。
 
-所幸 hardhat-tracer 套件提供了
+所幸 hardhat-tracer 套件提供 address name tag 功能，讓我們可以自定義什麼地址要以什麼名稱標籤來顯示。另外，hardhat-tracer 也支援匯入已知合約的程式碼或 `interface`，讓解析結果可以自動帶入該合約來顯示。
 
+根據上述結果，我們可以發現到執行這個 transaction 的過程會與兩個合約互動 — `0x3b7157E5E732863170597790b4c005436572570F` 和 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`，因此我們可以前往 Etherscan 來查詢這兩個合約的 ABI 分別為何？再搭配 [ABI2Solidity](https://bia.is/tools/abi2solidity/) 把 JSON format ABI 轉成 solidity `interface` format。
 
+5. 按照一般使用 hardhat 套件的習慣，我們在 `contracts` 子資料夾底下創建這份 solidity code [^4]
+
+```solidity
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.7;
+
+// Assume that 0x3b7157E5E732863170597790b4c005436572570F is named as "TokenSale".
+interface TokenSale {
+  function WETH (  ) external view returns ( address );
+  function allocateTokensForSale ( uint256 _amount ) external;
+  function availableTokens (  ) external view returns ( uint256 );
+  function deposit ( address _token, uint256 _amount ) external;
+  function depositETH (  ) external;
+  function enableWithdrawals (  ) external;
+  function finalizeRaise (  ) external;
+  function getSupportedTokens (  ) external view returns ( address[] memory );
+  function getTokenOracle ( address _token ) external view returns ( address );
+  function getTokenOracles (  ) external view returns ( address[] memory oracles );
+  function getUserClaimableTokens ( address _user ) external view returns ( uint256 );
+  function owner (  ) external view returns ( address );
+  function renounceOwnership (  ) external;
+  function saleSchedule (  ) external view returns ( uint256 startTimestamp, uint256 endTimestamp );
+  function saleToken (  ) external view returns ( address );
+  function setSaleSchedule ( uint256 _start, uint256 _end ) external;
+  function totalRaisedUSD (  ) external view returns ( uint256 );
+  function transferOwnership ( address newOwner ) external;
+  function transferToTreasury (  ) external;
+  function treasury (  ) external view returns ( address );
+  function userAccounts ( address ) external view returns ( address token, uint256 depositedAmount );
+  function withdraw (  ) external;
+  function withdrawalsEnabled (  ) external view returns ( bool );
+}
+
+//  Assume that 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is named as "WrappedEther".
+interface WrappedEther {
+  function name (  ) external view returns ( string memory );
+  function approve ( address guy, uint256 wad ) external returns ( bool );
+  function totalSupply (  ) external view returns ( uint256 );
+  function transferFrom ( address src, address dst, uint256 wad ) external returns ( bool );
+  function withdraw ( uint256 wad ) external;
+  function decimals (  ) external view returns ( uint8 );
+  function balanceOf ( address ) external view returns ( uint256 );
+  function symbol (  ) external view returns ( string memory );
+  function transfer ( address dst, uint256 wad ) external returns ( bool );
+  function deposit (  ) external payable;
+  function allowance ( address, address ) external view returns ( uint256 );
+}
+```
+
+6. 執行 `$ yarn hardhat compile` 編譯所有 solidity codes
+7. 進入 `hardhat.config.js` 新增以下設定欄位
+
+```Javascript
+module.exports = {
+    tracer: {
+        nameTags: {
+            ["0x3b7157E5E732863170597790b4c005436572570F"]: "TokenSale",
+            ["0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"]: "WrappedEther",
+            ["0xe760f546a925a4cfdcc62a674d14cc42a676c06f"]: "Someone",
+        }
+    },
+};
+```
+
+1. 重新執行 hardhat-tracer 指令，我們可以看到解析結果變得可讀性很高
+
+```Shell
+$ yarn hardhat --network "hardhat" trace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
+yarn run v1.22.18
+
+Seems that it is taking time to fetch the state involved. Please note that this process may take several minutes. A lot of eth_getStorageAt requests are currently being made to the rpc.
+
+CALL TokenSale.depositETH{value: 40000000000000000}()
+   EVENT TokenSale.Deposited(depositor=[Someone], token=[WrappedEther], amount=40000000000000000)
+   CALL WrappedEther.deposit{value: 40000000000000000}()
+      EVENT WrappedEther.Deposit(dst=[TokenSale], wad=40000000000000000)
+```
 
 ### 分析自建網路 transaction
+
+
+
+
+
 
 
 [^2]: 需要準備大容量 SSD，其餘硬體條件較無嚴苛限制（樹梅派 4B 即足以運行 Go-Ethereum）
 
 [^3]: 由於 `debug_traceTransaction` 屬於 Alchemy 需付費的 API method，因此若讀者使用 Growth 以上的方案，那麼您可以直接以 `--network "mainnet"` 連結 Alchemy；另一種免費的替代方案則為改用 Hardhat Network 來解析 transaction，只對 Alchemy 發送 `eth_getStorageAt`、`eth_getCode` 等請求，因此筆者在此以 `--network "hardhat"` 參數舉例
 
-
+[^4]: 如果讀者知道關於待解析 transaction 的所有互動合約的 source code，那麼推薦您可以直接把那些 source code 加入 `contracts` 子資料夾底下做編譯，這樣能讓 hardhat-tracer 顯示結果擁有最高的可讀性；若無法取得所有 source code，則只使用合約們 ABI 所轉成的 `interface` 做編譯亦可。
 
 
 Related resources
