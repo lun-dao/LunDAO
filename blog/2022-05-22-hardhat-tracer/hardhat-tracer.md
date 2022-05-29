@@ -15,6 +15,7 @@ authors: a2468834
 開發大型智能合約（smart contract）專案的過程中，一定少不了與其他合約做互動，例如：DEX 聚合器（aggregator）的開發團隊，就必須熟悉如何與 DEX 合約直接互動。因此，如何取得一款好用的工具能快速、簡要、視覺化地呈現出執行一條 transaction 過程，包含所有 message call、event log 等，就顯得格外重要，本文將介紹幾款工具可以達成此一目的。隨著目前 smart contract 專案日益複雜，開發者對這方面的需求蓬勃發展，因此新套件推陳出新；非常歡迎熱心的讀者前往 LunDAO [Issues](https://github.com/lun-dao/LunDAO/issues) 或 [Discussions](https://github.com/lun-dao/LunDAO/discussions) 頁面與大家分享。
 
 
+
 安裝環境與注意事項
 ---
 
@@ -33,61 +34,12 @@ authors: a2468834
 由於本文後續會涉及使用 Hardhat Network 的內容，因此強烈推薦讀者應具備此部分操作經驗；LunDAO 亦已有此系列教學文章，歡迎多加閱讀並與大家討論。
 
 
-使用圖形化介面工具
----
-假設我們對於這筆 transaction[^1] 相當有興趣；以下筆者將分享四種方法解析此 transaction 的執行細節。
-
-> 0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998
-
-
-### Etherscan Parity Trace
-
-![etherscan-parity-trace-1](./etherscan-parity-trace-1.png)
-
-如上圖所示，點擊「Parity Trace」選項之後，將開啟如同下圖的另一個分頁。
-
-![etherscan-parity-trace-2](./etherscan-parity-trace-2.png)
-
-此方法呈現的效果較不視覺化，然而應為目前最通用的分析方式；不只 Etherscan 有支援 Parity VM tracer，其它的 block explorer 網站應能找到類似功能。
-
-
-### Etherscan Transaction Decoder
-
-![etherscan-txn-decoder-1](./etherscan-txn-decoder-1.png)
-
-如上圖所示，點擊「Transaction Decoder」選項之後，將開啟如同下圖的另一個分頁。
-
-![etherscan-txn-decoder-2](./etherscan-txn-decoder-2.png)
-
-可以看到 Etherscan 已經分門別類地將執行 transaction 的過程會發出的 event log、message call 等重要事件，以條列表格的方式呈現出來。
-
-
-### EthTx.info
-
-此服務以 Python 撰寫的[開源軟體](https://github.com/ethtx/ethtx)所建立，並由 [Token Flow](https://tokenflow.live/) 團隊所維護，在筆者撰文當下為免費公開讓所有開發者自由使用。
-
-1. 前往 https://ethtx.info/
-2. 選擇正確的網路（此例為 ETH mainnet），並輸入對應的 transaction hash
-3. 按下「Decode now」按鈕，並靜候數分鐘（可能因網站壅塞度而有不同）
-
-![ethtx-info](./ethtx-info.png)
-
-### Tenderly
-
-前往 [Tenderly](https://dashboard.tenderly.co/explorer) 官網，在搜尋框當中輸入 transaction hash 並按下送出查詢，即可獲得如下圖所示的網頁。
-
-![tenderly](tenderly.png)
-
-由於 Tenderly 不只提供分析 transaction 的功能，還有需多實用的其它工具（例如：simulator、local transaction analysis）；若讀者有興趣的話，建議可註冊一個免費帳號。
-
-[^1]: 筆者隨機挑選的 transaction hash，並沒有任何特殊用意
-
 
 使用 hardhat-tracer 套件
 ---
-以下開始介紹如何使用 hardhat-tracer 套件解析特定 transaction 的執行內容。由於 hardhat-tracer 會需要向 Ethereum node 發送 `debug_traceTransaction`、`eth_getStorageAt`、`eth_getCode` 等 JSON-RPC method 撈取歷史資料，因此務必確認節點處於歸檔節點（archive node）模式。您可以選擇自行架設[^2] archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。
+由於 hardhat-tracer 會需要向 Ethereum node 發送 `debug_traceTransaction`、`eth_getStorageAt`、`eth_getCode` 等 JSON-RPC method 撈取歷史資料，因此務必確認您已經連接到歸檔節點（archive node）。您可以自行架設[^2] archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。
 
-假設我們想知道這個 transaction[^1] 的詳細過程
+假設我們想知道這個 transaction[^1] 的詳細過程：
 > 0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c
 
 關於 `hardhat.config.js` 的內容，以下僅列出與此套件有關的欄位，其他細節請參考相關說明文件。
@@ -257,6 +209,59 @@ CALL TokenSale.depositETH{value: 40000000000000000}()
 [^3]: 由於 `debug_traceTransaction` 屬於 Alchemy 需付費的 API method，因此若讀者使用 Growth 以上的方案，那麼您可以直接以 `--network "mainnet"` 連結 Alchemy；另一種免費的替代方案則為改用 Hardhat Network 來解析 transaction，只對 Alchemy 發送 `eth_getStorageAt`、`eth_getCode` 等請求，因此筆者在此以 `--network "hardhat"` 參數舉例
 
 [^4]: 如果讀者知道待解析 transaction 的所有互動合約 source code，那麼推薦您直接把那些程式碼加入 `contracts` 子目錄底下做編譯，這樣能讓 hardhat-tracer 顯示結果擁有最高的可讀性；若無法取得所有 source code，則只使用合約們 ABI 所轉成的 `interface` 做編譯亦可。
+
+
+
+使用圖形化介面工具
+---
+除了使用上述套件之外，目前也有許多網站提供免費解析 transaction 的服務。
+
+假設我們想知道以下這筆 transaction[^1] 的執行過程：
+> 0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998
+
+
+### Etherscan Parity Trace
+
+![etherscan-parity-trace-1](./etherscan-parity-trace-1.png)
+
+如上圖所示，點擊「Parity Trace」選項之後，將開啟如同下圖的另一個分頁。
+
+![etherscan-parity-trace-2](./etherscan-parity-trace-2.png)
+
+此方法呈現的效果較不視覺化，然而應為目前最通用的分析方式；不只 Etherscan 有支援 Parity VM tracer，其它的 block explorer 網站應能找到類似功能。
+
+
+### Etherscan Transaction Decoder
+
+![etherscan-txn-decoder-1](./etherscan-txn-decoder-1.png)
+
+如上圖所示，點擊「Transaction Decoder」選項之後，將開啟如同下圖的另一個分頁。
+
+![etherscan-txn-decoder-2](./etherscan-txn-decoder-2.png)
+
+可以看到 Etherscan 已經分門別類地將執行 transaction 的過程會發出的 event log、message call 等重要事件，以條列表格的方式呈現出來。
+
+
+### EthTx.info
+
+此服務以 Python 撰寫的[開源軟體](https://github.com/ethtx/ethtx)所建立，並由 [Token Flow](https://tokenflow.live/) 團隊所維護，在筆者撰文當下為免費公開讓所有開發者自由使用。
+
+1. 前往 https://ethtx.info/
+2. 選擇正確的網路（此例為 ETH mainnet），並輸入對應的 transaction hash
+3. 按下「Decode now」按鈕，並靜候數分鐘（可能因網站壅塞度而有不同）
+
+![ethtx-info](./ethtx-info.png)
+
+### Tenderly
+
+前往 [Tenderly](https://dashboard.tenderly.co/explorer) 官網，在搜尋框當中輸入 transaction hash 並按下送出查詢，即可獲得如下圖所示的網頁。
+
+![tenderly](tenderly.png)
+
+由於 Tenderly 不只提供分析 transaction 的功能，還有需多實用的其它工具（例如：simulator、local transaction analysis）；若讀者有興趣的話，建議可註冊一個免費帳號。
+
+[^1]: 筆者隨機挑選的 transaction hash，並沒有任何特殊用意
+
 
 
 Related resources
