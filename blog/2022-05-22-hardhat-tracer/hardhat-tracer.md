@@ -19,7 +19,7 @@ authors: a2468834
 安裝環境與注意事項
 ---
 
-本文**不會**提供 Hardhat 的安裝指引或基礎教學，相關內容敬請參考 LunDAO 其他文章。
+本文**不會**提供 Hardhat 的安裝指引或基礎教學，相關內容敬請參考 LunDAO 其他文章（例如：[Hardhat 簡介](../2022-04-24-hardhat-intro/index.md)）。
 
 以下列出筆者實際測試能夠運行本文步驟的軟體條件，實際情況必不限於此配置敬請讀者參酌考量。
 
@@ -39,7 +39,7 @@ authors: a2468834
 ---
 由於 hardhat-tracer 會需要向 Ethereum node 發送 `debug_traceTransaction`、`eth_getStorageAt`、`eth_getCode` 等 JSON-RPC method 撈取歷史資料，因此務必確認您已經連接到歸檔節點（archive node）。您可以自行架設[^2] archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。
 
-假設我們想知道這個 transaction[^1] 的詳細過程：
+假設我們想知道這個 transaction[^1] 的詳細過程（View on [Etherscan](https://etherscan.io/tx/0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c)）：
 > 0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c
 
 關於 `hardhat.config.js` 的內容，以下僅列出與此套件有關的欄位，其他細節請參考相關說明文件。
@@ -87,7 +87,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
       EVENT <UnknownContract 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2>.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
 ```
 
-4. 以上解析結果為 hardhat-tracer 預設解析模式，僅顯示 event log 和 function call；若您想要一併了解 state variables 的讀寫情況（`SLOAD`、`SSTORE`），那麼可以多加上 `--fulltrace` 參數
+4. 以上解析結果為 hardhat-tracer 預設解析模式，僅顯示 event log 和 function call；若您想要一併了解 state variables 的讀寫情況（[`SLOAD`](https://www.evm.codes/#54)、[`SSTORE`](https://www.evm.codes/#55)），那麼可以多加上 `--fulltrace` 參數
 
 ```
 $ yarn hardhat --network "hardhat" trace --fulltrace --hash "0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c"
@@ -122,7 +122,7 @@ CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, i
 
 所幸 hardhat-tracer 套件提供 address name tag 功能，讓我們可以自定義什麼地址要以什麼名稱標籤來顯示。另外，hardhat-tracer 也支援匯入已知合約的程式碼或 `interface`，讓解析結果可以自動帶入該合約來顯示。
 
-根據上述結果，我們可以發現到執行這個 transaction 的過程會與兩個合約互動 — `0x3b7157E5E732863170597790b4c005436572570F` 和 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`，因此我們可以前往 Etherscan 來查詢這兩個合約的 ABI 分別為何？再搭配 [ABI2Solidity](https://bia.is/tools/abi2solidity/) 把 JSON format ABI 轉成 solidity `interface` format。
+根據上述結果，我們可發現執行 transaction 的過程會與兩個合約互動 — `0x3b7157E5E732863170597790b4c005436572570F` 和 `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`；因此，我們可以前往 Etherscan 來查詢這些合約的 ABI，再搭配 [ABI2Solidity](https://bia.is/tools/abi2solidity/) 來把 JSON format 轉成 solidity `interface` format。
 
 5. 按照一般使用 Hardhat 的習慣，我們在 `contracts` 子目錄底下創建這份 solidity code [^4]
 
@@ -174,7 +174,7 @@ interface WrappedEther {
 ```
 
 6. 執行 `$ yarn hardhat compile` 編譯所有 solidity codes
-7. 進入 `hardhat.config.js` 新增以下設定欄位
+7. 進入 `hardhat.config.js` 新增以下欄位，讓特定 address 以開發者自定義的名稱標籤（name tage）顯示
 
 ```Javascript
 module.exports = {
@@ -216,7 +216,7 @@ CALL TokenSale.depositETH{value: 40000000000000000}()
 ---
 除了使用上述套件之外，目前也有許多網站提供免費解析 transaction 的服務。
 
-假設我們想知道以下這筆 transaction[^1] 的執行過程：
+假設我們想知道以下這筆 transaction[^1] 的執行過程（View on [Etherscan](https://etherscan.io/tx/0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998)）：
 > 0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998
 
 
