@@ -45,6 +45,8 @@ authors: a2468834
 關於 `hardhat.config.js` 的內容，以下僅列出與此套件有關的欄位，其他細節請參考相關說明文件。
 
 ```Javascript
+require("hardhat-tracer");
+
 module.exports = {
     networks: {
         mainnet: {
