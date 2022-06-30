@@ -74,6 +74,22 @@ sidebar_position: 101
 |yurenju    |0x8fa26cda1a3a8c0c89d01261689a63418d436d24|2026.666667     |76           |100      |
 |zjiekai    |0x9d1870d70f197bdf59b996bb31a20ffed2ffca87|1466.666667     |55           |100      |
 
+### 六月份發送
+本次發送時間因為工作太忙的關係晚了一個月才發送，總數一樣為 8000 LUN。
+
+- 日期：2022/06/29
+- 交易紀錄：[0x5a5413f95941bcd03776521e74cb6a5e091b7d1a4abcf3902bd5c74f73ea9d60](https://arbiscan.io/tx/0x5a5413f95941bcd03776521e74cb6a5e091b7d1a4abcf3902bd5c74f73ea9d60)
+
+|name    |address                                   |LUN distribution|GIVE received|GIVE sent|
+|--------|------------------------------------------|----------------|-------------|---------|
+|hydai   |0x9a76d78f203ec6f7289bb0178cb6c25f18a9911e|1116.666667     |67           |100      |
+|zjiekai |0x9d1870d70f197bdf59b996bb31a20ffed2ffca87|833.3333333     |50           |100      |
+|gasolin |0xfda995eb398750319a2d5e8a4766c02e54db24b8|200             |12           |0        |
+|ccwang  |0x81e9d67543fae31cebeb47c9ffbb0cd67c4475c6|1783.333333     |107          |0        |
+|yhsiang |0xf19654b1b9b8f4cfdf28ccb8e9049ca859baa7d9|750             |45           |100      |
+|wiasliaw|0x66fa22aefb2cf14c1fa45725c36c2542521c0d3e|1866.666667     |112          |80       |
+|yurenju |0x8fa26cda1a3a8c0c89d01261689a63418d436d24|1450            |87           |100      |
+
 
 
 [1]: https://github.com/lun-dao/LunDAO/blob/main/contributors.csv
