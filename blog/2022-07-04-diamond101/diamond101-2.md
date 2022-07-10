@@ -10,113 +10,89 @@ authors: wiasliaw
 
 <!--truncate-->
 
-上一篇[文章](./diamond101-1.md)提到，Diamond 設計了一個 Lookup Table 用來紀錄 function selector 和要調用的合約地址進去，當需要調用合約時則會透過 `msg.sig` 查詢 Lookup Table，並 delegatecall 到紀錄的地址。
+## Contract Architecture
 
-## Storage Management
+首先來看一下使用 EIP-2535 的合約架構圖。EIP-2535 發明了很多術語，圖中 **Diamond** 就是 Proxy Contract，**Facet** 就是 Logic Contract。一有合約調用，則會先在 Lookup Table 查詢有沒有 selector 的資料，然後調用 delegatecall 過去，資料一樣寫在 Proxy 裡面。
 
-先看看之前的 Proxy 怎麼管理 storage。Transparent Proxy 跟 UUPS 主要的 storage layout 都是定義在 Logic Contract 上，Proxy 紀錄的地址都會儲存在特定的 slot 上 (參考 EIP-1967)， Upgrade 時則換掉記錄在 Proxy 上的地址，對開發者來說只要處理好新的 Logic Contract 不要跟舊的合約發生 storage collision 即可。
+![](./diamond_structure.png)
 
-而 Diamond 的 Lookup Table 則需要儲存不同的 function selector 和對應的地址之外，因為一個 Diamond Contract 可能註冊了數個 Logic Contract 在 Lookup Table 中，還需要處理不同 Logic Contract 可能造成的 side effect。
+## Lookup Table
 
-舉例一下，看看下面兩個 Logic Contract，如果註冊到 Diamond 裡面會發生什麼事？因為兩個函式的 side effect 都是作用在同一個 slot 上，先調用 `setA` 寫入的數值之後再調用 `setB` 就會被覆寫掉。而 Solidity 沒有那麼聰明知道這個 slot 專屬於哪個 Logic Contract 並防止其他 Logic Contract 寫入，因此以 Diamond 設計的合約架構需要設計一套 storage 的管理機制來限制 Logic Contract。
+Lookup Table 的資料結構可以以 `mapping` 或是 array 等來設計，作者以 `bytes4[]` 和 `mapping` 一起使用，主要是為了達成 Enumerable 的特性。另外為了避免 storage collision，也將 Lookup Table 放到特定的 storage 裡面。
 
-```javascript
-contract LogicA {
-  uint256 private _a; // slot 0
+**Lookup Table** 的資料結構和 storage slot
+```js
+bytes32 constant DIAMOND_STORAGE_POSITION = keccak256("diamond.standard.diamond.storage");
 
-  function setA(uint256 a_) external {
-    _a = a_;
-  }
+struct FacetAddressAndSelectorPosition {
+    address facetAddress;
+    uint16 selectorPosition;
 }
 
-contract LogicB {
-  uint256 private _b; // slot 0
-
-  function setB(uint256 b_) external {
-    _b = b_;
-  } 
-}
-```
-
-### 1. EIP-1967
-
-EIP-2535 沒有規定如何管理 storage。但是作者在其他文章提出相關的做法。第一個是參考 EIP-1967 將資料擺到特定的 slot 上。每個 Logic Contract 都定義一個特定的地方來放資料就不會發生 storage collision 了。實作上有很多手法，像是 `abstract contract` 或是 `library` 並在裡面寫死要擺在哪個 slot，可以輕易達成 reuseable 的需求。
-
-拿上面兩個合約修改，如下。Solidity 可以 inline assembly 指定要資料要放到哪個 slot 裡，通常以一段字串的雜湊作為特定的 index 儲存。
-```javascript
-contract LogicA {
-  bytes32 constant private _slot_a = keccak256("logic_a");
-
-  struct AStorage {
-    uint256 value; // slot[keccak256("logic_a")]
-  }
-
-  function _storage() private pure returns (AStorage storage s) {
-      bytes32 position = _slot_a;
-      assembly {
-          s.slot := position
-      }
-  }
-
-  function setA(uint256 a_) external {
-    _storage().value = a_;
-  }
-}
-
-contract LogicB {
-  bytes32 constant private _slot_b = keccak256("logic_b");
-
-  struct BStorage {
-    uint256 value; // slot[keccak256("logic_b")]
-  }
-
-  function _storage() private pure returns (BStorage storage s) {
-      bytes32 position = _slot_b;
-      assembly {
-          s.slot := position
-      }
-  }
-
-  function setB(uint256 b_) external {
-    _storage().value = b_;
-  } 
+struct DiamondStorage {
+    // function selector => facet address and selector position in selectors array
+    mapping(bytes4 => FacetAddressAndSelectorPosition) facetAddressAndSelectorPosition;
+    bytes4[] selectors;
+    mapping(bytes4 => bool) supportedInterfaces;
+    // owner of the contract
+    address contractOwner;
 }
 ```
 
-### 2. AppStorage
+## Loupe
 
-作者提出的另外一個作法稱為 `AppStorage`，在每個合約都定義好一模一樣的 layout，就不會有誤寫到其他 slot 了。可以參考 [aavegotchi](https://github.com/aavegotchi/aavegotchi-contracts/blob/ff456818465623d9d718869da9047ddce54d9a6e/contracts/Aavegotchi/libraries/LibAppStorage.sol#L189) 怎麼定義 AppStorage 的。
+實作了 Lookup Table 查詢功能的 Facet 稱為 Loupe，主要功能為 Lookup Table 的查詢。為何 Lookup Table 的資料結構那麼複雜，看看這堆查詢函式能什麼資料就知道了。
 
-拿上面兩個合約修改，如下：
-```javascript
-contract LogicA {
-  struct GlobalStruct {
-    uint256 a; // slot 0
-    uint256 b; // slot 1
-  }
+```js
+interface IDiamondLoupe {
+    struct Facet {
+        address facetAddress;
+        bytes4[] functionSelectors;
+    }
 
-  GlobalStruct private _gs;
+    function facets() external view returns (Facet[] memory facets_);
 
-  function setA(uint256 a_) external {
-    _gs.a = a_;
-  }
-}
+    function facetFunctionSelectors(address _facet) external view returns (bytes4[] memory facetFunctionSelectors_);
 
-contract LogicB {
-  struct GlobalStruct {
-    uint256 a; // slot 0
-    uint256 b; // slot 1
-  }
+    function facetAddresses() external view returns (address[] memory facetAddresses_);
 
-  GlobalStruct private _gs;
-
-  function setB(uint256 b_) external {
-    _gs.b = b_;
-  } 
+    function facetAddress(bytes4 _functionSelector) external view returns (address facetAddress_);
 }
 ```
 
-## Reference
+## diamondCut
 
-- [eip2535 diamonds substack](https://eip2535diamonds.substack.com/)
-- [aavegotchi contract](https://github.com/aavegotchi/aavegotchi-contracts)
+`diamondCut` 則是一個函式，專門管理（新增、刪除、修正）Lookup Table。
+
+```js
+interface IDiamondCut {
+    // Add = 0, Replace = 1, Remove = 2
+    enum FacetCutAction {Add, Replace, Remove}
+
+    struct FacetCut {
+        address facetAddress;
+        FacetCutAction action;
+        bytes4[] functionSelectors;
+    }
+
+    function diamondCut(
+        FacetCut[] calldata _diamondCut,
+        address _init,
+        bytes calldata _calldata
+    ) external;
+
+    event DiamondCut(FacetCut[] _diamondCut, address _init, bytes _calldata);
+}
+```
+
+## Glossary
+
+列出 EIP2535 發明的術語
+
+- **diamond**: Proxy Contract
+- **facet**: Logic Contract
+- **loupe**: 一個實作 Diamond 查詢介面的 Facet
+- **diamondCut**: 一個特定的函式名稱，專門用來管理（新增、刪除、修正）Lookup Table
+- **Upgradeable Diamond**: 有註冊 `diamondCut` 的 Diamond Contract，可以註冊新的函式到 Lookup Table 裡做升級
+- **Finished Diamond**: 一個 Upgradeable Diamond，歷經升級迭代後功能都完全了，最後將 `diamondCut` 移除 Lookup Table
+- **Single Cut Diamond**: 只在 constructor 註冊 function 進註冊表，部署完成後就不能做任何升級
