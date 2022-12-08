@@ -3,6 +3,7 @@ title: LLAMMA - crvUSD 的新清算機制
 description: LLAMMA 是 Curve 團隊發表的穩定幣 crvUSD 的新清算方式，本文將會講解 LLAMMA 清算方式以及 crvUSD 的穩定機制。
 slug: crvusd
 tags: [curve, crvusd, llamma, amm]
+image: ./liquidation-of-LLAMMA.png
 authors: yurenju
 ---
 
