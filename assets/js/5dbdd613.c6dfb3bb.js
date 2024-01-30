@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[6614],{9430:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/curve","name":"curve","count":1,"permalink":"/blog/tags/curve"}')}}]);

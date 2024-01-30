@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[5557],{63:s=>{s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/solidity","name":"solidity","count":1,"permalink":"/blog/tags/solidity"}')}}]);

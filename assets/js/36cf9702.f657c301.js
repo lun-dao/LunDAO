@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[4195],{1109:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/mainnet-forking","name":"Mainnet Forking","count":2,"permalink":"/blog/tags/mainnet-forking"}')}}]);

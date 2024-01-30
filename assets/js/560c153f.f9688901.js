@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[423],{5515:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/erc-20","name":"ERC20","count":1,"permalink":"/blog/tags/erc-20"}')}}]);

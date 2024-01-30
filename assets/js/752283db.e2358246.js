@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[6947],{363:l=>{l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/plugin","name":"Plugin","count":1,"permalink":"/blog/tags/plugin"}')}}]);

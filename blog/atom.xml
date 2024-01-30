@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lundao.tech/blog</id>
+    <title>LunDAO Blog</title>
+    <updated>2024-01-30T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lundao.tech/blog"/>
+    <subtitle>LunDAO Blog</subtitle>
+    <icon>https://lundao.tech/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[LunDAO 的結尾]]></title>
+        <id>end-of-lundao</id>
+        <link href="https://lundao.tech/blog/end-of-lundao"/>
+        <updated>2024-01-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[經過這段時間的運作之後可以發現，DAO 的本質就是社群，他跟一般的愛好者群體並無不同，就如同台灣的各種愛好者社群如程式語言社群、開放源碼社群等等相同，都會需要在參與社群時產生足夠的誘因，不論是內在成因如「這個社群的成員很有趣」、「我在這邊學習到了技術」，或是相對外在的成因「我可以獲得一些名氣甚至經濟回饋」等，這些有形與無形的回饋才可以讓社群持續的滾動茁壯。]]></summary>
+        <content type="html"><![CDATA[<p>嗨我是 Yuren。經過了一段時間的沉寂之後，覺得該是時間來寫篇文章作為這個社群的回顧與結尾了。</p><p>LunDAO 的成立目標是希望鼓勵撰寫與 Ethereum 相關的中文文章，作為獎勵則是希望可以運行一個微型的經濟體制可以產生足夠的誘因，透過 LUN 代幣獎勵技術文章作者。</p><p>但是經過這段時間的運作之後可以發現，DAO 的本質就是社群，他跟一般的愛好者群體並無不同，就如同台灣的各種愛好者社群如程式語言社群、開放源碼社群等等相同，都會需要在參與社群時產生足夠的誘因，不論是內在成因如「這個社群的成員很有趣」、「我在這邊學習到了技術」，或是相對外在的成因「我可以獲得一些名氣甚至經濟回饋」等，這些有形與無形的回饋才可以讓社群持續的滾動茁壯。</p><p>但這些事情並不會沒來由的就發生，而是需要成員持續投入心力才可以逐漸的滾動這個輪子。</p><p>我很喜歡的漫畫《迷宮飯》的故事是傳統地城迷宮冒險裡面講述的日常料理故事。裡面有個角色<strong>先西</strong>是一直在迷宮裡面自給自足的矮人，當他的隊友發現是因為先西在迷宮裡面打掃廁所才讓地城的環境如此乾淨時，隊友問他為什麼要這麼做？先西回答：</p><blockquote><p>我不作的話，那誰要來維護迷宮的廁所？誰能夠扶起倒下的巨魔像？巨魔像消失後其他魔物就會跑上來，這邊就會完全變了樣，不論是行走或是狩獵都無法隨心所欲的進行了。</p><p>迷宮跟農田都是一樣的道理，不能棄之不顧又想要享受好處。更重要的是食用這裡栽種的農作物並且回饋給迷宮，持續那樣的生活之後，才終於覺得自己真正融入了這座迷宮，而這讓我很開心。</p></blockquote><p>社群也是這樣的道理，在使用著社群資源的同時，有時候會忽略了保持整潔乾淨的背後，是有社群長工在打理才可以有著這麼良好的環境。在 LunDAO 之前，有許多長工都在默默的維護著區塊鏈社群的環境，不論是 <a href="https://medium.com/taipei-ethereum-meetup">Taipei Ethereum Meetup</a> 與陸陸續續出現的寫作社群如 <a href="https://medium.com/defi-taiwan/tagged/defi">DeFi 燒酒螺</a>、<a href="https://medium.com/cryptocow">CryptoCow</a> 都一樣，背後都是需要人持續維持才有辦法好好運行。</p><p>LunDAO 沒有足夠的活力持續的運作，主要的原因還是在於沒有辦法產生足夠的社群動力，而確實我也沒有投注夠多的能量，並且沒有持續思考與發掘社群成員寫作的內在動機後轉換成動力，而變成可以永續經營的模樣。</p><p>不過當執行過這個專案後，反過來又更感激這些不同群體的人們。不論這些寫作社群是否活躍中，我們都曾經接手打理過這個開放的網路空間，讓冒險者經過時，有個良好的文獻記載（偶爾有點過時與古老）與休息的地方，可以讓他們可以儲備能量繼續往更深的地城迷宮探索。</p><p>雖然 LunDAO 寫到了結尾，不過我還是覺得這是個好實驗，也謝謝大家的參與。</p><p>未來網域還會留存一年。即使網域過期了，文章還是會持續保存在 GitHub 上面，而各作者對於自己的文章當然擁有所有權，也歡迎自行備份文章或轉發。社群剩下的資金將會捐贈給 Taipei Ethereum Meetup 作為推廣寫作與日常營運用途。</p><p>雖然我自己不會繼續投注心力在 LunDAO 上面，不過在技術寫作的道路還是會繼續下去。那我們就在別的地方見囉。</p><p><img src="./cover_end-of-lundao.jpg" alt="cover_end-of-lundao.jpg"/></p>]]></content>
+        <author>
+            <name>Yuren Ju</name>
+            <uri>https://yurenju.medium.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LLAMMA - crvUSD 的新清算機制]]></title>
+        <id>crvusd</id>
+        <link href="https://lundao.tech/blog/crvusd"/>
+        <updated>2022-12-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[LLAMMA 是 Curve 團隊發表的穩定幣 crvUSD 的新清算方式，本文將會講解 LLAMMA 清算方式以及 crvUSD 的穩定機制。]]></summary>
+        <content type="html"><![CDATA[<p>2022 年底 FTX 大爆炸的同時，Curve 團隊釋出了最新的 crvUSD 穩定幣設計白皮書。在這份白皮書裡面提出了新的穩定幣清算機制 LLAMMA (Lending-Liquidating AMM Algorithm)，而這樣的清算機制其實不只可以用在穩定幣上面，其他有清算需求的專案也都可以參考這樣的設計。除了清算機制以外，白皮書內也提及了如何跟美金錨定的穩定機制與合約 PegKeeper。</p><p>本篇文章會著重解釋 LLAMMA 的機制，並且透過 curve-stablecoin 裡面的源碼以及測試案例來解釋 crvUSD 清算機制，並且概略的提到 crvUSD 的穩定機制。</p><h2>前情提要</h2><p>在進入正題前，我們會先解釋一些相關的概念來幫助讀者進入主題，以下會先解釋抵押品穩定幣、DAI 的清算方式以及傳統 AMM 的運作方式。</p><h3>抵押品穩定幣</h3><p>首先 crvUSD 是一個抵押品穩定幣，這也代表所鑄造出來的 crvUSD 背後都有超過發行額度的抵押品來支撐價值，同時在抵押品價格下跌時會觸發清算程序來確保穩定幣背後都有足夠的價值支撐，最著名的抵押品穩定幣為 MakerDAO 的 DAI。</p><p>相對於抵押品穩定幣的是算法穩定幣，透過演算法而非抵押品來保證穩定幣與美金的錨定，這類穩定幣近期最著名的是 Terra 的 UST。</p><h3>DAI 的清算方式</h3><p>DAI 是透過超額抵押的方式提供穩定幣價值支撐的抵押品穩定幣。比如說當使用者抵押 3500 等值美金的 ETH 時，可以鑄造出 2000 美金等值的 DAI。但如果 ETH 價格下跌到一定程度時，使用者的抵押品就會被標記成可清算。</p><p>這個清算過程中，抵押品如 ETH 會用折扣的方式出售，所有人都可以來參與折扣的抵押品競標。比如說在 ETH 價格為 2900 美金時，系統會以 2800 美金的價格出售，這就會吸引套利者前來競標。</p><p>當清算結束後，如果抵押品拍賣的價格比較好，其中一部分的抵押品可能就不會被清算掉，此時就會還給債務人。但是大部分的抵押品通常都會被清算導致損失慘重，即使價格回穩，但清算已經造成傷害。</p><p><img src="traditional-liquidation.png" alt="traditional liquidation.png"/></p><p>接下來會講解傳統的 AMM 運作方式作為 LLAMMA 的特殊設計 AMM 的對照參考。</p><h3>傳統 AMM 的運作方式</h3><p>以 Uniswap V3 為例，使用者可以透過 Range Order 的方式來提供流動性。比如說當 ETH 為 3000 USD 時，使用者可以把 1 ETH + 0 USD 放入 Uniswap V3 裡面，並且指定在 3200 - 3800 USD 的區間換成 USD。</p><p><img src="tranditional-AMM.png" alt="tranditional-AMM.png"/></p><p>當 ETH 進入上述區間之後，1 ETH 就會慢慢的被換成 USD，當超過 3800 USD 時，所有的 ETH 都會被換成 USD，這個效果很像在中心化交易所當中從 3200 一路掛限價單 (Limit Order) 到 3800 USD 的效果。</p><p>但跟限價單不同的是如果此時價格又跌回 3000 後，在 Uniswap v3 上面所有的 USD 又會被換回 ETH。</p><p>反方向來說，使用者也可以提供比如 3000 USD + 0 ETH，並且指定佈署在 2000 - 2500 USD 的區間，當價格下跌時，USD 就會逐漸的被換成 ETH，直到低於 2000 USD 時，所有的 USD 都會被換成 ETH。</p><h2>LLAMMA</h2><p>crvUSD 跟 DAI 一樣也是抵押品穩定幣，但新設計了一種清算演算法 LLAMMA，其結合 AMM 的特性讓抵押品在價格下跌時逐漸轉移成穩定幣，讓原本要清償的債務有一定程度的穩定幣可以償還，同時在價格回穩時再逐漸把穩定幣換回抵押品，而不是硬生生的觸發清算導致債務人的虧損。</p><p>鑄造 crvUSD 的時候同樣的會需要存入抵押品如 ETH 到智能合約來，不一樣的是這個抵押品會被放入一個 LLAMMA 特殊設計的 AMM 當中。跟 Uniswap 的 Range Order 一樣，剛存入抵押品到 AMM 時會以單邊的形式存在，而當抵押品價格下跌到一定程度時，就會逐漸換成穩定幣。</p><p>舉例來說當 ETH 價格為 3000 美金的時候，使用者可以抵押 1 ETH 到系統的智能合約裡面。此時系統會鑄造出 crvUSD 給使用者，同時抵押的 1 ETH 會被類似 Uniswap v3 的方式被放入一個特殊的 AMM 裡面，比如說流動性會被放在 500-550 USD 這個區間當中，而所取得的 LP 代幣則會只有單邊的 1 ETH + 0 crvUSD 流動性。</p><p><img src="liquidity-of-LLAMMA.png" alt="liquidity-of-LLAMMA.png"/></p><p>當 ETH 價格跌到 550 USD 以下時，系統會開始慢慢的把 ETH 換成 crvUSD，當跌到 500 USD 以下時，所有的流動性就會變成 crvUSD。當價格跌到這個區間時，系統將會用比市場上更便宜的價格售出 ETH，此時就會吸引市場上的人來到這個特殊的 AMM 裡面來買 ETH 來獲得折扣價。</p><p>因為系統會逐漸的把抵押品 ETH 換成穩定幣 crvUSD，所以就不會像 DAI 一樣到硬清算門檻後就直接把所有抵押品都清算掉。更進一步的是當抵押品 ETH 的價格如果回穩後，使用者的流動性又會逐漸的從穩定幣 crvUSD 換成 ETH。</p><p><img src="liquidation-of-LLAMMA.png" alt="liquidation-of-LLAMMA.png"/></p><p>不過這個換回抵押品的過程也可能出現 Path-Dependence 的問題，我們在最後的<strong>結論與疑問</strong>章節來討論這個問題。</p><p>這邊有三件事情要特別注意：</p><ol><li>LLAMMA 跟傳統 AMM 的方向相反：傳統 AMM 放入單邊資產之後，要價格提升才可以換成另外一邊，而 LLAMMA 的特殊 AMM 則是價格下跌之後才會換成另外一個資產（穩定幣）</li><li>LLAMMA 需要依賴外部的預言機 (Oracle) 價格：因為 LLAMMA 需要賣的比外面的更便宜，所以會需引入預言機價格，才可以知道有流動性的時候要如何折扣定價來吸引套利者，外部價格跟內部價格差距越大時，<strong>LLAMMA 就會給出更多折扣</strong>。 </li><li>crvUSD 還是有清算機制：雖然可以透過 LLAMMA 的特殊 AMM 逐漸轉換成穩定幣，但是如果債務健康狀況太糟糕，還是會有最後的清算機制</li></ol><h2>透過測試案例解釋實際運作方式</h2><p>crvUSD 除了白皮書以外也釋出了<a href="https://github.com/curvefi/curve-stablecoin">源碼</a>，其中的測試案例 <a href="https://github.com/curvefi/curve-stablecoin/blob/2a35957b578b8c74a9b7140b33960d58cb9e3ec4/tests/lendborrow/test_create_repay.py#L9">test_create_loan</a> 正好覆蓋了整個借款過程，這邊利用這個測試案例來解釋整個流程會更容易理解。</p><p>為了得到更多資訊，我 fork 了原本的源碼並且在目標的測試案例裡面印出了更多資訊（不太熟悉 Vyper 環境，只能用比較土砲的作法），有興趣的可以參考下面的 commit 了解我做了什麼修改：</p><p><a href="https://github.com/yurenju/curve-stablecoin/commit/c3bf52353f41914deb82f1c1c97dcbc5de2d72e4">https://github.com/yurenju/curve-stablecoin/commit/c3bf52353f41914deb82f1c1c97dcbc5de2d72e4</a></p><p>首先要先解釋一下波段 (band)。</p><h3>波段 (band)</h3><p>波段是當使用者把抵押品存入系統時，抵押品會被存入的區段，當預言機價格移動到這個區間時，使用者的抵押品就會開始被轉換成穩定幣。而剛開始建立 AMM 時會根據預言機的價格切分波段，其中預言機價格所在的波段會是波段 0 (band 0)，預言機價格越低，波段編號越高。</p><p><img src="bands-and-oracle-price.png" alt="bands-and-oracle-price.png"/></p><p>比如說創建 AMM 的時候預言機報價 3000 USD，此時波段 0 的價格帶會是 2970 - 3000，而波段 1 的價格帶是 2970.0 - 2940.3。而由於目前價格落在波段 0，所以 <code>AMM.active_band()</code> 就會回傳 0。</p><p>至於每個區間的價格寬度則由 AMM 建構子所傳入的 A (Amplification) 決定，公式為：</p><p>$$
+\frac{p<em>{\downarrow}}{p</em>{\uparrow}}=\frac{A-1}{A}
+$$</p><p>舉例來說，當價格上界 $p<em>\uparrow$ 為 3000 而 A 為 100 時，價格下界 $p</em>\downarrow$ 則為：</p><p>$$
+\begin{aligned}
+p<em>{\downarrow} &amp;=\frac{p</em>{\uparrow}(A-1)}{A} =\frac{3000(100-1)}{100} = 2970
+\end{aligned}
+$$</p><p>每個波段的價格下界正好會接著上個波段的價格上界形成一個連續的流動性區間，如果想知道該波段所代表的預言機價格上下界，可以用以下兩個函式查詢： </p><ul><li><code>AMM.p_oracle_up(band_number)</code></li><li><code>AMM.p_oracle_down(band_number)</code></li></ul><p>當每次有人借出 crvUSD 或是有人跟 AMM 交易時，系統會根據當下的外部預言機價格與目前的流動性交易情形來更新現行的區段 <code>amm.active_band</code>。</p><p>而在 <code>active_band</code> 裡面的流動性則會開始被交易，也就是抵押品可以被交易成為穩定幣，反之亦然。當 <code>active_band</code> 的流動性被交易殆盡後，會跳到下一個波段繼續交易，並且更新 <code>active_band</code> 到下一個波段。</p><h3>存入抵押品來鑄造 crvUSD</h3><p>根據測試案例 <a href="https://github.com/curvefi/curve-stablecoin/blob/2a35957b578b8c74a9b7140b33960d58cb9e3ec4/tests/lendborrow/test_create_repay.py#L9">test_create_loan</a> 的前置條件如下：</p><ul><li>抵押品為 WETH，目前<a href="https://github.com/curvefi/curve-stablecoin/blob/2a35957b578b8c74a9b7140b33960d58cb9e3ec4/tests/conftest.py#L9">價格為 3000 USD</a></li><li>穩定幣為 crvUSD</li></ul><p>使用者呼叫 <code>Controller.create_loan(collateral, debt, number_of_bands)</code> 來鑄造穩定幣，存入了 <a href="https://github.com/curvefi/curve-stablecoin/blob/2a35957b578b8c74a9b7140b33960d58cb9e3ec4/tests/lendborrow/test_create_repay.py#L15">1000 WETH</a>，欲<a href="https://github.com/curvefi/curve-stablecoin/blob/2a35957b578b8c74a9b7140b33960d58cb9e3ec4/tests/lendborrow/test_create_repay.py#L17">鑄造或是說借出 500,000 crvUSD</a>，並且將流動性佈署在 5 個波段內：</p><pre><code class="language-python">market_controller.create_loan(1000 ETH, 500000 crvUSD, 5)
+</code></pre><p>此時系統會根據抵押品數量、欲鑄造的穩定幣數量決定要把流動性放在哪五個波段內。要決定是哪五個波段，可以透過 <code>Controller.calculate_debt_n1(collateral, debt, bands)</code> 來得到上界的波段，再加上波段總數 5 就可以取得下界。</p><p>以這個例子而言，<code>calculate_debt_n1(1000 WETH, 500000 crvUSD, 5)</code> 所回傳的上界 n1 為 <code>170</code>，總共放在五個波段內，所以下界就是 <code>174</code>。</p><p>若想查詢這個連續波段的上下界的預言機價格，可以用 <code>AMM.p_oracle_up(170)</code> 跟 <code>AMM.p_oracle_down(174)</code> 取得。這個連續的波段價格上界為 543.38，下界則為 516.75。這也代表當外部的預言機價格降到這個區間時，使用者存入的抵押品會在 AMM 裡面被以比預言機報價更便宜的價格賣出，讓套利者會想要到系統內買到更便宜的抵押品獲利。</p><p>存入的抵押品將會平均的佈署在這五個波段上，也可以透過 <code>AMM.bands_y(band_number)</code> 來取得特定波段的抵押品數量，比如說 <code>bands_y(170)</code> 會得到該波段總共有 200 WETH 的抵押品，查詢 170 - 174 都會是 200 WETH。</p><h3>跟 LLAMMAS 交易折扣的 WETH 抵押品</h3><p>curve-stablecoin 提供了許多方便的工具可以使用，如測試用的預言機讓我們可以直接修改預言機價格進行測試。</p><p>我們可以透過 <code>price_oracle.set_price(p)</code> 來改變預言機價格。這邊我們用 <code>set_price(540)</code> 把價格從 3000 改成 540，這也是波段 170 的範圍。使用 <code>p_oracle_up(170)</code> 與 <code>p_oracle_down(170)</code> 可以得知波段 170 的範圍約是  543.38 - 537.95。</p><p>此時呼叫 <code>AMM.exchange(0, 1, in_amount, 0)</code> 可以用 crvUSD 交換 WETH 資產。若使用 100 crvUSD 可以交換到約 0.185634 WETH，平均價格為 538.69 crvUSD，相較起來會比起預言機價格的 540 USD 更為便宜。</p><p>假設上面這個交易沒有進行，但是預言機價格調到 535 USD，也就是調整到波段 171 時，此時再進行同樣的交易用 100 crvUSD 交易 WETH，則平均價格則為 523.87 crvUSD，這也說明了預言機價格也會影響 AMM 的內部價格，當預言機價格變低時，AMM 拋售抵押品的價格也會進一步的降低，讓套利者願意到系統裡面來套利，進一步的協助債務人的債務有更多穩定幣支撐。</p><h2>crvUSD 的穩定機制 PegKeeper</h2><p>crvUSD 除了透過 LLAMMA 來執行轉換與清算外，還有另外一個模組 PegKeeper 合約進行穩定幣的錨定功能。</p><p>這邊會使用到一個 Curve 一般的 AMM 穩定幣交易池 StableSwap，裡面的代幣對是 crvUSD 以及另外一個 LP 代幣如 3Crv 進而組合成的 MetaPool。</p><p>當 crvUSD 的價格高於 1 USD 時（比如說 crvUSD 的使用需求增加），PegKeeper 會鑄造出無抵押的 crvUSD 並且注入這個 StableSwap。此時套利者發現市場上的 crvUSD 價格高於 1 USD，但是這個 StableSwap 價格卻接近 1 USD 時就會到 StableSwap Pool 來套利，進而讓市場上的 crvUSD 價格下跌靠近 1 USD。</p><p>當 crvUSD 價格低於 1 USD 時，反過來 PegKeeper 可以從 StableSwap 抽出資金並且銷毀，並且讓套利者進來重新平衡價格，讓市場上的 crvUSD 上漲靠近 1 USD。</p><p>這個 PegKeeper 合約雖然可以鑄造與銷毀 crvUSD，但它在智能合約的邏輯限制只能夠針對特定的 StableSwap 池子注入與抽出 crvUSD  來限制用途。</p><h2>結論與疑問</h2><p>本篇文章解釋了 crvUSD 所提出的新清算方式 LLAMMA 透過 AMM 的特性進行針對債務人更友善的清算/轉換方式，並且透過測試案例來一窺 crvUSD 實際運作的方式，並且概略的解釋了 PegKeeper 透過 Curve MetaPool 來進行的穩定機制。</p><h3>LLAMMA 清算機制</h3><p>LLAMMA 是個新的概念，套用了 AMM 的 range order 特性到清算機制來，確實對於債務人更有友善，當價格回穩的時候損失的程度就會大幅降低。</p><p>相較於其他具備清算流程的穩定幣與借貸平台如 MakerDAO, Compound, AAVE 來說，這些平台在清算時會需要仰賴外部的去中心化交易所 (DEX) 協助清算。當外部的 DEX 流動性不足時，穩定幣/借貸平台就有可能產生壞帳。</p><p>比如說如果有個大戶持有 1M 的 CRV 資產作為抵押需要清算時，傳統的平台會透過折扣的方式一次出清這 1M 的資產，此時如果外部 DEX 流動性不足導致滑價太高，讓參與清算的利益不足進而降低清算者參與的意願時，無人清算的狀況下就會導致壞帳。</p><p>而 LLAMMA 因為內建了流動性的關係，當資產價值下跌時，抵押品會被逐漸的換成穩定幣，而最後真的需要清算的部位就會比傳統平台要小得多。以上面的例子來說 1M 的 CRV 在價格下跌時就會逐漸的被換成穩定幣，最終真的觸及硬清算門檻時，或許只剩下 1% 的資產需要清算，對於外部 DEX 的流動性的依賴就會低很多，加強平台的自主運作能力。</p><p>但交換代幣的折扣也會帶來一些隱憂。Paradigm 的首席研究員 Dan Robinson 在 <a href="https://twitter.com/danrobinson/status/1595090420740112385">他的 Tweet</a> 提到 LLAMMA 會有 <strong>Path-Dependence</strong> 的問題。由於 LLAMMA 內部用的 AMM （以下稱為 LLAMM）的定價 $p$ 會參考外部預言機的定價 $p_o$，我們假設外部的預言機價格來源以及 AMM 都是 Uniswap 來解釋這個問題。</p><p>當 ETH 價格從 1000 USD 變化到 1200 USD 的過程當中，假設 LLAMM 會需要在這個區段來把穩定幣換回抵押品。這個過程中 LLAMM 有可能會在換回抵押品的過程中承受價差的損失，端看外部價格 $p_o$ 的變化速度，我們來看價格緩慢上漲跟快速上漲的兩種狀況：</p><p><strong>價格緩慢上漲</strong>：當 $p_o$ 價格緩慢上漲時，LLAMM 內部的價格會參考 $p_o$ 定價，用稍微高一點的價格收購 ETH，比如說 $p_o = \text{1000 USD}$ 時賣 1010 USD ，套利者就會在 Uniswap 買 ETH，在 LLAMM 賣 ETH。ETH 賣出之後 LLAMM 內部的價格就會慢慢靠近 1000 USD，所以在這個緩慢上漲的流程中，LLAMM 池子可能會以些微折扣的方式買回 ETH，比如說均價為 1150 USD。</p><p><strong>價格快速上漲</strong>：當 $p_o$ 快速從 1000 USD 上漲到 1200 USD 時，快到套利者沒有在這之間進行套利。此時因為 $p_o = \text{1200 USD}$，而 LLAMM 內部的價格為了要跟上外部預言機的價格，它就會用更高的價格收購 ETH，就可以吸引套利者在 Uniswap 買 ETH 並且在 LLAMM 賣 ETH。如此一來轉換 ETH 的均價就會高於 1200 USD。</p><p>如果站在 LLAMM 池子的角度來說，價格緩慢上漲的狀況會讓收購價格比較合理，但是如果遇到快速上漲時，就會造成 LLAMM 池子承受價差損失，而這個價差損失也就是債務人的損失。</p><p>當然，如果跟完全被清算相較起來，或許這樣的價差損失還是比較小。但由於之中還有許多不確定的因素，還會需要更多的資訊來判斷可能造成的損失程度。</p><p>總體來說，LLAMMA 確實是一個可以進一步研究的新清算方法，而且不一定是穩定幣，有需要清算的場合如借貸平台或是去中心化的衍生性商品協議也可以考慮用同樣的清算方式來減低債務人在清算抵押品帶來的損失。</p><h3>PegKeeper 穩定機制</h3><p>至於 PegKeeper 透過 Curve MetaPool 所進行的穩定掛勾方式，我則比較存疑。如果說 DAI 是透過升息、降息的方式調整市場熱度，PegKeeper 則是更為激進直接透過類似量化寬鬆/緊縮的方式印出鈔票投到所需的市場。當然透過智能合約的限制還是會比起量化寬鬆更為透明，但是還需要進一步深究是否有影響市場經濟所帶來的副作用。</p><p>另外一方面在這個穩定錨定用的 MetaPool 當中新鑄造的 crvUSD 是無抵押生成的，或者是說是以另外一側的 LP 代幣如 3crv 作為抵押生成，而透過套利者的搬運來讓 crvUSD 重新錨定到 1 美金，實際上會損害流動性提供者的利益。因為套利者透過價差套利時，流動性提供者就作為他的對家承受損失。</p><p>這方面還不知道交易費是否足以覆蓋價差的損失，可能還需要進一步的機制去補償流動性提供者才可以完成整個穩定機制。如果沒有獎勵機制，要如何鼓勵使用者來為 crvUSD 提供穩定機制？這也是目前白皮書並沒有涵蓋到的概念。</p><h3>結語</h3><p>但 crvUSD 目前也還沒有上線，相信未來這些疑問還可以進一步的被回答或是改善，也期待他們正式上線來驗證他們的想法。</p><p>最後如果你對本文有任何的問題，歡迎到 <a href="https://github.com/lun-dao/LunDAO/discussions/100">討論區</a> 提出！</p><p>文末想感謝審稿人 <a href="https://github.com/paco0x">@paco0x</a> 對本文的貢獻，感謝他提供了 Path-Dependence 以及 LLAMMA 減低外部流動性依賴的相關資訊。關於文章審稿的討論，請見 <a href="https://github.com/lun-dao/LunDAO/pull/101">Pull Request #101</a>。</p>]]></content>
+        <author>
+            <name>Yuren Ju</name>
+            <uri>https://yurenju.medium.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diamond 101 (4)]]></title>
+        <id>diamond101-4</id>
+        <link href="https://lundao.tech/blog/diamond101-4"/>
+        <updated>2022-11-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EIP-2535 Diamond Contract]]></summary>
+        <content type="html"><![CDATA[<p>本文為 Diamond 101 系列的第四篇文章，來討論這個 EIP 著名反方的意見。</p><p>在 2020 十月的時候，一間著名的審計公司寫了一篇非常知名的文章，這篇文章直到現在都還會被拿來認為是 Diamond 的反面教材。標題非常聳動，直接說明 Diamond 是個 bad design。以下來看看 Trait of Bits 找到了什麼。</p><p><img src="./trait_of_bits.png" alt="https://blog.trailofbits.com/2020/10/30/good-idea-bad-design-how-the-diamond-standard-falls-short/"/></p><h2>a. Over-engineered code</h2><h3>IDiamondCut</h3><p>看看原本 EIP 相關的實作，<code>diamondCut</code> 是 diamond 唯一的升級函式，但是這個函式設計的非常複雜。Diamond 是一個 Lookup Table 記錄 function selector 對應的地址，升級還分成 Add/Remove/Replace 三種，各自還有不同的檢查，一般的升級合約只分成 Set/Unset 兩種。這增加了很多升級複雜度。</p><p>不過在詢問過作者為何不是 Set/Unset 之後，作者給我的理由我也可以理解。<code>diamondCut</code> 會在一筆 transaction 裡面更新許多的地址，針對不同的行爲做檢查避免前後的修改發生錯誤。</p><h3>IDiamondLoupe</h3><p>這部分的程式碼複雜則是因為真的「over-engineered」，連帶造成資料欄位設計複雜。</p><p>Lookup Table 設計上極為簡單，<code>mapping(bytes4 =&gt; address)</code> 這樣就好了。頂多也只有 <code>IDiamondCut</code> 在升級過程需要做不少處理。</p><p>再來看看 <code>IDiamondLoupe</code> 提供什麼樣的 view function，一共四個：</p><ul><li><code>facets</code>: 提供所有註冊在 Lookup Table 的 logic contract 的地址和所有註冊過的 function selector</li><li><code>facetFunctionSelectors</code>: 提供一個 logic contract 所有註冊過的 function selector</li><li><code>facetAddresses</code>: 提供所有註冊在 Lookup Table 的 logic contract 的地址</li><li><code>facetAddress</code>: 尋找 selector 是哪個 logic contract 所提供的</li></ul><pre><code class="language-solidity">interface IDiamondLoupe {
+  struct Facet {
+    address facetAddress;
+    bytes4[] functionSelectors;
+  }
+
+  function facets() external view returns (Facet[] memory facets_);
+
+  function facetFunctionSelectors(address _facet) external view returns (bytes4[] memory facetFunctionSelectors_);
+
+  function facetAddresses() external view returns (address[] memory facetAddresses_);
+
+  function facetAddress(bytes4 _functionSelector) external view returns (address facetAddress_);
+}
+</code></pre><p>這四個函式造成 Lookup Table 需要額外記錄所有的 function selector，所以 storage 長成了這副模樣。這是個 Enumerable Set，一半的 view function 需要將整個 Set 掃過一次，這應該我頭一個看到「為了查詢使得複雜度變高的設計」。</p><pre><code class="language-solidity">struct FacetAddressAndSelectorPosition {
+  address facetAddress;
+  uint16 selectorPosition;
+}
+
+struct DiamondStorage {
+  mapping(bytes4 =&gt; FacetAddressAndSelectorPosition) facetAddressAndSelectorPosition;
+  bytes4[] selectors;
+}
+</code></pre><h2>b. Storage pointer risks</h2><p>這是所有使用 unstructured storage 作為管理 storage 的通病。unstructured storage 是將資料儲存到特定 slot 的 storage 管理方式，但是這樣的手法不會輸出成 storage layout 的檔案，所以也沒辦法用 slither 等工具分析。</p><pre><code class="language-solidity">assembly {
+  ds.slot := PTR
+}
+</code></pre><h2>c. Function shadowing</h2><p>Function shadowing 是指 Proxy 上有實作一些 external function，所以同樣 function selector 的函式不會被 delegatecall 到 logic contract 執行，而是在 proxy 上被執行。但是我在現在的 repo 沒有看到這類問題。</p><h2>d. No contract existence check</h2><p>Diamond 是在升級過程中檢查，只有合法地址才可以寫入 lookup table，但是 Trait of Bits 只看到 fallback function 沒檢查。</p><h1>Conclusion</h1><p>總結來說，Trait of Bits 檢查到的 security issue 很多都是不存在的，除了 over-engineered 還有變高的 gas cost 之外，Lookup Table 加上 unstructured storage 的確可以做到只升級單一個函式，而且升級可以有更多的彈性，不過也需要開發者熟悉更多的知識和管理多個 logic contract 所產生的問題。</p><p>題外話，這個 EIP 今年終於 Final 了，Openzeppelin 也打算要支援 EIP-2535，需要來寫一篇來為這系列收尾 XDD</p><p><img src="./diamond_final.png" alt="https://twitter.com/mudgen/status/1582918237380960256"/></p><h1>Reference</h1><ul><li><a href="https://blog.trailofbits.com/2020/10/30/good-idea-bad-design-how-the-diamond-standard-falls-short/">Good idea, bad design: How the Diamond standard falls short</a></li></ul>]]></content>
+        <author>
+            <name>wiasliaw</name>
+            <uri>https://github.com/wiasliaw</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diamond 101 (2)]]></title>
+        <id>diamond101-2</id>
+        <link href="https://lundao.tech/blog/diamond101-2"/>
+        <updated>2022-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EIP-2535 Diamond Contract]]></summary>
+        <content type="html"><![CDATA[<p>本文為 Diamond 101 系列的第二篇文章，將解釋這個 EIP 具體的實作細節。</p><h2>Contract Architecture</h2><p>首先來看一下使用 EIP-2535 的合約架構圖。EIP-2535 發明了很多術語，圖中 <strong>Diamond</strong> 就是 Proxy Contract，<strong>Facet</strong> 就是 Logic Contract。一有合約調用，則會先在 Lookup Table 查詢有沒有 selector 的資料，然後調用 delegatecall 過去，資料一樣寫在 Proxy 裡面。</p><p><img src="./diamond_structure.png"/></p><h2>Lookup Table</h2><p>Lookup Table 的資料結構可以以 <code>mapping</code> 或是 array 等來設計，作者以 <code>bytes4[]</code> 和 <code>mapping</code> 一起使用，主要是為了達成 Enumerable 的特性。另外為了避免 storage collision，也將 Lookup Table 放到特定的 storage 裡面。</p><p><strong>Lookup Table</strong> 的資料結構和 storage slot</p><pre><code class="language-js">bytes32 constant DIAMOND_STORAGE_POSITION = keccak256(&quot;diamond.standard.diamond.storage&quot;);
+
+struct FacetAddressAndSelectorPosition {
+    address facetAddress;
+    uint16 selectorPosition;
+}
+
+struct DiamondStorage {
+    // function selector =&gt; facet address and selector position in selectors array
+    mapping(bytes4 =&gt; FacetAddressAndSelectorPosition) facetAddressAndSelectorPosition;
+    bytes4[] selectors;
+    mapping(bytes4 =&gt; bool) supportedInterfaces;
+    // owner of the contract
+    address contractOwner;
+}
+</code></pre><h2>Loupe</h2><p>實作了 Lookup Table 查詢功能的 Facet 稱為 Loupe，主要功能為 Lookup Table 的查詢。為何 Lookup Table 的資料結構那麼複雜，看看這堆查詢函式能什麼資料就知道了。</p><pre><code class="language-js">interface IDiamondLoupe {
+    struct Facet {
+        address facetAddress;
+        bytes4[] functionSelectors;
+    }
+
+    function facets() external view returns (Facet[] memory facets_);
+
+    function facetFunctionSelectors(address _facet) external view returns (bytes4[] memory facetFunctionSelectors_);
+
+    function facetAddresses() external view returns (address[] memory facetAddresses_);
+
+    function facetAddress(bytes4 _functionSelector) external view returns (address facetAddress_);
+}
+</code></pre><h2>diamondCut</h2><p><code>diamondCut</code> 則是一個函式，專門管理（新增、刪除、修正）Lookup Table。</p><pre><code class="language-js">interface IDiamondCut {
+    // Add = 0, Replace = 1, Remove = 2
+    enum FacetCutAction {Add, Replace, Remove}
+
+    struct FacetCut {
+        address facetAddress;
+        FacetCutAction action;
+        bytes4[] functionSelectors;
+    }
+
+    function diamondCut(
+        FacetCut[] calldata _diamondCut,
+        address _init,
+        bytes calldata _calldata
+    ) external;
+
+    event DiamondCut(FacetCut[] _diamondCut, address _init, bytes _calldata);
+}
+</code></pre><h2>Glossary</h2><p>列出 EIP2535 發明的術語</p><ul><li><strong>diamond</strong>: Proxy Contract</li><li><strong>facet</strong>: Logic Contract</li><li><strong>loupe</strong>: 一個實作 Diamond 查詢介面的 Facet</li><li><strong>diamondCut</strong>: 一個特定的函式名稱，專門用來管理（新增、刪除、修正）Lookup Table</li><li><strong>Upgradeable Diamond</strong>: 有註冊 <code>diamondCut</code> 的 Diamond Contract，可以註冊新的函式到 Lookup Table 裡做升級</li><li><strong>Finished Diamond</strong>: 一個 Upgradeable Diamond，歷經升級迭代後功能都完全了，最後將 <code>diamondCut</code> 移除 Lookup Table</li><li><strong>Single Cut Diamond</strong>: 只在 constructor 註冊 function 進註冊表，部署完成後就不能做任何升級</li></ul>]]></content>
+        <author>
+            <name>wiasliaw</name>
+            <uri>https://github.com/wiasliaw</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diamond 101 (3)]]></title>
+        <id>diamond101-3</id>
+        <link href="https://lundao.tech/blog/diamond101-3"/>
+        <updated>2022-07-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EIP-2535 Diamond Contract]]></summary>
+        <content type="html"><![CDATA[<p>本文為 Diamond 101 系列的第三篇文章，將解釋這個 EIP 具體的實作細節。</p><p>上一篇<a href="./diamond101-2.md">文章</a>介紹了 Diamond 的 Lookup Table，用來紀錄 function selector 和要調用的合約地址進去，當需要調用合約時則會透過 <code>msg.sig</code> 查詢 Lookup Table，並 delegatecall 到紀錄的地址。</p><h2>Storage Management</h2><p>先看看之前的 Proxy 怎麼管理 storage。Transparent Proxy 跟 UUPS 主要的 storage layout 都是定義在 Logic Contract 上，Proxy 紀錄的地址都會儲存在特定的 slot 上 (參考 EIP-1967)， Upgrade 時則換掉記錄在 Proxy 上的地址，對開發者來說只要處理好新的 Logic Contract 不要跟舊的合約發生 storage collision 即可。而 Diamond 要管理 Lookup Table 的 storage 還有數個 Logic Contract 要儲存和寫入的 storage。這邊以「不同 Logic Contract 的處理」舉例。</p><p>看看下面兩個 Logic Contract，如果註冊到 Diamond 裡面會發生什麼事？因為兩個函式的 side effect 都是作用在同一個 slot 上，先調用 <code>setA</code> 寫入的數值之後再調用 <code>setB</code> 就會被覆寫掉。而 Solidity 沒有那麼聰明知道這個 slot 專屬於哪個 Logic Contract 並防止其他 Logic Contract 寫入，因此以 Diamond 設計的合約架構需要設計一套 storage 的管理機制來限制 Logic Contract。</p><pre><code class="language-javascript">contract LogicA {
+  uint256 private _a; // slot 0
+
+  function setA(uint256 a_) external {
+    _a = a_;
+  }
+}
+
+contract LogicB {
+  uint256 private _b; // slot 0
+
+  function setB(uint256 b_) external {
+    _b = b_;
+  } 
+}
+</code></pre><h3>1. EIP-1967</h3><p>EIP-2535 沒有規定如何管理 storage。但是作者在其他文章提出相關的做法。第一個是參考 EIP-1967 將資料擺到特定的 slot 上。每個 Logic Contract 都定義一個特定的地方來放資料就不會發生 storage collision 了。Lookup Table 也是一樣，放到特定的 slot 上，也不會和 LogicA, LogicB 發生 storage collision。</p><p>拿上面兩個合約修改，如下。Solidity 可以 inline assembly 指定要資料要放到哪個 slot 裡，通常以一段字串的雜湊作為特定的 index 儲存。</p><pre><code class="language-javascript">contract LogicA {
+  bytes32 constant private _slot_a = keccak256(&quot;logic_a&quot;);
+
+  struct AStorage {
+    uint256 value; // slot[keccak256(&quot;logic_a&quot;)]
+  }
+
+  function _storage() private pure returns (AStorage storage s) {
+      bytes32 position = _slot_a;
+      assembly {
+          s.slot := position
+      }
+  }
+
+  function setA(uint256 a_) external {
+    _storage().value = a_;
+  }
+}
+
+contract LogicB {
+  bytes32 constant private _slot_b = keccak256(&quot;logic_b&quot;);
+
+  struct BStorage {
+    uint256 value; // slot[keccak256(&quot;logic_b&quot;)]
+  }
+
+  function _storage() private pure returns (BStorage storage s) {
+      bytes32 position = _slot_b;
+      assembly {
+          s.slot := position
+      }
+  }
+
+  function setB(uint256 b_) external {
+    _storage().value = b_;
+  } 
+}
+</code></pre><h3>2. AppStorage</h3><p>作者提出的另外一個作法稱為 <code>AppStorage</code>，在每個合約都定義好一模一樣的 layout，就不會有誤寫到其他 slot 了。可以參考 <a href="https://github.com/aavegotchi/aavegotchi-contracts/blob/ff456818465623d9d718869da9047ddce54d9a6e/contracts/Aavegotchi/libraries/LibAppStorage.sol#L189">aavegotchi</a> 怎麼定義 AppStorage 的。不過 aavegotchi 中 Lookup Table 還是使用 EIP-1967 的方式放在別的 slot。</p><p>拿上面兩個合約修改，如下：</p><pre><code class="language-javascript">contract LogicA {
+  struct GlobalStruct {
+    uint256 a; // slot 0
+    uint256 b; // slot 1
+  }
+
+  GlobalStruct private _gs;
+
+  function setA(uint256 a_) external {
+    _gs.a = a_;
+  }
+}
+
+contract LogicB {
+  struct GlobalStruct {
+    uint256 a; // slot 0
+    uint256 b; // slot 1
+  }
+
+  GlobalStruct private _gs;
+
+  function setB(uint256 b_) external {
+    _gs.b = b_;
+  } 
+}
+</code></pre><h2>Reference</h2><ul><li><a href="https://eip2535diamonds.substack.com/">eip2535 diamonds substack</a></li><li><a href="https://github.com/aavegotchi/aavegotchi-contracts">aavegotchi contract</a></li></ul>]]></content>
+        <author>
+            <name>wiasliaw</name>
+            <uri>https://github.com/wiasliaw</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardhat tracer]]></title>
+        <id>hardhat-tracer</id>
+        <link href="https://lundao.tech/blog/hardhat-tracer"/>
+        <updated>2022-05-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如何利用 Hardhat tracer 套件來解析特定的交易]]></summary>
+        <content type="html"><![CDATA[<p>本文章將展示如何使用知名開發框架 Hardhat 的附加元件「hardhat-tracer」，令開發者能視覺化地了解特定 transaction 運作過程，加速開發流程與降低除錯難度。</p><p>開發大型智能合約（smart contract）專案的過程中，一定少不了與其他合約做互動，例如：DEX 聚合器（aggregator）的開發團隊，就必須熟悉如何與 DEX 合約直接互動。因此，如何取得一款好用的工具能快速、簡要、視覺化地呈現出執行一條 transaction 過程，包含所有 message call、event log 等，就顯得格外重要，本文將介紹幾款工具可以達成此一目的。隨著目前 smart contract 專案日益複雜，開發者對這方面的需求蓬勃發展，因此新套件推陳出新；非常歡迎熱心的讀者前往 LunDAO <a href="https://github.com/lun-dao/LunDAO/issues">Issues</a> 或 <a href="https://github.com/lun-dao/LunDAO/discussions">Discussions</a> 頁面與大家分享。</p><h2>安裝環境與注意事項</h2><p>本文<strong>不會</strong>提供 Hardhat 的安裝指引或基礎教學，相關內容敬請參考 LunDAO 其他文章（例如：<a href="../2022-04-24-hardhat-intro/index.md">Hardhat 簡介</a>）。</p><p>以下列出筆者實際測試能夠運行本文步驟的軟體條件，實際情況必不限於此配置敬請讀者參酌考量。</p><ul><li>Software<ul><li>OS<ul><li>Windows 10 Pro 21H1 (w/o WSL)</li><li>Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-1053-raspi aarch64)</li></ul></li><li>Node.js v16.14.2</li><li>Yarn 1.22.18</li><li>hardhat-tracer v1.1.0-<strong>rc.6</strong></li></ul></li></ul><p>由於本文後續會涉及使用 Hardhat Network 的內容，因此強烈推薦讀者應具備此部分操作經驗；LunDAO 亦已有此系列教學文章，歡迎多加閱讀並與大家討論。</p><h2>使用 hardhat-tracer 套件</h2><p>由於 hardhat-tracer 會需要向 Ethereum node 發送 <code>debug_traceTransaction</code>、<code>eth_getStorageAt</code>、<code>eth_getCode</code> 等 JSON-RPC method 撈取歷史資料，因此務必確認您已經連接到歸檔節點（archive node）。您可以自行架設<sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup> archive node，或使用節點供應商提供的服務；在筆者撰文的當下，Alchemy 仍有提供免費 Ethereum mainnet archive node，因此筆者選擇使用此服務。</p><p>假設我們想知道這個 transaction<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> 的詳細過程（View on <a href="https://etherscan.io/tx/0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c">Etherscan</a>）：</p><blockquote><p>0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c</p></blockquote><p>關於 <code>hardhat.config.js</code> 的內容，以下僅列出與此套件有關的欄位，其他細節請參考相關說明文件。</p><pre><code class="language-Javascript">require(&quot;hardhat-tracer&quot;);
+
+module.exports = {
+    networks: {
+        mainnet: {
+          url: process.env.AlchemyURL,
+        },
+        hardhat: {
+            forking: {
+                url: process.env.AlchemyURL,
+            }
+        },
+    },
+};
+</code></pre><ol><li>在資料夾底下安裝 hardhat-tracer 套件（假設該資料夾已安裝完成 Hardhat）</li></ol><pre><code>$ yarn add hardhat-tracer
+</code></pre><ol start="2"><li>執行以下指令（注意要指定 <code>--network</code> 參數<sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup>讓 Hardhat 能連結到正確的網路）</li></ol><pre><code>$ yarn hardhat --network &quot;hardhat&quot; trace --hash &quot;0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c&quot;
+</code></pre><ol start="3"><li>等候數分鐘之後，就可以看到 terminal 顯示以下資訊</li></ol><pre><code>$ yarn hardhat --network &quot;hardhat&quot; trace --hash &quot;0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c&quot;
+yarn run v1.22.18
+
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
+
+CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
+   EVENT &lt;UnknownContract 0x3b7157E5E732863170597790b4c005436572570F&gt;.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
+   CALL UnknownContractAndFunction(to=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, input=0xd0e30db0, ret=0x)
+      EVENT &lt;UnknownContract 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&gt;.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
+</code></pre><ol start="4"><li>以上解析結果為 hardhat-tracer 預設解析模式，僅顯示 event log 和 function call；若您想要一併了解 state variables 的讀寫情況（<a href="https://www.evm.codes/#54"><code>SLOAD</code></a>、<a href="https://www.evm.codes/#55"><code>SSTORE</code></a>），那麼可以多加上 <code>--fulltrace</code> 參數</li></ol><pre><code>$ yarn hardhat --network &quot;hardhat&quot; trace --fulltrace --hash &quot;0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c&quot;
+yarn run v1.22.18
+
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
+
+CALL UnknownContractAndFunction(to=0x3b7157e5e732863170597790b4c005436572570f, input=0xf6326fb3, ret=0x)
+   SLOAD 0x0000000000000000000000000000000000000000000000000000000000000001 =&gt; (0x0000000000000000000000000000000000000000000000000000000000000001)
+   SSTORE 0x0000000000000000000000000000000000000000000000000000000000000001 &lt;= (0x0000000000000000000000000000000000000000000000000000000000000002)
+   SLOAD 0x0000000000000000000000000000000000000000000000000000000000000005 =&gt; (0x0000000000000000000000000000000000000000000000000000000062196d80)
+   SLOAD 0x0000000000000000000000000000000000000000000000000000000000000006 =&gt; (0x00000000000000000000000000000000000000000000000000000000621d6200)
+   SLOAD 0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb26 =&gt; (0x0000000000000000000000005f4ec3df9cbd43714fe2740f5e3616155c5b8419)
+   SLOAD 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56d =&gt; (0x0000000000000000000000000000000000000000000000000000000000000000)
+   SLOAD 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56d =&gt; (0x0000000000000000000000000000000000000000000000000000000000000000)
+   SSTORE 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56d &lt;= (0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2)
+   SLOAD 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56e =&gt; (0x0000000000000000000000000000000000000000000000000000000000000000)
+   SSTORE 0xe49870035e3714aceb7aadebead18a1e5a95f2d32ab68a7ffb99d8329af3a56e &lt;= (0x000000000000000000000000000000000000000000000000008e1bc9bf040000)
+   SLOAD 0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb27 =&gt; (0x00000000000000000000000000000000000000000000025e69bc17dc01d0d07f)
+   SSTORE 0x5cc08dfcef394bb3e1501dd9c602b313a910bc96e6e3b9f14c10c5608560cb27 &lt;= (0x00000000000000000000000000000000000000000000025e6a4a33a5c0d4d07f)
+   EVENT &lt;UnknownContract 0x3b7157E5E732863170597790b4c005436572570F&gt;.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0x8752a472e571a816aea92eec8dae9baf628e840f4929fbcc2d155e6233ff68a7, 0x000000000000000000000000e760f546a925a4cfdcc62a674d14cc42a676c06f, 0x000000000000000000000000c02aaa39b223fe8d0a0e5c4f27ead9083c756cc2])
+   CALL UnknownContractAndFunction(to=0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2, input=0xd0e30db0, ret=0x)
+      SLOAD 0x42dd4d28989ab1eee96fb196b01de4c17c0f145bc71364b95645949f1f133408 =&gt; (0x00000000000000000000000000000000000000000000025e69bc17dc01d0d07f)
+      SSTORE 0x42dd4d28989ab1eee96fb196b01de4c17c0f145bc71364b95645949f1f133408 &lt;= (0x00000000000000000000000000000000000000000000025e6a4a33a5c0d4d07f)
+      EVENT &lt;UnknownContract 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&gt;.UnknownEvent(0x000000000000000000000000000000000000000000000000008e1bc9bf040000, [0xe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c, 0x0000000000000000000000003b7157e5e732863170597790b4c005436572570f])
+   SSTORE 0x0000000000000000000000000000000000000000000000000000000000000001 &lt;= (0x0000000000000000000000000000000000000000000000000000000000000001)
+</code></pre><p>到這邊為止，我們已經成功使用 hardhat-tracer 套件來解析 transaction 了。然而，以上資訊在合約地址、event 名稱等部分，以原始型態呈現造成版面冗長且混亂，不利於我們閱讀。</p><p>所幸 hardhat-tracer 套件提供 address name tag 功能，讓我們可以自定義什麼地址要以什麼名稱標籤來顯示。另外，hardhat-tracer 也支援匯入已知合約的程式碼或 <code>interface</code>，讓解析結果可以自動帶入該合約來顯示。</p><p>根據上述結果，我們可發現執行 transaction 的過程會與兩個合約互動 — <code>0x3b7157E5E732863170597790b4c005436572570F</code> 和 <code>0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2</code>；因此，我們可以前往 Etherscan 來查詢這些合約的 ABI，再搭配 <a href="https://bia.is/tools/abi2solidity/">ABI2Solidity</a> 來把 JSON format 轉成 solidity <code>interface</code> format。</p><ol start="5"><li>按照一般使用 Hardhat 的習慣，我們在 <code>contracts</code> 子目錄底下創建這份 solidity code <sup id="fnref-4"><a href="#fn-4" class="footnote-ref">4</a></sup></li></ol><pre><code class="language-solidity">// SPDX-License-Identifier: GPL-3.0
+pragma solidity 0.8.7;
+
+// Assume that 0x3b7157E5E732863170597790b4c005436572570F is named as &quot;TokenSale&quot;.
+interface TokenSale {
+  function WETH (  ) external view returns ( address );
+  function allocateTokensForSale ( uint256 _amount ) external;
+  function availableTokens (  ) external view returns ( uint256 );
+  function deposit ( address _token, uint256 _amount ) external;
+  function depositETH (  ) external;
+  function enableWithdrawals (  ) external;
+  function finalizeRaise (  ) external;
+  function getSupportedTokens (  ) external view returns ( address[] memory );
+  function getTokenOracle ( address _token ) external view returns ( address );
+  function getTokenOracles (  ) external view returns ( address[] memory oracles );
+  function getUserClaimableTokens ( address _user ) external view returns ( uint256 );
+  function owner (  ) external view returns ( address );
+  function renounceOwnership (  ) external;
+  function saleSchedule (  ) external view returns ( uint256 startTimestamp, uint256 endTimestamp );
+  function saleToken (  ) external view returns ( address );
+  function setSaleSchedule ( uint256 _start, uint256 _end ) external;
+  function totalRaisedUSD (  ) external view returns ( uint256 );
+  function transferOwnership ( address newOwner ) external;
+  function transferToTreasury (  ) external;
+  function treasury (  ) external view returns ( address );
+  function userAccounts ( address ) external view returns ( address token, uint256 depositedAmount );
+  function withdraw (  ) external;
+  function withdrawalsEnabled (  ) external view returns ( bool );
+}
+
+//  Assume that 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 is named as &quot;WrappedEther&quot;.
+interface WrappedEther {
+  function name (  ) external view returns ( string memory );
+  function approve ( address guy, uint256 wad ) external returns ( bool );
+  function totalSupply (  ) external view returns ( uint256 );
+  function transferFrom ( address src, address dst, uint256 wad ) external returns ( bool );
+  function withdraw ( uint256 wad ) external;
+  function decimals (  ) external view returns ( uint8 );
+  function balanceOf ( address ) external view returns ( uint256 );
+  function symbol (  ) external view returns ( string memory );
+  function transfer ( address dst, uint256 wad ) external returns ( bool );
+  function deposit (  ) external payable;
+  function allowance ( address, address ) external view returns ( uint256 );
+}
+</code></pre><ol start="6"><li>執行 <code>$ yarn hardhat compile</code> 編譯所有 solidity codes</li><li>進入 <code>hardhat.config.js</code> 新增以下欄位，讓特定 address 以開發者自定義的名稱標籤（name tage）顯示</li></ol><pre><code class="language-Javascript">module.exports = {
+    tracer: {
+        nameTags: {
+            [&quot;0x3b7157E5E732863170597790b4c005436572570F&quot;]: &quot;TokenSale&quot;,
+            [&quot;0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2&quot;]: &quot;WrappedEther&quot;,
+            [&quot;0xe760f546a925a4cfdcc62a674d14cc42a676c06f&quot;]: &quot;Someone&quot;,
+        }
+    },
+};
+</code></pre><ol start="8"><li>重新執行 hardhat-tracer 指令，我們可以看到可讀性變得很高（比起 step 3 來說）</li></ol><pre><code>$ yarn hardhat --network &quot;hardhat&quot; trace --hash &quot;0xca722f52d743bfecb555993d64439aa6e6653914ad87073fb27bfbe42f67d62c&quot;
+yarn run v1.22.18
+
+Seems that it is taking time to fetch the state involved.
+Please note that this process may take several minutes.
+A lot of eth_getStorageAt requests are currently being made to the rpc.
+
+CALL TokenSale.depositETH{value: 40000000000000000}()
+   EVENT TokenSale.Deposited(depositor=[Someone], token=[WrappedEther], amount=40000000000000000)
+   CALL WrappedEther.deposit{value: 40000000000000000}()
+      EVENT WrappedEther.Deposit(dst=[TokenSale], wad=40000000000000000)
+</code></pre><h2>使用圖形化介面工具</h2><p>除了使用上述套件之外，目前也有許多網站提供免費解析 transaction 的服務。</p><p>假設我們想知道以下這筆 transaction<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup> 的執行過程（View on <a href="https://etherscan.io/tx/0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998">Etherscan</a>）：</p><blockquote><p>0x4a7c2dabf8695f18835ff2aeb133df1a89f0af3759b1832e493bee10e721d998</p></blockquote><h3>Etherscan Parity Trace</h3><p><img src="./etherscan-parity-trace-1.png" alt="etherscan-parity-trace-1"/></p><p>如上圖所示，點擊「Parity Trace」選項之後，將開啟如同下圖的另一個分頁。</p><p><img src="./etherscan-parity-trace-2.png" alt="etherscan-parity-trace-2"/></p><p>此方法呈現的效果較不視覺化，然而應為目前最通用的分析方式；不只 Etherscan 有支援 Parity VM tracer，其它的 block explorer 網站應能找到類似功能。</p><h3>Etherscan Transaction Decoder</h3><p><img src="./etherscan-txn-decoder-1.png" alt="etherscan-txn-decoder-1"/></p><p>如上圖所示，點擊「Transaction Decoder」選項之後，將開啟如同下圖的另一個分頁。</p><p><img src="./etherscan-txn-decoder-2.png" alt="etherscan-txn-decoder-2"/></p><p>可以看到 Etherscan 已經分門別類地將執行 transaction 的過程會發出的 event log、message call 等重要事件，以條列表格的方式呈現出來。</p><h3>EthTx.info</h3><p>此服務以 Python 撰寫的<a href="https://github.com/ethtx/ethtx">開源軟體</a>所建立，並由 <a href="https://tokenflow.live/">Token Flow</a> 團隊所維護，在筆者撰文當下為免費公開讓所有開發者自由使用。</p><ol><li>前往 <a href="https://ethtx.info/">https://ethtx.info/</a></li><li>選擇正確的網路（此例為 ETH mainnet），並輸入對應的 transaction hash</li><li>按下「Decode now」按鈕，並靜候數分鐘（可能因網站壅塞度而有不同）</li></ol><p><img src="./ethtx-info.png" alt="ethtx-info"/></p><h3>Tenderly</h3><p>前往 <a href="https://dashboard.tenderly.co/explorer">Tenderly</a> 官網，在搜尋框當中輸入 transaction hash 並按下送出查詢，即可獲得如下圖所示的網頁。</p><p><img src="tenderly.png" alt="tenderly"/></p><p>由於 Tenderly 不只提供分析 transaction 的功能，還有需多實用的其它工具（例如：simulator、local transaction analysis）；若讀者有興趣的話，建議可註冊一個免費帳號。</p><h2>Related resources</h2><ul><li>Hardhat<ul><li><a href="https://hardhat.org/config/">https://hardhat.org/config/</a></li></ul></li><li>Alchemy<ul><li><a href="https://www.alchemy.com/">https://www.alchemy.com/</a></li><li><a href="https://docs.alchemy.com/alchemy/enhanced-apis/debug-api">https://docs.alchemy.com/alchemy/enhanced-apis/debug-api</a></li></ul></li><li>Smart Contracts at Etherscan<ul><li><a href="https://etherscan.io/address/0x3b7157E5E732863170597790b4c005436572570F">https://etherscan.io/address/0x3b7157E5E732863170597790b4c005436572570F</a></li><li><a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2">https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2</a></li></ul></li><li>hardhat-tracer<ul><li><a href="https://www.npmjs.com/package/hardhat-tracer">https://www.npmjs.com/package/hardhat-tracer</a></li><li><a href="https://github.com/zemse/hardhat-tracer">https://github.com/zemse/hardhat-tracer</a></li></ul></li><li>ABI2Solidity<ul><li><a href="https://bia.is/tools/abi2solidity/">https://bia.is/tools/abi2solidity/</a></li><li><a href="https://github.com/maxme/abi2solidity">https://github.com/maxme/abi2solidity</a></li></ul></li><li>Etherscan Transaction Decoder<ul><li><a href="https://etherscan.io/tx-decoder">https://etherscan.io/tx-decoder</a></li></ul></li><li>EthTx.info<ul><li><a href="https://github.com/ethtx/ethtx">https://github.com/ethtx/ethtx</a></li></ul></li><li>Tenderly<ul><li><a href="https://dashboard.tenderly.co/explorer">https://dashboard.tenderly.co/explorer</a></li></ul></li></ul><div class="footnotes"><hr/><ol><li id="fn-2">需要準備大容量 SSD，其餘硬體條件較無嚴苛限制（樹梅派 4B 即足以運行 Go-Ethereum）<a href="#fnref-2" class="footnote-backref">↩</a></li><li id="fn-1">筆者隨機挑選的 transaction hash，並沒有任何特殊用意<a href="#fnref-1" class="footnote-backref">↩</a></li><li id="fn-3">由於 <code>debug_traceTransaction</code> 屬於 Alchemy 需付費的 API method，因此若讀者使用 Growth 以上的方案，那麼您可以直接以 <code>--network &quot;mainnet&quot;</code> 連結 Alchemy；另一種免費的替代方案則為改用 Hardhat Network 來解析 transaction，只對 Alchemy 發送 <code>eth_getStorageAt</code>、<code>eth_getCode</code> 等請求，因此筆者在此以 <code>--network &quot;hardhat&quot;</code> 參數舉例<a href="#fnref-3" class="footnote-backref">↩</a></li><li id="fn-4">如果讀者知道待解析 transaction 的所有互動合約 source code，那麼推薦您直接把那些程式碼加入 <code>contracts</code> 子目錄底下做編譯，這樣能讓 hardhat-tracer 顯示結果擁有最高的可讀性；若無法取得所有 source code，則只使用合約們 ABI 所轉成的 <code>interface</code> 做編譯亦可。<a href="#fnref-4" class="footnote-backref">↩</a></li></ol></div>]]></content>
+        <author>
+            <name>Chuan-Chun Wang</name>
+            <uri>https://github.com/a2468834</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardhat 簡介]]></title>
+        <id>hardhat-intro</id>
+        <link href="https://lundao.tech/blog/hardhat-intro"/>
+        <updated>2022-04-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hardhat 是一套開發智能合約用的開發工具，本篇文章會介紹 Hardhat 的基礎使用方式。]]></summary>
+        <content type="html"><![CDATA[<p>撰寫一般程式語言如 node.js 時，通常只要準備執行環境與編輯器就可以開始進行開發了。而開發 Solidity 則有些許不同，由於程式會需要跑在區塊鏈網路上，所以這個執行環境會比較複雜，會需要透過 RPC 連接並且佈署到區塊鏈網路上面並且執行、除錯與測試。</p><p>Hardhat 就是開發 Solidity 智能合約時所需要的開發工具，除了內建一個開發用的本地區塊鏈網路 Hardhat Network 外還打造了一套 plugin 系統讓許多跟區塊鏈相關的工具可以整合到 hardhat 讓開發者可以更容易進行開發、除錯、測試等，同時 Hardhat 針對 TypeScript 的支援比起其他類似工具還要優良，這在撰寫測試時會有很大的幫助。</p><p>本文將會簡介 hardhat 的用法與跟其他工具比較的優勢。</p><p>文中的運行環境統一都是 Node.js v16 運行在 macOS 環境，其他作業系統可能會有些微的不同，但差別應該不大。</p><h2>設定範例專案</h2><p>為了說明 hardhat 的各種功能，在這邊先設定一個由 hardhat 提供的一個範本專案，請先建立一個目錄 <code>hardhat-sample</code> 並且在裡面執行 hardhat 指令：</p><pre><code class="language-shell">$ mkdir hardhat-sample
+$ cd hardhat-sample
+$ npx hardhat
+</code></pre><p>npx 是一個由 node.js 提供的指令可以執行由 node.js 撰寫的 CLI 程序，如果該 CLI 程序還沒安裝，他會詢問你是否要安裝並且從自動下載，所以首次執行時會詢問你是否要安裝 hardhat，按下確認即可繼續，接下來會看到 hardhat 的導引畫面。</p><p><img src="hardhat-cli-init.png" alt="Hardhat cli initial"/>
+選擇 <code>Create a basic sample project</code>，並且在接下來的問題都按 Enter 選擇預設值，hardhat 會開始安裝相關的套件，稍等一段時間會安裝完畢。</p><p>當安裝完畢之後再輸入一次 <code>npx hardhat</code> 就會顯示以下輸出：</p><pre><code>$ npx hardhat
+
+Hardhat version 2.9.2
+
+... skip
+
+AVAILABLE TASKS:
+
+  accounts  Prints the list of accounts
+  check     Check whatever you need
+  clean     Clears the cache and deletes all artifacts
+  compile   Compiles the entire project, building all artifacts
+  console   Opens a hardhat console
+  flatten   Flattens and prints contracts and their dependencies
+  help      Prints this message
+  node      Starts a JSON-RPC server on top of Hardhat Network
+  run       Runs a user-defined script after compiling the project
+  test      Runs mocha tests
+
+To get help for a specific task run: npx hardhat help [task]
+</code></pre><p>到這邊就產生了一個範例用的專案了，除了可以看到 hardhat 有提供許多指令可以使用包含編譯、測試等等外，範例專案也包含了一些佈署用的腳本、範本智能合約以及測試。</p><h2>Hardhat 設定檔</h2><p>專案的根目錄底下會有一個 <code>hardhat.config.js</code> 檔案，這是設置 hardhat 的地方，你可以在這邊啟用 hardhat plugin、加入一些常用的工作變成一個新的 hardhat 指令，也可以在這邊設定編譯器與連接到不同的網路。</p><p>預設的 <code>hardhat.config.js</code> 如下：</p><pre><code class="language-javascript">// 1. import plugin
+require(&quot;@nomiclabs/hardhat-waffle&quot;);
+
+// 2. add tasks
+task(&quot;accounts&quot;, &quot;Prints the list of accounts&quot;, async (taskArgs, hre) =&gt; {
+  const accounts = await hre.ethers.getSigners();
+
+  for (const account of accounts) {
+    console.log(account.address);
+  }
+});
+
+// 3. export configuration
+module.exports = {
+  solidity: &quot;0.8.4&quot;,
+};
+</code></pre><p>註解所標示的三大部分，各別是啟用 <code>hatdhat-waffle</code> plugin、加入一個新指令跟設定 hardhat 所用的編譯器。</p><h2>編譯 Solidity 檔案</h2><p>執行 <code>npx hardhat compile</code> 時，在 <code>contracts</code> 目錄的智能合約會被編譯，而編譯後的產物 (Artifacts) 會寫到 <code>artifacts</code> 目錄底下，比如說編譯結束後會產生 <code>artifacts/contracts/Greeter.sol/Greeter.json</code> 這個就是合約的 abi，當佈署到 Ethereum 網路後就可以用這份檔案來跟合約互動。</p><p>編譯 Solidity 檔案的編譯器版本可以在 <code>hardhat.config.js</code> 裡面設定，上面的範例指定 <code>solidity: &quot;0.8.4&quot;</code> 是最基礎的設定，還有一些也可以設定的項目：</p><ul><li>最佳化：設定要不要開啟編譯最佳化以及最佳化的程度，預設是關閉最佳化<sup id="fnref-註1"><a href="#fn-註1" class="footnote-ref">註1</a></sup></li><li>EVM 版本：EVM 在不同的分岔後會多出一些新的功能或格式上的差異，這邊也可以指定</li></ul><p>設定的方法如下，更詳細的資訊可以參考 hardhat 官方網站裡面的 <a href="https://hardhat.org/guides/compile-contracts.html">Compiling your contracts</a> 一節。</p><pre><code class="language-javascript">solidity: {
+  version: &quot;0.5.15&quot;,
+  settings: {
+    optimizer: {
+      enabled: true, // 啟用最佳化
+      runs: 200 // 最佳化的評估方式
+    },
+    evmVersion: &quot;istanbul&quot; // 可以選擇 instanbul, berlin, london 等
+  }
+}
+</code></pre><p>而 <code>runs</code> 參數是開發者評估這個合約預估會執行幾次，提供給編譯器執行最佳化時的參考依據，可以閱讀 <a href="https://discord.com/channels/927177880318922802/927177880318922807/967717928290107392">LunDAO discord 討論</a>。</p><p>如果你遇到編譯器與 solidity 檔案中所指定的版本沒有相符時，也可以指定多重編譯器版本，比如說你自己的合約用 0.6，但是你所引用的 openzeppelin 合約則是 0.5，此時可以在 Hardhat 設定檔裡面指定多種不同版本的 solidity。</p><pre><code class="language-javascript">module.exports = {
+  solidity: {
+    compilers: [
+      {
+        version: &quot;0.5.5&quot;,
+      },
+      {
+        version: &quot;0.6.7&quot;
+      },
+    ],
+  },
+};
+</code></pre><h2>執行測試</h2><p>執行 <code>npx hardhat test</code> 會開始執行測試，執行測試前 hardhat 會先將所有的智能合約編譯完畢後才執行，在 <code>test/</code> 目錄底下的所有 JavaScript 測試檔案都會被執行。</p><p>我們這邊對照著 solidity 與測試檔案一起看：</p><pre><code class="language-javascript">// Greeter.sol
+//SPDX-License-Identifier: Unlicense
+pragma solidity ^0.8.0;
+
+import &quot;hardhat/console.sol&quot;;
+
+contract Greeter {
+    string private greeting;
+
+    constructor(string memory _greeting) {
+        console.log(&quot;Deploying a Greeter with greeting:&quot;, _greeting);
+        greeting = _greeting;
+    }
+
+    function greet() public view returns (string memory) {
+        return greeting;
+    }
+
+    function setGreeting(string memory _greeting) public {
+        console.log(&quot;Changing greeting from &#x27;%s&#x27; to &#x27;%s&#x27;&quot;, greeting, _greeting);
+        greeting = _greeting;
+    }
+}
+</code></pre><pre><code class="language-javascript">// sample-test.js
+const { expect } = require(&quot;chai&quot;);
+const { ethers } = require(&quot;hardhat&quot;);
+
+describe(&quot;Greeter&quot;, function () {
+  it(&quot;Should return the new greeting once it&#x27;s changed&quot;, async function () {
+    const Greeter = await ethers.getContractFactory(&quot;Greeter&quot;);
+    const greeter = await Greeter.deploy(&quot;Hello, world!&quot;);
+    await greeter.deployed();
+
+    expect(await greeter.greet()).to.equal(&quot;Hello, world!&quot;);
+
+    const setGreetingTx = await greeter.setGreeting(&quot;Hola, mundo!&quot;);
+
+    // wait until the transaction is mined
+    await setGreetingTx.wait();
+
+    expect(await greeter.greet()).to.equal(&quot;Hola, mundo!&quot;);
+  });
+});
+
+</code></pre><p>測試檔案會把 Greeter 合約透過 <code>ethers.getContractFactory(&quot;Greeter&quot;)</code> 取得 Factory 合約，並且透過  <code>Greeter.deploy(&quot;Hello, world!&quot;)</code> 佈署到本地的測試網路裡面，到等佈署成功後就開始進行測試。</p><p>這個本地測試網路 Hardhat Network 會在測試結束之後銷毀所有測試所佈署上去的合約與狀態。</p><h2>佈署</h2><p>Hardhat 官方雖然沒有提供佈署工具，但是可以透過 <code>hardhat script</code> 指令做到。下達以下指令之後可以佈署到內建的 Hardhat network：</p><pre><code class="language-shell">$ npx hardhat run ./scripts/sample-script.js 
+Deploying a Greeter with greeting: Hello, Hardhat!
+Greeter deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+</code></pre><p>但由於是佈署於本地的開發用網路 Hardhat Network，而這個區塊鏈網路在指令執行結束後就會銷毀所有在上面佈署的合約與狀態，所以除了執行指令的當下可以呼叫函式測試外沒有其他可以測試的方法。</p><p>此時可以在 <code>hardhat.config.js</code> 裡面加入一個 Ethereum 的網路如 mainnet 或是測試網路 Rinkeby, Ropsten 來進行測試。</p><p>比如說你可以先用 MetaMask 在測試網路 Rinkeby 建立一個帳號，取得測試用的 ETH 並且匯出註記詞。然後到 <a href="https://infura.io/">Infura</a> 或是 <a href="https://www.alchemy.com/">alchemy</a> 申請一個 API 來存取 Rinkeby，並且改設定檔 <code>hardhat.config.js</code>：</p><pre><code class="language-javascript">module.exports = {
+  solidity: &quot;0.8.4&quot;,
+  networks: {
+    rinkeby: {
+        url: &quot;https://rinkeby.infura.io/v3/&lt;INFURA_PROJECT_ID&gt;&quot;,
+        accounts: {
+            mnemonic: &quot;&lt;YOUR_MNEMONIC&gt;&quot;,
+        },
+        chainId: 4, // 可以查看 https://chainlist.org/
+    }
+  },
+};
+</code></pre><p>設定完畢後就可以用相同的指令但加入 <code>--network</code> 佈署到 Rinkeby 網路上面：</p><pre><code class="language-shell">$ npx hardhat run --network rinkeby ./scripts/sample-script.js
+</code></pre><p>這樣這份 Greeter 合約就會被佈署到 Rinkeby 測試網路上面了。這邊的範例給的比較簡易，但實際上通常會把可抽換的資訊如 <code>INFURA_PROJECT_ID</code> 或 <code>MNEMONIC</code> 透過環境變數傳入，並且用 <a href="https://github.com/motdotla/dotenv">dotenv</a> 模組管理。</p><h2>比較</h2><p>跟 Hardhat 類似的工具有幾個如 Truffle 與 Remix，但是 Hardhat 跟其他的工具比較有些額外的好處。</p><h3>與 Truffle 比較</h3><p><a href="https://trufflesuite.com/">Truffle</a> 原生內建了 web3.js 函式庫，不過舊的版本裡面混用了不相容的兩種 web3.js 函式庫，開發上經常會很困惑。不過筆者很久沒用 Truffle 了，或許現在已經沒有這個問題，而兩種 web3.js 版本導致的問題是不知道怎麼用 web3 函式庫也帶出了下一個優勢 - TypeScript 支援。</p><p>Hardhat 原生就是採用 TypeScript 開發，這在採用 Hardhat 進行智能合約開發時，清楚的型別在製作開發工具以及撰寫測試上面能夠更有效率，這在後續的文章會在解釋如何設定 TypeScript 以及他所提供的優勢。</p><p>另外有一些 Truffle 提供的工具我一直都沒找到好用的地方，比如說 Truffle 的鏈上 migration 機制都沒有合適合理的使用方式，而重新將 <code>mocha</code> 的 <code>describe()</code> 包裝成 <code>contract()</code> 提供的 <a href="https://trufflesuite.com/docs/truffle/testing/writing-tests-in-javascript/#use-contract-instead-of-describe">clear-room feature</a> 一直都沒感受到特別實用的地方，而全域的 <code>artifacts.require()</code> 也讓人感到有些困惑。</p><p>相較起來 Hardhat 通常都是比較明確的撰寫方式如下面的例子，我覺得比較容易理解與閱讀。</p><pre><code class="language-javascript">// truffle&#x27;s implicit global function `artifacts`
+const MetaCoin = artifacts.require(&quot;MetaCoin&quot;); // where does artifacts come from?
+MetaCoin.deployed()
+
+// hardhat&#x27;s explicit function
+const { ethers } = require(&quot;hardhat&quot;); // explicitly import via hardhat
+const Greeter = await ethers.getContractFactory(&quot;Greeter&quot;);
+</code></pre><h3>與 Remix IDE 比較</h3><p><a href="https://remix-project.org/">Remix</a> 比較適合快速的測試與除錯，但以網頁作為基礎開發的開發套件比較不適合團隊開發使用。一般來說如果想要快速測試時，Remix 會更加的合用，但是如果想要放在 Github 讓團隊一起協作開發，Hardhat 或是 Truffle 會比較適合。</p><h3>新工具 foundry</h3><p><a href="https://github.com/foundry-rs/foundry">Foundry</a> 是 LunDAO 的 discord 群組上面最近討論的工具，看起來比起 Hardhat 把 Hardhat Network 跟框架打包在一起，Foundry 提供了一個更獨立的開發工具，看起來是個不錯的新選擇，或許之後也會撰文介紹。</p><h2>結論</h2><p>如同上面的比較，筆者自己是比較偏好 Hardhat，同時也在團隊中採用了超過兩年的時間，在 Perpetual Protocol V1 到 V2 的轉換也還是採用了相同工具，這也讓 hardhat 成為了團隊的必備工具。</p><p>而 Hardhat 上面豐富的工具如 <a href="https://github.com/wighawag/hardhat-deploy">hardhat-deploy</a>, <a href="https://hardhat.org/plugins/nomiclabs-hardhat-etherscan.html">hardhat-etherscan</a> 與 <a href="https://github.com/cgewecke/hardhat-gas-reporter">hardhat-gas-reporter</a> 等等都讓開發工作能夠更順利的進行。</p><p>然而 hardhat 提供的彈性框架有時候在開發上也會造成一些困擾，接下來 Hardhat 系列文章將會更深入的解釋 Hardhat 結構與原理，當在大量使用 Hardhat 可以更明白發生了什麼事情以及如何解決使用 Hardhat 會遇到的問題。</p><div class="footnotes"><hr/><ol><li id="fn-註1">關閉最佳化時仍會有部分的最佳化，請參考 <a href="https://discord.com/channels/927177880318922802/927177880318922807/967723565623423006">LunDAO discord 討論</a><a href="#fnref-%E8%A8%BB1" class="footnote-backref">↩</a></li></ol></div>]]></content>
+        <author>
+            <name>Yuren Ju</name>
+            <uri>https://yurenju.medium.com/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Diamond 101 (1)]]></title>
+        <id>diamond101</id>
+        <link href="https://lundao.tech/blog/diamond101"/>
+        <updated>2022-04-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EIP-2535 Diamond Contract]]></summary>
+        <content type="html"><![CDATA[<p>本文為 Diamond 101 系列的第一篇文章，將解釋什麼是可升級合約、常見的實作以及不同實作之間的設計。</p><h2>Proxy 的組成</h2><p><img src="./transparent_proxy_func.jpeg"/></p><p>可升級合約顧名思義就是可以更新邏輯的合約，實作大多基於 Proxy。Proxy 是一種 Solidity 的 design pattern，將資料與邏輯分開處理，只要能替換掉邏輯，就能升級。</p><h3>Delegatecall</h3><p>首先需要先來補充一點背景知識。目前所有的 Proxy 都是 <code>delegatecall</code> 的應用。簡單說明 <code>delegatecall</code> 就是以別的合約的函式來操作發出 <code>delegatecall</code> 的合約的 storage。而一般的合約調用則是以自己的函式操作自己的 storage。舉例來說，當 A 合約對 B 合約調用 <code>delegatecall</code> 時，B 合約的函式會被調用，但是對 storage 的寫入都會執行 A 合約上。附上<a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/5a75065659a65e65bb04890192e3a4bcb7917fff/contracts/proxy/Proxy.sol#L22-L45">常見的 delegatecall 實作</a>。</p><p>Delegatecall 也衍生出不少有趣的 EIP，例如 <a href="https://eips.ethereum.org/EIPS/eip-1167">EIP-1167</a>，以最小的成本複製一個合約。</p><h3>fallback 與 receive</h3><p>有關合約調用的交易 (transaction) 的 data 欄位不會空著，前面 4 個 bytes 為 function selector，用來讓 EVM 知道要執行合約中的哪段 bytecode。要是沒有 function selector 或是 function selector 不在合約中怎麼辦？這時則會看合約有沒有實作 <code>fallback</code> 或是 <code>receive</code>，兩者觸發的條件如下：</p><ul><li><code>fallback</code>:<ul><li>合約中沒有對應的 function selector</li><li>沒有 receive 時</li></ul></li><li><code>receive</code>:<ul><li>交易的 data 為空 (不管 value 為多少)</li></ul></li></ul><p>Proxy 合約中不會紀錄邏輯合約 (logic contract) 每一個 function selector，就會利用 fallback 的特性處理所有的合約調用，將所有的合約調用都 delegatecall 至邏輯合約 (logic contract)。可以來看一下 <a href="https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/Proxy.sol">Openzeppelin</a> 提供的實作，就是 delegatecall 跟 fallback, receive 的組合拳。</p><h2>Transparent Proxy</h2><p><img src="./transparent_proxy.jpeg"/></p><p>架構圖如上，來看一下 Openzeppelin 的介紹</p><blockquote><p>The way we deal with this problem is via the transparent proxy pattern. The goal of a transparent proxy is to be indistinguishable by a user from the actual logic contract.</p></blockquote><p>這是何意呢？主要是要讓使用者跟邏輯合約 (logic contract) 緊緊連結在一起，不過這樣寫也很讓人難懂。簡單來說就是使用者所發起的合約調用都要以 delegatecall 調用邏輯合約 (logic contract)，而 admin 所發起的合約調用永遠不會到邏輯合約。</p><p>示意圖如下</p><table><thead><tr><th>msg.sender</th><th>owner()</th><th>upgradeTo()</th><th>transfer()</th></tr></thead><tbody><tr><td>admin</td><td>returns proxy.owner</td><td>upgrades proxy</td><td>reverts</td></tr><tr><td>user</td><td>returns ERC20 owner</td><td>reverts</td><td>sends ERC20 transfer</td></tr></tbody></table><p>Openzeppelin 採用 EIP-1967 作為實作。實作上，Proxy 裡面的每個管理 proxy 的 function 都會加上身份驗證的流程，只讓 admin 可以調用。但是為何還要一個而 ProxyAdmin 呢？ProxyAdmin 主要用途是為了執行查詢的用途還有讓 owner 解放。</p><p>舉個例子，<code>admin()</code> 應該要是個 <code>view function</code> 但是因為 fallback 的關係不能標示 <code>view</code>，需要利用另外一個合約再包裝一層才能標示 <code>view</code>。此外 admin 也可能同時是 user，把權限交給 ProxyAdmin 同時有更好的 function interface 可以調用，也可以讓 admin 解開限制。</p><p><strong>Proxy 中 admin function 的舉例</strong></p><pre><code class="language-javascript">modifier ifAdmin() {
+    if (msg.sender == _getAdmin()) {
+        _;
+    } else {
+        _fallback();
+    }
+}
+
+function admin() external ifAdmin returns (address admin_) {
+    admin_ = _getAdmin();
+}
+</code></pre><p><strong>ProxyAdmin 中對 admin function 的封裝</strong></p><p>跟 <code>staticcall</code> 一起使用，才能標示為 <code>view</code></p><pre><code class="language-javascript">function getProxyAdmin(TransparentUpgradeableProxy proxy) public view virtual returns (address) {
+    (bool success, bytes memory returndata) = address(proxy).staticcall(hex&quot;f851a440&quot;);
+    require(success);
+    return abi.decode(returndata, (address));
+}
+</code></pre><h2>UUPS</h2><p><img src="./uups_proxy.jpeg"/></p><p>UUPS 的規格和介面是基於 EIP-1822，不過 Openzeppelin 也是和 EIP-1967 搭配作為實作。Transparent Proxy 最大的差異在做 upgrade 的函式同樣也放在邏輯合約中，讓 Proxy 只留 fallback 和 receive。升級合約也需要透過 delegatecall 調用邏輯合約。合約架構更為精簡，不用額外的身份驗證或是額外的 Admin 合約。</p><h2>Diamond</h2><p><img src="./diamond.jpeg"/></p><p>Diamond 怎麼升級跟 Transparent Proxy 跟 UUPS 截然不同。Transparent Proxy 跟 UUPS 每次更新都需要將整份合約更新，除了不需要更新的部分也連帶更新了，而且因為合約大小有上限 (EIP-170) 也不能在單個合約一直增加新的邏輯。所以有人提出了 EIP-2535，主要是建立一張表來註冊不同的 function selector。有趣的地方在於可以註冊不同合約的 function selector。也就是說 delegatecall 可以調用的合約不只限於一個。除了彈性變大之外，也可以只新增或是修改其中一個 function selector。</p><h2>Reference</h2><ul><li>EIPS<ul><li><a href="https://eips.ethereum.org/EIPS/eip-7">EIP-7 Delegatecall</a></li><li><a href="https://eips.ethereum.org/EIPS/eip-170">EIP-170 Contract code size limit</a></li><li><a href="https://eips.ethereum.org/EIPS/eip-1167">EIP-1167 Minimal Proxy Contract</a><ul><li>進階閱讀: <a href="https://blog.openzeppelin.com/deep-dive-into-the-minimal-proxy-contract/">Deep dive into the Minimal Proxy contract</a></li></ul></li><li><a href="https://eips.ethereum.org/EIPS/eip-1822">EIP-1822 Universal Upgradeable Proxy Standard (UUPS)</a></li><li><a href="https://eips.ethereum.org/EIPS/eip-1967">EIP-1967 Standard Proxy Storage Slots</a></li><li><a href="https://eips.ethereum.org/EIPS/eip-2535">EIP-2535 Diamonds, Multi-Facet Proxy</a></li></ul></li><li><a href="https://blog.soliditylang.org/2020/03/26/fallback-receive-split/">Solidity 0.6.x features: fallback and receive functions</a></li><li><a href="https://blog.openzeppelin.com/the-transparent-proxy-pattern/">OpenZeppelin Blog: The transparent proxy pattern</a></li><li><a href="https://blog.openzeppelin.com/deconstructing-a-solidity-contract-part-iii-the-function-selector-6a9b6886ea49/">Deconstructing a Solidity Contract — Part III: The Function Selector</a></li><li><a href="https://medium.com/taipei-ethereum-meetup/uups-proxies-%E4%BD%BF%E7%94%A8%E6%96%87-6210c81a946f">UUPS Proxies 使用文</a></li></ul>]]></content>
+        <author>
+            <name>wiasliaw</name>
+            <uri>https://github.com/wiasliaw</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardhat mainnet forking：主網分叉 (1)]]></title>
+        <id>hardhat-forking-1</id>
+        <link href="https://lundao.tech/blog/hardhat-forking-1"/>
+        <updated>2022-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如何利用 Hardhat 進行主網分叉]]></summary>
+        <content type="html"><![CDATA[<p>本文章將展示怎麼使用知名開發工具 Hardhat 的主網分叉（mainnet forking），令開發者可任意指定欲分叉的區塊鏈高度，並與 Hardhat 內建的自定義 testnet（Hardhat Network）結合，享受最高仿真度、最簡便的開發環境。</p><p>在 Ethereum 開發 Dapp 少不了撰寫智能合約（smart contract）；除了使用 Go Ethereum（Geth）、OpenEthereum 等工具自建一條 local testnet，並將合約部屬在上面之外，還可將合約部屬到各大公開測試網（testnet）<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>。然而，這些方法雖然都使用與主網（mainnet）幾乎相同的<sup id="fnref-2"><a href="#fn-2" class="footnote-ref">2</a></sup>程式碼當作 L1 底層，但是與直接部屬在 mainnet 最大的差異就是：你幾乎無法讓你的 Dapp 與其他知名合約、DEX 做互動。</p><p>DeFi 之所以在近年受到全球矚目，其中一個原因莫過於其高度的互操作性（interoperability）；各個合約之間可以透過程式呼叫，輕鬆地與彼此互動，達成傳統金融所無法企及的巨大靈活能力。</p><p>然而，如果你正在開發的 Dapp/DeFi 專案，無法在極度仿真的環境當中，通過完整的測試即貿然上線，則此服務將暴露於巨大風險之下。</p><p>部屬合約於 (local) testnet 當中，為求最精緻的模擬環境，你將會耗費極大心力逐一複製所有第三方合約、DEX 的程式碼，並重新佈署於模擬環境當中，這完全不是一個可行的方法。</p><p>Hardhat 的說明文件是這麼介紹 mainnet forking：</p><blockquote><p>You can start an instance of Hardhat Network that forks mainnet. <strong>This means that it will simulate having the same state as mainnet</strong>, but it will work as a local development network. <sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup></p></blockquote><p>本文章將帶領各位讀者熟悉 mainnet forking 的使用方法，並在另一篇文章當中舉幾個例子讓讀者能體會 mainnet forking 的方便性，以期各位讀者都能善用此工具。</p><h2>背景知識與環境</h2><p>Mainnet forking 背後的運作機制，概念上就是模擬一個仿造 Ethereum mainnet 的 local testnet，讓開發者誤以為自己是跟 mainnet 互動。</p><p>當開發者呼叫合約或發送 tx 時，如果該「仿造版」local testnet 查無資訊（該資訊可能是紀錄在某個歷史 block 當中），則 Hardhat 套件轉向歸檔節點（archive node）詢問資訊的內容，並將回傳的結果經過適當包裝後丟給開發者。因此，開發者必需主動提供兩個條件：(1) archive node (2) 指定的區塊高度（以此高度為基準劃分出何謂歷史 block）。</p><p>本文<strong>不會</strong>提供 Hardhat 與其他相關套件的安裝指引，相關操作細節可以參考 LunDAO 其他教學文章。若您已知道如何使用 Hardhat 部屬 ERC-20 合約，則本文深度恰巧適合您。以下為筆者已測試能夠成功運行本文章步驟的軟硬體條件，請讀者參酌使用。</p><ul><li>Software<ul><li>Windows<ul><li>OS：Windows 10 Pro 21H1 (w/o WSL)</li><li>nodejs v14.17.4</li><li>yarn 1.22.17</li></ul></li><li>Linux<ul><li>OS：Ubuntu 20.04.4 LTS (GNU/Linux 5.4.0-1053-raspi aarch64)</li><li>其他同 Windows 軟體配置</li></ul></li></ul></li><li>Hardware<ul><li>基本上無限制，下列為經過測試可行的組合</li><li>Windows：Intel Core i7-10510U (16GB) with 4G LTE cellular hotspot</li><li>Linux：Raspberry Pi 4B (4GB) with 1Gbps network</li></ul></li></ul><h2>重要必備條件</h2><p>由於 mainnet forking 的運作過程需與 archive node 作互動；因此，<strong>你必需準備好 archive node</strong> 並將 Hardhat 連接上它。最直白地方式即透過 Geth、OpenEthereum 等工具自架節點<sup id="fnref-5"><a href="#fn-5" class="footnote-ref">5</a></sup>，或可使用市面上知名的數家 SaaS 節點供應商之服務<sup id="fnref-6"><a href="#fn-6" class="footnote-ref">6</a></sup>。本文為求過程輕鬆好學習，以下將搭配 Alchemy 提供的服務。</p><p>另外，由於 Hardhat Network 是 EVM-compatible blockchain，因此理論上任何 EVM-compatible chain 的歸檔節點皆有機會使用 mainnet forking，但實際上可能與 Ethereum mainnet 相比有所限制，筆者僅另外使用過 Polygon mainnet 亦可順利運作。</p><h2>Step 1：建置環境</h2><p>目標：成功啟動 Hardhat Network</p><ol><li>新增一個空白資料夾「<code>hardhat_fork</code>」</li></ol><pre><code class="language-Shell">$ mkdir hardhat_fork
+$ cd hardhat_fork
+</code></pre><ol start="2"><li>安裝必備的 JavaScript 套件<ul><li>為求所有讀者都能在第一次操作時成功完成，本文將所有套件已指定版本號安裝</li><li>作者建議讀者學會之後，以使用最新 stable version 為佳</li></ul></li></ol><pre><code class="language-Shell">$ yarn init # 沒有想更動的部分，就按 Enter 鍵帶過即可
+...
+$ yarn add dotenv@16.0.0
+$ yarn add hardhat@2.8.4
+$ yarn add @nomiclabs/hardhat-waffle@2.0.2
+$ yarn add @nomiclabs/hardhat-web3@2.0.0
+$ yarn add @nomiclabs/hardhat-ethers@2.0.5
+$ yarn add web3@1.7.0
+$ yarn add ethers@5.5.4
+...
+</code></pre><ol start="3"><li>啟動 Hardhat Network 初始化設定</li></ol><pre><code class="language-Shell">$ yarn hardhat
+yarn run v1.22.15
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     &quot;88b 888P&quot;  d88&quot; 888 888 &quot;88b     &quot;88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 &quot;Y888888 888     &quot;Y88888 888  888 &quot;Y888888  &quot;Y888
+
+Welcome to Hardhat v2.8.4
+
+? What do you want to do? …
+  Create a basic sample project
+  Create an advanced sample project
+  Create an advanced sample project that uses TypeScript
+▸ Create an empty hardhat.config.js # 請選擇這個選項，並按 Enter
+  Quit
+
+$ ls
+hardhat.config.js  node_modules  package.json  yarn.lock
+</code></pre><ol start="4"><li>你可以發現 <code>hardhat_fork</code> 資料夾底下多了一個名為 <code>hardhat.config.js</code> 的檔案；它就是用來調整 Hardhat Network 和其他 hardhat 套件運作模式的重要參數檔。</li></ol><h2>Step 2：調整 <code>hardhat.config.js</code></h2><p>目標：設定進行 mainnet forking 所需的相關參數</p><ol><li>在 <code>hardhat_fork</code> 資料夾，新增一個空白檔案叫做 <code>.env</code>，並以文字編輯器將以下內容插入其中<ul><li>記得先前往 Alchemy 註冊帳號，並創立一個空白 app 專案（預設可存取 archive node）</li></ul></li></ol><pre><code>Mainnet = &quot;https://eth-mainnet.alchemyapi.io/v2/&lt;your_Alchemy_key&gt;&quot;
+</code></pre><ol start="2"><li>使用任何文字編輯器，對 <code>hardhat.config.js</code> 進行編輯，將檔案改成以下樣子（可以直接複製、貼上，取代全部檔案內容）</li></ol><pre><code class="language-js">require(&quot;@nomiclabs/hardhat-waffle&quot;);
+require(&quot;@nomiclabs/hardhat-web3&quot;);
+require(&quot;@nomiclabs/hardhat-ethers&quot;);
+require(&#x27;dotenv&#x27;).config();
+
+task(&quot;height&quot;, &quot;Print the current block height&quot;)
+  .setAction(async (taskArgs) =&gt; {
+    const block_height = await web3.eth.getBlockNumber();
+    console.log(`The current block height is ${block_height}`);
+  });
+
+module.exports = {
+  networks: {
+    hardhat: {
+      forking: {
+        url: process.env.Mainnet,
+        blockNumber: 14297759
+      }
+    }
+  }
+};
+// 高度 14297759 發生在 2022-03-01 00:00:18 (UTC+0)，選擇此數字方便後續解說
+</code></pre><ol start="3"><li>為什麼要這樣設定呢？<ul><li><code>task()</code> 的程式片段目的是創造能印出目前區塊高度的指令（以 Hardhat Network 分叉出來的主網來看），關於 task 的編寫方法詳見文末的延伸閱讀</li><li><code>network</code> 項目底下，我們設定 <code>hardhat</code> 網路的相關參數，包含 archive node 的存取網址與分叉高度</li><li>由於 <code>network</code> 項目底下可以同時設定多個不同的網路，以下為簡易範例，詳細辦法請參見文末延伸閱讀</li></ul></li></ol><pre><code class="language-js">module.exports = {
+  solidity: {...},
+  networks: {
+    arbitrum: {
+      url: process.env.Arbitrum, 
+      accounts: [process.env.PriKey0, process.env.PriKey1]
+    },
+    hardhat: {...}
+  }
+};
+</code></pre><h2>Step 3：使用自定義的 Hardhat task <code>height</code></h2><p>目標：透過自定義的 <code>height</code> task 來確認 mainnet forking 可正常運作</p><ol><li>列出所有可用的 Hardhat task<ul><li><code>--network &quot;hardhat&quot;</code> 代表命令 Hardhat 使用 Hardhat Network</li><li>如果讀者在 <code>hardhat.config.js</code> 裡面設置其他網路，則可透過此參數隨時切換網路</li><li>我們可以發現到「<code>AVAILABLE TASKS</code>」出現了一行 <code>height Print the current block height</code> 文字，與稍早我們在 <code>hardhat.config.js</code> 撰寫的內容一致</li></ul></li></ol><pre><code class="language-Shell">$ yarn hardhat --network &quot;hardhat&quot; help
+yarn run v1.22.17
+Hardhat version 2.8.4
+
+Usage: hardhat [GLOBAL OPTIONS] &lt;TASK&gt; [TASK OPTIONS]
+
+GLOBAL OPTIONS:
+  --config              A Hardhat config file.
+  --emoji               Use emoji in messages.
+  --help                Shows this message, or a task&#x27;s help if its name is provided
+  --max-memory          The maximum amount of memory that Hardhat can use.
+  --network             The network to connect to.
+  --show-stack-traces   Show stack traces.
+  --tsconfig            A TypeScript config file.
+  --verbose             Enables Hardhat verbose logging
+  --version             Shows hardhat&#x27;s version.
+
+AVAILABLE TASKS:
+  check         Check whatever you need
+  clean         Clears the cache and deletes all artifacts
+  compile       Compiles the entire project, building all artifacts
+  console       Opens a hardhat console
+  flatten       Flattens and prints contracts and their dependencies
+  height        Print the current block height
+  help          Prints this message
+  node          Starts a JSON-RPC server on top of Hardhat Network
+  run           Runs a user-defined script after compiling the project
+  test          Runs mocha tests
+</code></pre><ol start="2"><li>運行 <code>height</code> 指令<ul><li>由於目前 Ethereum 的最新區塊高度必定不只 14297759，因此可見我們已成功創造一個全新的 mainnet forking 環境</li></ul></li></ol><pre><code class="language-Shell">$ yarn hardhat --network &quot;hardhat&quot; height
+yarn run v1.22.17
+The current block height is 14297759
+</code></pre><ol start="3"><li>利用 <code>node</code> 指令，開始運作 Hardhat Network 節點<ul><li><strong>請注意</strong>：這些地址與私鑰都由已知的 key derivation 過程<sup id="fnref-7"><a href="#fn-7" class="footnote-ref">7</a></sup>產生；換句話說，任何使用 Hardhat 的開發者皆知這些私鑰，因此<strong>切勿在公開網路將東西傳送進這些地址！</strong></li><li>前文已提過 Hardhat Network 預設提供 20 個各具 10000 ETH 的帳號供開發者自由使用</li><li>搭配我們現已學會的 mainnet forking 技巧，則可開始使用這些幾乎用不完的 ETH ，在自己的 local testnet 做各類開發</li></ul></li></ol><pre><code class="language-Shell">$ yarn hardhat --network &quot;hardhat&quot; node
+yarn run v1.22.17
+Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
+
+Accounts
+========
+
+WARNING: These accounts, and their private keys, are publicly known.
+Any funds sent to them on Mainnet or any other live network WILL BE LOST.
+
+Account #0: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266 (10000 ETH)
+Private Key: ...
+
+Account #1: 0x70997970c51812dc3a010c7d01b50e0d17dc79c8 (10000 ETH)
+Private Key: ...
+
+...
+
+Account #19: 0x8626f6940e2eb28930efb4cef49b2d1f2c9c1199 (10000 ETH)
+Private Key: ...
+
+WARNING: These accounts, and their private keys, are publicly known.
+Any funds sent to them on Mainnet or any other live network WILL BE LOST.
+</code></pre><p>本文到此已完成所有步驟，恭喜各位讀者已學會如何使用 Hardhat 進行 mainnet forking。另一篇<a href="./hardhat-forking-2.md">文章</a>將操作簡單的範例，向有興趣的讀者展示 Hardhat Network 的有趣應用。</p><h2>Related resources</h2><ul><li>Yarn<ul><li><a href="https://classic.yarnpkg.com/en/">https://classic.yarnpkg.com/en/</a></li></ul></li><li>Hardhat<ul><li>GitHub：<a href="https://github.com/NomicFoundation/hardhat">https://github.com/NomicFoundation/hardhat</a></li><li>Mainnet forking：<a href="https://hardhat.org/hardhat-network/guides/mainnet-forking.html">https://hardhat.org/hardhat-network/guides/mainnet-forking.html</a></li><li>Configuration：<a href="https://hardhat.org/config/">https://hardhat.org/config/</a></li><li>Hardhat Network Reference：<a href="https://hardhat.org/hardhat-network/reference/">https://hardhat.org/hardhat-network/reference/</a></li><li>Creating a task：<a href="https://hardhat.org/guides/create-task.html">https://hardhat.org/guides/create-task.html</a></li><li>Hardhat Runtime Environment (HRE)：<a href="https://hardhat.org/advanced/hardhat-runtime-environment.html">https://hardhat.org/advanced/hardhat-runtime-environment.html</a></li></ul></li><li>Alchemy<ul><li><a href="https://www.alchemy.com/">https://www.alchemy.com/</a></li></ul></li><li>Ethereum on ARM<ul><li><a href="https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html">https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html</a></li></ul></li><li>Wrapped Ether<ul><li><a href="https://weth.io/index.html">https://weth.io/index.html</a></li></ul></li></ul><h2>Further reading</h2><ul><li>Infura<ul><li><a href="https://infura.io/">https://infura.io/</a></li></ul></li><li>QuickNode<ul><li><a href="https://www.quicknode.com/">https://www.quicknode.com/</a></li></ul></li><li>Truffle<ul><li>Simulate Live Networks with Forked Sandboxes：<a href="https://trufflesuite.com/blog/sandbox-forking-with-truffle-teams/index.html">https://trufflesuite.com/blog/sandbox-forking-with-truffle-teams/index.html</a></li></ul></li></ul><div class="footnotes"><hr/><ol><li id="fn-1">例如：Rinkeby、Goerli、Kintsugi 等<a href="#fnref-1" class="footnote-backref">↩</a></li><li id="fn-2">可能因不同 testnet 共識機制，而與主網略有差異，但是一般來說很罕見出現 Dapp 能夠運行於 testnet 卻無法運行於 mainnet，尤其所有網路的 EVM 實作細節均相同<a href="#fnref-2" class="footnote-backref">↩</a></li><li id="fn-3"><a href="https://hardhat.org/hardhat-network/guides/mainnet-forking.html#mainnet-forking">https://hardhat.org/hardhat-network/guides/mainnet-forking.html#mainnet-forking</a><a href="#fnref-3" class="footnote-backref">↩</a></li><li id="fn-5">透過樹梅派 4B 可以搭建歸檔節點，不以挖礦為目的來搭建歸檔節點非難事，只需要準備大容量的 SATA3 SSD 即可，詳細請參考文末的延伸閱讀 Ethereum on ARM<a href="#fnref-5" class="footnote-backref">↩</a></li><li id="fn-6">Infura、Alchemy、QuickNode 均有提供存取歸檔節點的服務，其中 Alchemy 在作者撰文時為免費服務。<a href="#fnref-6" class="footnote-backref">↩</a></li><li id="fn-7">有興趣的讀者請參見這個連結 <a href="https://hardhat.org/hardhat-network/reference/#accounts">https://hardhat.org/hardhat-network/reference/#accounts</a><a href="#fnref-7" class="footnote-backref">↩</a></li></ol></div>]]></content>
+        <author>
+            <name>Chuan-Chun Wang</name>
+            <uri>https://github.com/a2468834</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hardhat mainnet forking：主網分叉 (2)]]></title>
+        <id>hardhat-forking-2</id>
+        <link href="https://lundao.tech/blog/hardhat-forking-2"/>
+        <updated>2022-03-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[利用 Hardhat 主網分叉做一些酷炫的事情]]></summary>
+        <content type="html"><![CDATA[<p>在上一篇<a href="./hardhat-forking-1.md">文章</a>我們已經學會了怎麼使用 Hardhat mainnet forking，但是讀者可能尚有疑惑不知道這樣的功能可以做什麼？本篇文章將延續相同主題，並給出幾個例子，向讀者展示 mainnet forking 能夠為開發過程帶來的方便性。</p><h2>範例一：與 <code>WETH9</code> 合約互動</h2><p>如同前文所述，interoperability 是 smart contract 一個相當重要的特性，而以程式的角度來看即為合約互相呼叫。假設我們今天要開發一個合約會與 Wrapped Ether（<code>WETH9</code>）<sup id="fnref-3"><a href="#fn-3" class="footnote-ref">3</a></sup>合約互動，那麼會發生什麼事呢？</p><p>若無 mainnet forking 可用，則我們必需先將 <code>WETH9</code> 部屬在 local Hardhat Network （且會得到與主網不一樣的合約地址），方能與之互動、進行後續的開發流程；可想而知這就是增加複雜度，卻降低仿真度的土法煉鋼方法。</p><p>若有 mainnet forking 可用，則我們什麼都不需要做。直接與 Etherscan 上面查詢到的 <code>WETH9</code> 合約地址互動即可，完全模擬我們合約在未來上線時的操作環境。</p><p>以下將透過執行一段簡短的 JavaScript 腳本，向讀者展示要怎麼在已完成 mainnet forking 的 Hardhat Network 之內，與知名的 <code>WETH9</code> 互動。</p><ol><li>延續前文的操作環境</li><li>在 <code>hardhat_fork</code> 資料夾底下創立新資料夾 <code>scripts</code></li><li>前往 Etherscan.io 或任何你信任的 Ethereum blockchain explorer 尋找 WETH 合約<ul><li><a href="https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code">https://etherscan.io/address/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2#code</a></li></ul></li><li>將合約 ABI 儲存成 <code>contract-abi.json</code> 檔案，並放置於 <code>hardhat_fork/scripts</code> 資料夾底下<ul><li>若是使用 Etherscan，則需滾動至網頁最下方，如圖所示</li></ul></li></ol><p><img src="./weth9-contract-abi.png" alt="weth9-contract-abi"/></p><ol start="4"><li>前往這個 Gist 下載 <code>interact.js</code> 腳本，並且把它儲存在 <code>hardhat_fork/scripts</code> 資料夾底下<ul><li><a href="https://gist.github.com/a2468834/6101244f5000e467ec8904ac5f0ec41d">https://gist.github.com/a2468834/6101244f5000e467ec8904ac5f0ec41d</a></li><li>或可至 GitHub 上面 LunDAO repo 下載</li></ul></li><li>截至目前為止，<code>hardhat_fork</code> 資料夾應該要長得像這樣子<sup id="fnref-8"><a href="#fn-8" class="footnote-ref">8</a></sup></li></ol><pre><code class="language-Shell">📂 hardhat_fork
+ │
+ ├── 📂 scripts
+ │    │
+ │    ├── 📄 contract-abi.json
+ │    │
+ │    └── 📄 interact.js
+ │
+ ├── 📄 .env
+ │
+ └── 📄 hardhat.config.js
+</code></pre><ol start="6"><li>執行指令</li></ol><pre><code class="language-Shell">$ yarn hardhat --network &quot;hardhat&quot; run scripts/interact.js
+yarn run v1.22.17
+
+Check contract status
+--------------------------------------------------------------------------------
+        ETH-Balance                     WETH-Balance
+WETH9   7160157.033871775794435313      7160157.033871775794435313
+
+[Step 0] Before we started
+--------------------------------------------------------------------------------
+Account Address             ETH-Balance     WETH-Balance
+#0      0xf39f......2266    10000.000       0.000
+#1      0x2feb......a6f3    4.294           13813.827
+
+[Step 1] Account#1 deposits 3 ETH in contract
+--------------------------------------------------------------------------------
+Account Address             ETH-Balance     WETH-Balance
+#0      0xf39f......2266    10000.000       0.000
+#1      0x2feb......a6f3    1.291           13816.827
+
+[Step 2] Account#1 sends 13 WETH to Account#0
+--------------------------------------------------------------------------------
+Account Address             ETH-Balance     WETH-Balance
+#0      0xf39f......2266    10000.000       13.000
+#1      0x2feb......a6f3    1.286           13803.827
+
+[Step 3] Account#0 withdraws 13 WETH from contract
+--------------------------------------------------------------------------------
+Account Address             ETH-Balance     WETH-Balance
+#0      0xf39f......2266    10012.997       0.000
+#1      0x2feb......a6f3    1.286           13803.827
+
+================================================================================
+{
+  hash: &#x27;0x1dfa3eee62caaf1aa06d60b9fd57d67d17fe23c9f9452c1e3284056e6fad6e48&#x27;,
+  type: 2,
+  accessList: [],
+  blockHash: &#x27;0x3750ecaf4f7ccf733ceed460a0aeb54b3dd2373dc199ba5b420e062c5d39f165&#x27;,
+  blockNumber: 14297760,
+...
+</code></pre><p>以下筆者將對 <code>interact.js</code> 的程式碼做一些重點解析</p><h3>Line 8-9</h3><p>開啟 mainnet forking 模式讓我們得以直接與真實的 <code>WETH9</code> 合約地址互動，不需要額外部屬其他合約。另外，<code>somebody</code> 地址則是隨機挑選的一個地址，恰巧該地址同時擁有 eth 和 weth，在接下來的操作當中可見奇效。</p><pre><code class="language-javascript">const weth9_address = &quot;0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2&quot;;
+const somebody      = &quot;0x2feb1512183545f48f6b9c5b4ebfcaf49cfca6f3&quot;;
+</code></pre><h3>Line 13-30</h3><p>用來讓印在 terminal 的文字看起來排版美美的函數們，並沒有特別之處</p><pre><code class="language-javascript">function addressSlicing(address) {
+    /* Skip */
+}
+
+async function printAccountAndBalance(provider, contract, account0, account1) {
+    /* Skip */
+}
+</code></pre><h3>Line 34-35</h3><p><code>hre</code>（Hardhat Runtime Environment, HRE）是一個 Hardhat Network 啟動之後，包含所有 Hardhat 套件功能的物件，詳細內容請見文末延伸閱讀。</p><p><code>hre.ethers.getSigners()</code> 回傳一個長度為 20 的 ethers.js Signer 陣列，就是前文所述的那二十個各有 10000 ETH 的帳號</p><pre><code class="language-javascript">const HRE_EOAs = await hre.ethers.getSigners();
+const provider = await hre.ethers.provider;
+</code></pre><h3>Line 40-43,47</h3><p>在 mainnet forking 模式之下，Hardhat Network 允許開發者發送 tx，<strong>即便你根本未持有該地址的私鑰</strong>。有了這個功能，我們可以隨意尋找任何具備我們有興趣條件的地址（EOA 或 contract address 均可），然後以它的名義發送 tx 來進行各式操作，讓 mainnet forking 的測試環境兼具高仿真度與高便利性。</p><p>除了 <code>hardhat_impersonateAccount</code> 功能之外，還有其他例如：<code>hardhat_setNonce</code>、<code>hardhat_setBalance</code>、<code>hardhat_setCode</code>、<code>hardhat_setStorageAt</code>等功能，詳細可見<a href="https://hardhat.org/hardhat-network/guides/mainnet-forking.html#customizing-hardhat-network-s-behavior">這邊</a>的說明。</p><pre><code class="language-javascript">await hre.network.provider.request({
+    method: &quot;hardhat_impersonateAccount&quot;,
+    params: [somebody]
+});
+</code></pre><h3>Line 50-56</h3><p>此 JavaScript 腳本印出 <code>WETH9</code> 的 token 總發行量與此地址的 balance，我們可見兩個數值相等且與 Etherscan 上的餘額吻合。由於 Etherscan Analytics 分頁謹顯示當日日末餘額，因此需查詢前一日餘額為準。</p><p><img src="./etherscan-analytics.png" alt="Etherscan-Analytics"/></p><h3>Line 64-68</h3><p>我們以 <code>somebody</code> 地址的名義（i.e., 使用 <code>signer_1</code> 發出 txn），向 <code>WETH9</code> 合約存款 3 eth；之所以此行為不是 invalid tx，歸功於前述的 <code>hardhat_impersonateAccount</code> 功能<sup id="fnref-9"><a href="#fn-9" class="footnote-ref">9</a></sup>，它讓我們能夠在 Hardhat Network 內以未知密鑰地址的名義發送 tx。</p><pre><code class="language-javascript">var overrides = {value : hre.ethers.utils.parseEther(&quot;3.0&quot;)};
+WETH9         = WETH9.connect(signer_1);
+txn_array.push(await WETH9.deposit(overrides));
+await printAccountAndBalance(provider, WETH9, signer_0, signer_1);
+</code></pre><h3>Line 72-80</h3><p>這個段落把 <code>Account#1</code>（即 <code>somebody</code> 地址）的 13 個 weth 轉給 <code>Account#0</code>（即 HRE 預設地址 No.0）。</p><pre><code class="language-javascript">WETH9 = WETH9.connect(signer_1);
+txn_array.push(
+    await WETH9.transferFrom(
+        signer_1.address, 
+        signer_0.address, 
+        hre.ethers.utils.parseEther(&quot;13.0&quot;)
+));
+await printAccountAndBalance(provider, WETH9, signer_0, signer_1);
+</code></pre><h3>Line 84-89</h3><p>由於傳送 tx 需要耗費 tx fee，所以我們可以發現最終印出的結果顯示：<code>Account #0</code> 和 <code>Account #1</code> 的 eth 餘額總和比最初的時候少一些。</p><h3>Line 93-97</h3><p>最後會印出稍早發送的所有 tx 的細節；讀者可以透過 <code>blockNumber</code> 查覺這些 tx 與當初指定 mainnet forking 區塊高度之間的關聯性，可見 Hardhat Network 是有在逐步長高。</p><h2>範例二：抓取 <code>public</code> 變數的歷史數據</h2><p>這個範例要解決的是另一個事情：要怎麼抓取 Ethereum 上面某個數據的歷史資料呢？</p><p>Etherscan 提供圖形化介面讓開發者可以快速查詢合約內 <code>public</code> <code>view</code>/<code>pure</code> function 的回傳值，但是如果我們有興趣的回傳值只會出現在特定 block number 呢？這時候除了使用 Dune Analytics 等網站提供的服務，我們其實可以透過 mainnet forking 的功能來自己實作。</p><p>以下將使用另一份 JavaScript 腳本，只需將前一個範例的第四步驟改為下載此腳本，即可成功執行。</p><ul><li><a href="https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b">https://gist.github.com/a2468834/71c59d580c1da21337350cdfc47e515b</a></li><li>或可至 GitHub 上面 LunDAO repo 下載</li><li>截至目前為止，<code>hardhat_fork</code> 資料夾應該要長得像這樣子<sup id="fnref-4"><a href="#fn-4" class="footnote-ref">4</a></sup></li></ul><pre><code class="language-Shell">📂 hardhat_fork
+ │
+ ├── 📂 scripts
+ │    │
+ │    ├── 📄 contract-abi.json
+ │    │
+ │    ├── 📄 interact.js
+ │    │
+ │    └── 📄 query.js
+ │
+ ├── 📄 .env
+ │
+ └── 📄 hardhat.config.js
+</code></pre><p>執行指令之後，可見 terminal 印出類似這樣子的文字</p><pre><code class="language-Shell">$ yarn hardhat --network &quot;hardhat&quot; run scripts/query.js
+yarn run v1.22.17
+
+Method 1
+----------------------------------------
+Block number: 14379900
+TotalSupply:  7080076.411770262795354559
+----------------------------------------
+Block number: 14379901
+TotalSupply:  7080077.697963348707441243
+----------------------------------------
+Block number: 14379902
+TotalSupply:  7080074.493707533508180991
+...
+</code></pre><p>以下筆者將對 <code>query.js</code> 的程式碼做一些重點解析</p><h3>Line 14-19,28-29</h3><p>此腳本透過循序變換 mainnet forking 的分叉高度，達成「查詢某個區間內，<code>WETH9</code> 合約的 <code>totalSupply()</code> 數值變化」</p><pre><code class="language-javascript">var config = {  method: &quot;hardhat_reset&quot;,
+                params: [{
+                    forking: {
+                        jsonRpcUrl: process.env.Mainnet,
+                        blockNumber: 0}}]
+};
+config.params[0].forking.blockNumber = block_i;
+await hre.network.provider.request(config);
+</code></pre><h3>Line 38-51</h3><p>事實上，查詢 <code>public</code> <code>view</code>/<code>pure</code> function 的歷史數據，不需要用到 mainnet forking 模式。可以單純透過呼叫合約函數，額外附加 <code>blockTag</code> 即可<sup id="fnref-5"><a href="#fn-5" class="footnote-ref">5</a></sup>。<code>method1()</code> 為使用 mainnet forking 的方法，<code>method2()</code> 則是不需使用 mainnet forking 的方法。</p><pre><code class="language-javascript">async function method2() {
+    /* Skip */
+}
+</code></pre><h3>Line 55-56</h3><p>執行的時候記得把其中一行的註解拿掉；另外，mainnet forking 的分叉高度不能小於想要查詢<code>public</code> <code>view</code>/<code>pure</code> function 的歷史數據的區塊高度。</p><pre><code class="language-javascript">async function main() {
+    // Delete one of the following comments
+    //await method1();
+    //await method2();
+}
+</code></pre><h2>Related resources</h2><ul><li>Yarn<ul><li><a href="https://classic.yarnpkg.com/en/">https://classic.yarnpkg.com/en/</a></li></ul></li><li>Hardhat<ul><li>GitHub：<a href="https://github.com/NomicFoundation/hardhat">https://github.com/NomicFoundation/hardhat</a></li><li>Mainnet forking：<a href="https://hardhat.org/hardhat-network/guides/mainnet-forking.html">https://hardhat.org/hardhat-network/guides/mainnet-forking.html</a></li><li>Configuration：<a href="https://hardhat.org/config/">https://hardhat.org/config/</a></li><li>Hardhat Network Reference：<a href="https://hardhat.org/hardhat-network/reference/">https://hardhat.org/hardhat-network/reference/</a></li><li>Creating a task：<a href="https://hardhat.org/guides/create-task.html">https://hardhat.org/guides/create-task.html</a></li><li>Hardhat Runtime Environment (HRE)：<a href="https://hardhat.org/advanced/hardhat-runtime-environment.html">https://hardhat.org/advanced/hardhat-runtime-environment.html</a></li></ul></li><li>Alchemy<ul><li><a href="https://www.alchemy.com/">https://www.alchemy.com/</a></li></ul></li><li>Ethereum on ARM<ul><li><a href="https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html">https://ethereum-on-arm-documentation.readthedocs.io/en/latest/quick-guide/about-quick-start.html</a></li></ul></li><li>Wrapped Ether<ul><li><a href="https://weth.io/index.html">https://weth.io/index.html</a></li></ul></li></ul><h2>Further reading</h2><ul><li>Infura<ul><li><a href="https://infura.io/">https://infura.io/</a></li></ul></li><li>QuickNode<ul><li><a href="https://www.quicknode.com/">https://www.quicknode.com/</a></li></ul></li><li>Truffle<ul><li>Simulate Live Networks with Forked Sandboxes：<a href="https://trufflesuite.com/blog/sandbox-forking-with-truffle-teams/index.html">https://trufflesuite.com/blog/sandbox-forking-with-truffle-teams/index.html</a></li></ul></li></ul><div class="footnotes"><hr/><ol><li id="fn-3">關於什麼是 Wrapped Ether？請參考文末延伸閱讀，或請讀者自行查詢其他網路資料。<a href="#fnref-3" class="footnote-backref">↩</a></li><li id="fn-8">有省略一些與本文無關的檔案與資料夾<a href="#fnref-8" class="footnote-backref">↩</a></li><li id="fn-9"><a href="https://hardhat.org/hardhat-network/reference/#hardhat-impersonateaccount">https://hardhat.org/hardhat-network/reference/#hardhat-impersonateaccount</a><a href="#fnref-9" class="footnote-backref">↩</a></li><li id="fn-4">有省略一些與本文無關的檔案與資料夾<a href="#fnref-4" class="footnote-backref">↩</a></li><li id="fn-5"><code>blockTag</code> 是 ethers.js 的語法，web3.js 的 API 使用方法可能有所不同<a href="#fnref-5" class="footnote-backref">↩</a></li></ol></div>]]></content>
+        <author>
+            <name>Chuan-Chun Wang</name>
+            <uri>https://github.com/a2468834</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[基本功：从合约看 token 数量]]></title>
+        <id>total-tokens-looksrare</id>
+        <link href="https://lundao.tech/blog/total-tokens-looksrare"/>
+        <updated>2022-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[不知道你是否和我一样，总是担心关注的 token 增发，但又对 CoinGecko 或者 Etherscan 上的数字心怀疑虑。以太坊上每个 token 都是独立的合约，那就深入合约来探个究竟吧。Code is Law！]]></summary>
+        <content type="html"><![CDATA[<p>不知道你是否和我一样，总是担心关注的 token 增发，但又对 CoinGecko 或者 Etherscan 上的数字心怀疑虑。以太坊上每个 token 都是独立的合约，那就深入合约来探个究竟吧。Code is Law！ </p><p>让我们以最近发行的 LooksRare 项目为例。</p><table><thead><tr><th align="center"><img src="./coingecko.png" alt="coingecko"/></th></tr></thead><tbody><tr><td align="center">2022-01-16 CoinGecko 截图</td></tr><tr><td align="center"><img src="./etherscan-looks.png" alt="etherscan"/></td></tr><tr><td align="center">2022-01-16 Etherscan 截图</td></tr></tbody></table><p>可以从 CoinGecko 看到有 <code>Total Supply</code> 和 <code>Max Supply</code> 两个概念。从 Etherscan 的 token 页面又会看到 <code>Max Total Supply</code>。 这三个数字并不一致。我并不清楚 CoinGecko 和 Etherscan 的具体机制，所以直接看看这个 token 的合约吧。 </p><pre><code class="language-js">    // File 1 of 7 : LooksRareToken.sol
+    constructor(
+        address _premintReceiver,
+        uint256 _premintAmount,
+        uint256 _cap
+    ) ERC20(&quot;LooksRare Token&quot;, &quot;LOOKS&quot;) {
+        require(_cap &gt; _premintAmount, &quot;LOOKS: Premint amount is greater than cap&quot;);
+        // Transfer the sum of the premint to address
+        _mint(_premintReceiver, _premintAmount);
+        _SUPPLY_CAP = _cap;
+    }
+</code></pre><p>以太坊智能合约部署后，首先运行的就是 <code>constructor</code> 函数。可以看出 LOOKS 的 <code>constructor</code> 有三个参数。 </p><table><thead><tr><th align="center"><img src="./constructor.png" alt="constructor"/></th></tr></thead><tbody><tr><td align="center"><a href="https://etherscan.io/address/0xf4d2888d29d722226fafa5d9b24f9164c092421e#code">合约地址页面中 Contract Tab 最下面的部分</a></td></tr></tbody></table><p>在 Etherscan 上找出<a href="https://etherscan.io/address/0xf4d2888d29d722226fafa5d9b24f9164c092421e">该合约的信息</a>，找出 <code>Constructor Arguments</code>。 看到 <code>_cap</code> 传入的值为 <code>1000000000000000000000000000</code>，这个值除 10^18 就是 1000 mil，就能和 CoinGecko 中的<code>Max Supply</code>对应上了。</p><pre><code class="language-js">    // File 3 of 7 : ERC20.sol
+    function decimals() public view virtual override returns (uint8) {
+        return 18;
+    }
+</code></pre><p>为什么要除以 10^18 呢？ 这是因为普通用户看到的 1 个 token，其实是 <code>10^decimals</code> 个最小单位。这样，合约程序只处理整数，而在界面上可以显示小数（例如 0.1 或 0.01）个的 token。</p><p>那么 CoinGecko 的 <code>Total Supply</code> 又是什么呢？ 这个数字和 Etherscan 的 <code>Max Total Supply</code> 是接近的，都是 231.xxx mil。有理由猜测这是一个动态的数字，两个网站都想监测这个动态数字，但不太同步。有了这个猜想后，再回头看看 LOOKS 的合约。</p><pre><code class="language-js">    // File 3 of 7 : ERC20.sol
+    function totalSupply() public view virtual override returns (uint256) {
+        return _totalSupply;
+    }
+</code></pre><p>符合 <code>ERC20</code> 标准的 token 都有只读函数 <code>totalSupply()</code>。这是一个 <code>view</code> 函数，可以读取链上 state，但不会写入。随着链上不断出现新 block，<code>view</code> 函数的返回值也可能变化。在 Etherscan 上可以直接读取，可以发现确实是 231.xxx mil。</p><p>之前注意到的 <code>_cap</code> 只是初始化 <code>_SUPPLY_CAP</code> 变量，并没有改变 <code>_totalSupply</code>。一个值得思考的小问题是：当合约刚部署的时候，totalSupply 会是多少呢？ Etherscan 上调用 <code>view</code> 函数，应该还不能指定 block number（可以通过支持历史信息的 json rpc 查询，如 alchemyapi）。</p><p>一点题外话：token 的发行量信息是如此重要，任何 ERC20 token 都需要提供 <code>totalSupply()</code> 接口。即使是非 ERC20 token，如 2018 年的 <a href="https://etherscan.io/address/0xb3775fb83f7d12a36e0475abdd1fca35c091efbe">PowH3D (P3D)</a>，也提供了 <code>totalSupply()</code> 哦。</p><p>ERC20： <a href="https://eips.ethereum.org/EIPS/eip-20">https://eips.ethereum.org/EIPS/eip-20</a></p><p><code>view</code>函数： <a href="https://medium.com/taipei-ethereum-meetup/solidity-weekly-11-70c5208a3bf1">https://medium.com/taipei-ethereum-meetup/solidity-weekly-11-70c5208a3bf1</a></p>]]></content>
+        <author>
+            <name>zjiekai</name>
+            <uri>https://github.com/zjiekai/</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MEV - 最大可提取價值]]></title>
+        <id>mev</id>
+        <link href="https://lundao.tech/blog/mev"/>
+        <updated>2022-02-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[解釋 MEV (最大可提取價值) 的成因以及原理，並且簡述目前的解決方案。]]></summary>
+        <content type="html"><![CDATA[<p>最大可提取價值 (Maximal Extractable Value, MEV) 是一種透過改變交易順序來獲得利益的方法。比如說礦工可以在 Uniswap 交易中發現可以營利的機會並且自動化的執行特定的策略來營利，而這樣的行為有可能會讓原本的交易者虧損，但有趣的是這也沒有違反區塊鏈的規則，只是利用區塊鏈來完成的一種行為，當然這樣的行為有可能傷害區塊鏈的生態系。本文將會以 Ethereum 作為範例來講解這樣行為的運作原理。</p><p>首先我們需要了解在 Ethereum 交易是怎麼被執行的。</p><h2>發生交易前，你的 tx 在哪裡？</h2><p>Alice 想要送出一個交易在 Uniswap 上面將 3000 USDC 換成 1 ETH，當按下 MetaMask 上面的送出之後，實際上他的交易是怎麼樣被處理的呢？</p><p>「在 Uniswap 上用 3000 USDC 交換 1 ETH」這件事情我們可以看成是 Alice 的意圖，一件他想要執行的事情，稱為 pending transaction。這個 pending tx 會被傳送到 Ethereum 上面的節點，而節點之間會互相交換 pending tx，盡可能的讓更多節點知道使用者有這個需求，這些還沒被打包到區塊裡面的 pending tx 就會被放到節點特定區域先儲藏起來，這個區域叫做 mempool。而每個節點因為會收取來自不同地方的 pending tx，所以每個節點的 mempool 內容可能都不一樣，排序也會不一樣。</p><p><img src="pending-tx.png" alt="pending tx"/></p><p>節點有幾種不同的型態，而礦工也是節點的一種型態，他的工作是負責把 mempool 裡面的 pending tx 打包起來變成一個區塊，然後跟其他礦工一起競爭記帳權，當其中一個礦工爭取到了記帳權後，這個區塊就會被發佈出去，此時 Alice 的 pending tx 才變成一個已經上鏈的交易 (transaction)。</p><h2>礦工怎麼挑選 pending tx</h2><p>因為包裝、發布區塊是一件利益導向的事情，每發布一個區塊礦工可以得到固定的區塊獎勵，還有在這個區塊裡面的交易所提供的交易費。比如說 14143088 這個區塊總共有 360 個被打包進去的交易，而發布這個區塊可以得到的固定獎勵是 2 ETH (依照今天的匯率是 16 萬台幣)，而後面兩個數字 <code>2.410435284410848966 - 2.13247814979521476 ~= 0.2 ETH</code> 則是所有交易提供的交易費加總。為什麼有兩個數字涉及到 EIP-1559 這邊就不先深入討論。</p><p><img src="./block-14143088.png" alt="block 14143088"/></p><p>至於礦工是怎麼挑選哪些交易要被放到這個區塊裡面，基本上就是前面講的利益導向。一般的情況，礦工會排序所有交易裡面提供的交易費，並且優先打包提供比較多交易費的交易。所以交易費提供較多的交易會排序在前面被打包進去區塊裡面，如果你交易費提供的少，就會過了很久等到所有交易都消化的差不多才會輪到你。</p><p>但這邊是指一般的情況，實際上要把什麼交易打包進去區塊並沒有限制，礦工可以用各種方式決定哪些區塊要打包。</p><h2>三明治攻擊 (Sandwich Attack)</h2><p>由於礦工可以自行決定哪些交易要被打包進去區塊裡面，而這些 pending tx 在 mempool 裡面是一個公開的資訊，一般節點會提供公開的方法讓任何人可以查詢目前 mempool 裡面有哪些交易正在等待被打包。</p><p>這邊就出現了一些可以操作的空間。</p><p>前面舉例的 Alice 打算用 3,000 USDC 交換 1 ETH，而每次的交易都會影響下一次交易的價格。</p><p>這樣的交易內容是可以直接從 pending tx 中被解析出來。如果有人發現一種自動的邏輯，他分析 mempool 裡面的每一個交易，並且找到一個方法可以從中獲利，比如說 Bob 發現 mempool 裡面有 Alice 這筆交易，而且他只要可以排序這些交易的執行順序：</p><ol><li>Bob 先用 6,000 USDC 買 2 ETH 導致 ETH 漲價，影響到 Alice 的交易</li><li>Alice 用 3,000 USDC 只能買到 0.8 ETH，此時 ETH 再度漲價</li><li>Bob 再次把 2 ETH 賣掉，由於 Alice 把價格也墊高了，所以 Bob 可以把 2 ETH 賣到 6,600 USDC</li></ol><p><img src="./mev.png" alt="MEV"/></p><p>這樣 Bob 只要可以排序交易，第一步花費的 6000 USDC 在第三步就賺回來了，這樣就可以憑空賺 600 USDC，這樣的行為我們稱為三明治攻擊 (Sandwich Attack)</p><p>但是要怎麼更動交易順序呢？這就是一件礦工（或是任何可以改變交易的人）能做到的事情了。當礦工發現一個交易在他前後夾擊兩個額外的交易就可以從中獲利時，同時他還要有能力讓當下這個區塊是能夠由他取得記帳權的。所以實際發生的流程會是：</p><ol><li>礦工發現可提取價值的交易</li><li>自動產生夾擊的交易並且排入區塊內</li><li>取得該區塊的記帳權並且獲利</li></ol><p>而第三步當你有更高的算力時，能夠執行成功的機率越大。如果發現這個機會的那個區塊沒有取得記帳權，這個機會就消失了，他原本用來夾擊的兩個交易在下個區塊就不會再出現。比如說一個礦工（或是礦池、礦場）有全網 20% 的算力，如果在每次他發現有利可圖的交易時都自動的發出夾擊交易企圖獲利，透過他相對高的算力累積下來可能就會是很大一筆收益，即時他的算力沒辦法讓他每次都能夠取得記帳權。</p><p>這樣的三明治攻擊行為被稱為 Miner Extractable Value (MEV) 或是 Maximal Extractable Value，而 MEV 只要是透過變更交易順序就可以歸類到此種行為，除了三明治攻擊之外還有更簡單的 MEV 方式如 front running。</p><h2>Front running</h2><p>front running 是只要偵測到特定單一筆交易發現可以獲利時，就會發出一模一樣的交易，但更高 gas 的交易來獲利，而執行後可能原本執行交易的人的交易就會失敗（或是減少獲利）。</p><p>front running 的行為如果不是礦工也可以做到，只要花費大量的 gas 即可。我們用一個清算的例子來看看 front running 的 MEV 會怎麼進行。</p><ol><li>Alice 抵押在 Compound 的 100 ETH 因為抵押品不足的原因要被清算了，Compound 以市價 1 ETH = 3000 USDC 的 95% 拍賣 Alice 的 100 ETH，原本價值 300,000 USDC 打折後只剩 285,000 USDC。</li><li>Bob 見到此機會立刻用 285,000 USDC 想要買下 100 ETH，並且將 gas 設定成 50，將交易送出。</li><li>Chris 作為一個監聽 mempool 的人，察覺到了一筆清算交易發到了 mempool，即時計算後得知此交易可獲利 5%，所以發出了一筆跟 Bob 一模一樣的交易，用 285,000 USDC 來買下 100 ETH，並且把 gas 加倍成 100 來企圖蓋過原本的交易，並且發出了交易。</li><li>此時有全網 20% 算力的礦工 Dexter 同樣也發現了此機會，mempool 裡面有兩筆交易都想透過清算賺錢，所以他也發了一模一樣的清算交易，但是他是礦工，所以直接把自己的交易放到接下來要送出的區塊內，並且不發到 mempool 裡面直接自己競爭記帳權。</li><li>最終的結果 Dexter 透過自己 20% 的算力，在這次競爭中獲得了利潤，他笑了笑，礦工的快樂就是如此樸實無華且枯燥。</li></ol><p>由於利益的驅動並且 mempool 是公開的情況下，會有很多人撰寫許多非常有彈性的腳本來監控 mempool，當他發現排序交易可以帶來利益時，就會自動的排序交易來獲利。這樣就會變成機器人大戰，無數的機器人監控著 mempool，發現賺錢機會就會自動的排序交易，如果 MEV 發起者不是礦工，所以需要把交易送回 mempool 時，監控著 mempool 的其他人看到你新發出的交易時，同樣也會毫不留情的再出發新的交易企圖獲得你的收益。</p><p>所以只要你踏入了 mempool 就像踏入了三體的黑暗森林一樣，當你發出意圖或是信號時，強大的掠食者就會撲面而來。</p><h2>實際發生的 MEV 案例</h2><p>Flashbots 的 <a href="https://explore.flashbots.net/leaderboard">MEV Explore</a> 提供了一個排名可以偵測出單一交易的 MEV，所以可以從這邊來看到一些透過 front running 的行為，不過三明治攻擊因為涉及到多筆交易，所以在這個網站上就沒辦法偵測到。目前在網站上所追蹤到最高的一次 MEV 是交易 <a href="https://etherscan.io/tx/0xd70b42daec5bb9ac6e5df3d25d309f186db50df701f667e1f20b22448ea27d41">0xd70b...7d41</a> 從中獲取了高達三百萬美金的利潤。</p><p>這個交易結合了閃電貸 (Flashloan) 來達成這次的 MEV 行為，往後我們可以更深入的探討閃電貸。</p><p>Uniswap 或其他有考慮到這樣行為的智能合約會實作一些機制來防範這種行為，但是這種攻擊如果是自動發動的情況下，任何沒有考慮 MEV 行為的智能合約都有可能自動的成為提取價值的對象。</p><h2>解決方案</h2><p>有些方法是「打不過就加入他」，<a href="https://www.edennetwork.io/">Eden Network</a> 發行了代幣，當你加入他們的經濟體制後，他會幫你優先發送交易，同時，你也成為了掠食者。</p><p><a href="https://cowswap.exchange/">CowSwap</a> 讓你簽署一個 <a href="https://yurenju.medium.com/perp-meta-tx-e53cfb65367">meta transaction</a>，並且在鏈下進行訂單的撮合，如果撮合成功就直接把交易透過無法發動 MEV 的方式發布上鏈，如果沒辦法鏈下撮合成功，則會透過鏈上的交易所進行交易，但是會直接送到由 CowSwap 所管理的節點，不會暴露在公開的 mempool 上面，但是撮合機制就變成不是在鏈上運行，減低了去中心化的程度。</p><p>而 <a href="https://ethereum.org/en/developers/docs/mev/#mev-extraction-flashbots">Flashbots</a> 提供了修改過後的 go-ethereum 讓交易直接送給礦工，而不會暴露在 mempool，而諷刺的是目前很大一部分的 MEV 攻擊行為都是透過 flashbots 達成。</p><p>你有知道其他更好的解決方案嗎？歡迎到 LunDAO 的 <a href="https://github.com/lun-dao/LunDAO/discussions/76">GitHub Discussion</a> 討論！</p><h2>注釋</h2><ul><li>目前 Miner Extractable Value 逐漸的採用一個新的名詞 Maximal Extractable Value 來取代來更準確的描述這樣的行為，詳情請見 <a href="https://explore.flashbots.net/faq">Why MEV as Maximal Extractable Value instead of Miner Extractable Value?</a> </li></ul>]]></content>
+        <author>
+            <name>Yuren Ju</name>
+            <uri>https://yurenju.medium.com/</uri>
+        </author>
+    </entry>
+</feed>

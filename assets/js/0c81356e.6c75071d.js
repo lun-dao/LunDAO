@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklun_dao=self.webpackChunklun_dao||[]).push([[8528],{2157:a=>{a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/llamma","name":"llamma","count":1,"permalink":"/blog/tags/llamma"}')}}]);
