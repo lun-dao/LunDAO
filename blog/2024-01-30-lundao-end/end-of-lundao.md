@@ -2,8 +2,8 @@
 slug: end-of-lundao
 title: LunDAO 的結尾
 date: 2024-01-30
-image: cover_SLUG.jpg
-description: 寫下一段介紹文章的敘述
+image: ./cover_end-of-lundao.jpg
+description: 經過這段時間的運作之後可以發現，DAO 的本質就是社群，他跟一般的愛好者群體並無不同，就如同台灣的各種愛好者社群如程式語言社群、開放源碼社群等等相同，都會需要在參與社群時產生足夠的誘因，不論是內在成因如「這個社群的成員很有趣」、「我在這邊學習到了技術」，或是相對外在的成因「我可以獲得一些名氣甚至經濟回饋」等，這些有形與無形的回饋才可以讓社群持續的滾動茁壯。
 authors: yurenju
 tags:
   - ending
